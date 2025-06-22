@@ -1,3 +1,4 @@
+use rgb;
 use std::collections::HashMap;
 use std::env;
 use std::fs;
@@ -47,6 +48,11 @@ fn main() {
     let color_data: ColorData = serde_json::from_str(&json_content).expect("Failed to parse JSON");
 
     let mut generated_code = TokenStream::new();
+
+    // Add use statements at the top of the generated file
+    generated_code.extend(quote! {
+        use rgb;
+    });
 
     // Generate a master enum containing all color sets
     let color_set_variants: Vec<_> = color_data
@@ -141,12 +147,16 @@ fn main() {
                 }
 
                 /// Returns the RGB values as a tuple (r, g, b)
-                pub fn rgb(&self) -> (u8, u8, u8) {
+                pub fn rgb(&self) -> rgb::Rgb {
                     let hex = self.hex().trim_start_matches('#');
                     let r = u8::from_str_radix(&hex[0..2], 16).unwrap_or(0);
                     let g = u8::from_str_radix(&hex[2..4], 16).unwrap_or(0);
                     let b = u8::from_str_radix(&hex[4..6], 16).unwrap_or(0);
-                    (r, g, b)
+                    rgb::Rgb {
+                        r,
+                        g,
+                        b
+                    }
                 }
             }
         });

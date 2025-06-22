@@ -4,8 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+rgb = "0.8.50"
 
 [build-dependencies]
+rgb = "0.8.50"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 quote = "1.0"

@@ -1,0 +1,1 @@
+/Users/philocalyst/Projects/color-names/target/debug/color-names: /Users/philocalyst/Projects/color-names/build.rs /Users/philocalyst/Projects/color-names/colors.json /Users/philocalyst/Projects/color-names/src/main.rs
