@@ -75,7 +75,7 @@ fn main() {
 
     // Generate individual enums for each color set
     for (set_key, colors) in &color_data.lists {
-        let enum_name = format!("{}Colors", set_key.to_pascal_case());
+        let enum_name = set_key.to_pascal_case();
         let enum_identifier = syn::Ident::new(&enum_name, proc_macro2::Span::call_site());
 
         let variants: Vec<_> = colors
