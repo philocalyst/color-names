@@ -172,40 +172,6 @@ fn main() {
         });
     }
 
-    // Generate a master Color enum that encompasses all color sets
-    let all_variants: Vec<_> = color_data
-        .lists
-        .iter()
-        .flat_map(|(set_key, colors)| {
-            let set_prefix = set_key.to_pascal_case();
-            colors.iter().map(move |color| {
-                let variant_name = format!(
-                    "{}{}",
-                    set_prefix,
-                    sanitize_identifier(&color.name).to_pascal_case()
-                );
-                let variant_ident = syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
-                let hex_value = &color.hex;
-                let original_name = &color.name;
-                let set_name = &set_key;
-
-                quote! {
-                    #[doc = #original_name]
-                    #[doc = #hex_value]
-                    #[doc = #set_name]
-                    #variant_ident
-                }
-            })
-        })
-        .collect();
-
-    generated_code.extend(quote! {
-        #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
-        pub enum Color {
-            #(#all_variants),*
-        }
-    });
-
     // Write the generated code to the output file
     let out_dir = env::var_os("OUT_DIR").unwrap();
     let dest_path = Path::new(&out_dir).join("colors.rs");
