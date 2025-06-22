@@ -69,20 +69,21 @@ fn main() {
     // Generate individual enums for each color set
     for (set_key, colors) in &color_data.lists {
         let enum_name = format!("{}Colors", to_pascal_case(set_key));
-        let enum_ident = syn::Ident::new(&enum_name, proc_macro2::Span::call_site());
+        let enum_identifier = syn::Ident::new(&enum_name, proc_macro2::Span::call_site());
 
         let variants: Vec<_> = colors
             .iter()
             .map(|color| {
                 let variant_name = sanitize_identifier(&color.name);
-                let variant_ident = syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
+                let variant_identitifer =
+                    syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
                 let hex_value = &color.hex;
                 let original_name = &color.name;
 
                 quote! {
                     #[doc = #original_name]
                     #[doc = #hex_value]
-                    #variant_ident
+                    #variant_identitifer
                 }
             })
             .collect();
@@ -90,7 +91,7 @@ fn main() {
         // Generate the enum
         generated_code.extend(quote! {
             #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
-            pub enum #enum_ident {
+            pub enum #enum_identifier {
                 #(#variants),*
             }
         });
@@ -100,11 +101,12 @@ fn main() {
             .iter()
             .map(|color| {
                 let variant_name = sanitize_identifier(&color.name);
-                let variant_ident = syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
+                let variant_identifier =
+                    syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
                 let hex_value = &color.hex;
 
                 quote! {
-                    #enum_ident::#variant_ident => #hex_value
+                    #enum_identifier::#variant_identifier => #hex_value
                 }
             })
             .collect();
@@ -117,13 +119,13 @@ fn main() {
                 let original_name = &color.name;
 
                 quote! {
-                    #enum_ident::#variant_ident => #original_name
+                    #enum_identifier::#variant_ident => #original_name
                 }
             })
             .collect();
 
         generated_code.extend(quote! {
-            impl #enum_ident {
+            impl #enum_identifier {
                 /// Returns the hex color value (including the # prefix)
                 pub fn hex(&self) -> &'static str {
                     match self {
@@ -151,8 +153,8 @@ fn main() {
 
         // Generate From implementation for easy conversion to hex
         generated_code.extend(quote! {
-            impl From<#enum_ident> for String {
-                fn from(color: #enum_ident) -> Self {
+            impl From<#enum_identifier> for String {
+                fn from(color: #enum_identifier) -> Self {
                     color.hex().to_string()
                 }
             }
