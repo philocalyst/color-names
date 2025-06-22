@@ -1,3 +1,4 @@
+use heck::ToPascalCase;
 use rgb;
 use std::collections::HashMap;
 use std::env;
@@ -59,7 +60,7 @@ fn main() {
         .meta
         .keys()
         .map(|key| {
-            let variant_name = to_pascal_case(key);
+            let variant_name = key.to_pascal_case();
             let variant_ident = syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
             quote! { #variant_ident }
         })
@@ -74,13 +75,13 @@ fn main() {
 
     // Generate individual enums for each color set
     for (set_key, colors) in &color_data.lists {
-        let enum_name = format!("{}Colors", to_pascal_case(set_key));
+        let enum_name = format!("{}Colors", set_key.to_pascal_case());
         let enum_identifier = syn::Ident::new(&enum_name, proc_macro2::Span::call_site());
 
         let variants: Vec<_> = colors
             .iter()
             .map(|color| {
-                let variant_name = sanitize_identifier(&color.name);
+                let variant_name = sanitize_identifier(&color.name).to_pascal_case();
                 let variant_identitifer =
                     syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
                 let hex_value = &color.hex;
@@ -106,7 +107,7 @@ fn main() {
         let hex_match_arms: Vec<_> = colors
             .iter()
             .map(|color| {
-                let variant_name = sanitize_identifier(&color.name);
+                let variant_name = sanitize_identifier(&color.name).to_pascal_case();
                 let variant_identifier =
                     syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
                 let hex_value = &color.hex;
@@ -120,7 +121,7 @@ fn main() {
         let name_match_arms: Vec<_> = colors
             .iter()
             .map(|color| {
-                let variant_name = sanitize_identifier(&color.name);
+                let variant_name = sanitize_identifier(&color.name).to_pascal_case();
                 let variant_ident = syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
                 let original_name = &color.name;
 
@@ -176,9 +177,13 @@ fn main() {
         .lists
         .iter()
         .flat_map(|(set_key, colors)| {
-            let set_prefix = to_pascal_case(set_key);
+            let set_prefix = set_key.to_pascal_case();
             colors.iter().map(move |color| {
-                let variant_name = format!("{}{}", set_prefix, sanitize_identifier(&color.name));
+                let variant_name = format!(
+                    "{}{}",
+                    set_prefix,
+                    sanitize_identifier(&color.name).to_pascal_case()
+                );
                 let variant_ident = syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
                 let hex_value = &color.hex;
                 let original_name = &color.name;
@@ -207,21 +212,6 @@ fn main() {
     fs::write(&dest_path, generated_code.to_string()).expect("Failed to write generated code");
 }
 
-/// Convert snake_case or kebab-case to PascalCase
-fn to_pascal_case(s: &str) -> String {
-    s.split(&['_', '-'][..])
-        .map(|word| {
-            let mut chars = word.chars();
-            match chars.next() {
-                None => String::new(),
-                Some(first) => {
-                    first.to_uppercase().collect::<String>() + &chars.collect::<String>()
-                }
-            }
-        })
-        .collect()
-}
-
 /// Sanitize color names to be valid Rust identifiers
 fn sanitize_identifier(name: &str) -> String {
     let mut result = String::new();
@@ -233,18 +223,7 @@ fn sanitize_identifier(name: &str) -> String {
     }
 
     for ch in chars {
-        match ch {
-            ' ' | '-' | '_' | '.' | '\'' | '(' | ')' | '/' | '&' | ',' => {
-                if !result.ends_with('_') {
-                    result.push('_');
-                }
-            }
-            _ => {
-                if !result.ends_with('_') {
-                    result.push('_');
-                }
-            }
-        }
+        result.push(ch)
     }
 
     // Remove trailing underscore
@@ -265,6 +244,7 @@ fn sanitize_identifier(name: &str) -> String {
         "move" => "Move_".to_string(),
         "self" => "Self_".to_string(),
         "super" => "Super_".to_string(),
+        "_" => "Underscore_".to_string(),
         "true" => "True_".to_string(),
         "false" => "False_".to_string(),
         _ => result,
