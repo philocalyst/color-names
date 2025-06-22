@@ -234,7 +234,6 @@ fn sanitize_identifier(name: &str) -> String {
 
     for ch in chars {
         match ch {
-            'a'..='z' | 'A'..='Z' | '0'..='9' => result.push(ch),
             ' ' | '-' | '_' | '.' | '\'' | '(' | ')' | '/' | '&' | ',' => {
                 if !result.ends_with('_') {
                     result.push('_');
