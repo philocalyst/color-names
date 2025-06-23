@@ -390,6 +390,15 @@ fn sanitize_identifier(name: &str) -> String {
         result.push(ch);
     }
 
+    let num_as_words = Num2Words::new(num).to_words();
+
+    if let Ok(num_as_words) = num_as_words {
+        // Add in the converted number
+        for char in num_as_words.chars() {
+            result.insert(0, char);
+        }
+    }
+
     // Remove trailing underscore
     if result.ends_with('_') {
         result.pop();
