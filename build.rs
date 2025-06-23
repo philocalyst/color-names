@@ -369,27 +369,25 @@ fn main() -> Result<(), Box<dyn Error>> {
 
 /// Sanitize color names to be valid Rust identifiers
 fn sanitize_identifier(name: &str) -> String {
+    use num2words::Num2Words;
     let mut result = String::new();
     let mut chars = name.chars().peekable();
 
     let mut num: u32 = 0;
     let mut number_prefix = true;
-    let mut char_count: usize = 1;
     // Handle leading digits
     for ch in chars {
         if ch.is_ascii_digit() && number_prefix {
-            num = num * (char_count as u32 * 10);
+            // Simply multiply by 10 and add the new digit
+            num = num * 10 + ch.to_digit(10).unwrap();
 
-            // Convert the digit and then multiply it by it's place
-            num = num + ch.to_digit(10).unwrap();
+            // Skip adding to result
+            continue;
         } else {
             // Once the prefix ends we ignore the operations
             number_prefix = false;
         }
-        println!("{num}");
-
         result.push(ch);
-        char_count += 1;
     }
 
     // Remove trailing underscore

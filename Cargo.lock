@@ -15,6 +15,7 @@ dependencies = [
  "csv",
  "heck",
  "hex",
+ "num2words",
  "proc-macro2",
  "quote",
  "rgb",
@@ -67,6 +68,21 @@ name = "memchr"
 version = "2.7.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "32a282da65faaf38286cf3be983213fcf1d2e2a58700e808f83f4ea9a4804bc0"
+
+[[package]]
+name = "num-bigfloat"
+version = "1.7.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "793a9a2afbf2b4fc1b9a47de731031b06ed362a5ede3681fbfbaeb2ad4faaa13"
+
+[[package]]
+name = "num2words"
+version = "1.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2ab78b987a0e1e6cf869a443f7f1c9dc696117d47780227e961e742d0b45d706"
+dependencies = [
+ "num-bigfloat",
+]
 
 [[package]]
 name = "proc-macro2"
