@@ -178,6 +178,8 @@ fn main() -> Result<(), Box<dyn Error>> {
             .iter()
             .filter_map(|color| {
                 let variant_name = sanitize_identifier(&color.name).to_pascal_case();
+
+                println!("{variant_name}");
                 let variant_identitifer =
                     syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
 
@@ -370,13 +372,24 @@ fn sanitize_identifier(name: &str) -> String {
     let mut result = String::new();
     let mut chars = name.chars().peekable();
 
+    let mut num: u32 = 0;
+    let mut number_prefix = true;
+    let mut char_count: usize = 1;
     // Handle leading digits
-    if chars.peek().map_or(false, |c| c.is_ascii_digit()) {
-        result.push('_');
-    }
-
     for ch in chars {
-        result.push(ch)
+        if ch.is_ascii_digit() && number_prefix {
+            num = num * (char_count as u32 * 10);
+
+            // Convert the digit and then multiply it by it's place
+            num = num + ch.to_digit(10).unwrap();
+        } else {
+            // Once the prefix ends we ignore the operations
+            number_prefix = false;
+        }
+        println!("{num}");
+
+        result.push(ch);
+        char_count += 1;
     }
 
     // Remove trailing underscore
