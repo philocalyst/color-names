@@ -110,6 +110,12 @@ fn main() -> Result<(), Box<dyn Error>> {
         .lists
         .insert(String::from("complete"), complete_colors);
 
+    color_data
+        .lists
+        .insert(String::from("bestOf"), elite_colors);
+
+    color_data.lists.insert(String::from("short"), short_colors);
+
     let mut generated_code = TokenStream::new();
 
     // Add use statements at the top of the generated file
