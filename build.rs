@@ -54,6 +54,7 @@ fn main() {
     // Add use statements at the top of the generated file
     generated_code.extend(quote! {
         use rgb;
+        use hex::{FromHex, ToHex};
     });
 
     // Generate a master enum containing all color sets
