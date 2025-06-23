@@ -3,6 +3,7 @@ use rgb;
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::env;
+use std::error::Error;
 use std::fs;
 use std::path::Path;
 
@@ -22,6 +23,14 @@ struct Color {
     hex: String,
     #[serde(default)]
     meta: Option<ColorMeta>,
+}
+
+#[derive(Debug, Deserialize)]
+struct CompleteRecord {
+    name: String,
+    hex: String,
+    #[serde(rename = "good name")]
+    good_name: Option<String>, // Some entries are empty, so optional
 }
 
 #[derive(Debug, Deserialize, Serialize)]
@@ -61,13 +70,34 @@ impl std::fmt::Display for HexParseError {
 
 impl std::error::Error for HexParseError {}
 
-fn main() {
+fn main() -> Result<(), Box<dyn Error>> {
     println!("cargo:rerun-if-changed=colors.json");
 
     // Read the JSON file
     let json_content = fs::read_to_string("colors.json").expect("Failed to read colors.json");
 
-    let color_data: ColorData = serde_json::from_str(&json_content).expect("Failed to parse JSON");
+    let mut color_data: ColorData =
+        serde_json::from_str(&json_content).expect("Failed to parse JSON");
+
+    // Read the CSV file for the 'complete' list
+    let mut complete_data = csv::Reader::from_path("complete.csv")?;
+
+    let mut complete_colors: Vec<Color> = Vec::new();
+
+    // Load into the color struct
+    for record in complete_data.deserialize() {
+        let record: CompleteRecord = record?;
+        let color: Color = Color {
+            name: record.name,
+            hex: record.hex,
+            meta: None,
+        };
+        complete_colors.push(color);
+    }
+
+    color_data
+        .lists
+        .insert(String::from("complete"), complete_colors);
 
     let mut generated_code = TokenStream::new();
 
@@ -315,6 +345,7 @@ fn main() {
     let out_dir = env::var_os("OUT_DIR").unwrap();
     let dest_path = Path::new(&out_dir).join("colors.rs");
     fs::write(&dest_path, generated_code.to_string()).expect("Failed to write generated code");
+    Ok(())
 }
 
 /// Sanitize color names to be valid Rust identifiers
