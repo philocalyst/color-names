@@ -173,8 +173,8 @@ fn main() {
 
         // Generate From implementation for easy conversion to hex
         generated_code.extend(quote! {
-            impl From<#enum_identifier> for String {
-                fn from(color: #enum_identifier) -> Self {
+            impl From<self::#enum_identifier> for String {
+                fn from(color: self::#enum_identifier) -> Self {
                     color.hex().to_string()
                 }
             }
