@@ -1,3 +1,5 @@
+use core::panic;
+use heck::ToKebabCase;
 use heck::ToPascalCase;
 use rgb;
 use std::collections::HashMap;
@@ -179,7 +181,6 @@ fn main() -> Result<(), Box<dyn Error>> {
             .filter_map(|color| {
                 let variant_name = sanitize_identifier(&color.name).to_pascal_case();
 
-                println!("{variant_name}");
                 let variant_identitifer =
                     syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
 
@@ -371,7 +372,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 fn sanitize_identifier(name: &str) -> String {
     use num2words::Num2Words;
     let mut result = String::new();
-    let mut chars = name.chars().peekable();
+    let chars = name.chars();
 
     let mut num: u32 = 0;
     let mut number_prefix = true;
@@ -387,15 +388,26 @@ fn sanitize_identifier(name: &str) -> String {
             // Once the prefix ends we ignore the operations
             number_prefix = false;
         }
-        result.push(ch);
+
+        if ch == '₂' || ch == '²' {
+            result.push('2');
+        } else if ch == '№' {
+            result.push('N');
+            result.push('o');
+        } else {
+            result.push(ch);
+        }
     }
 
-    let num_as_words = Num2Words::new(num).to_words();
+    let num_as_words = Num2Words::new(num).ordinal().to_words();
 
-    if let Ok(num_as_words) = num_as_words {
-        // Add in the converted number
-        for char in num_as_words.chars() {
-            result.insert(0, char);
+    if num != 0 {
+        if let Ok(num_as_words) = num_as_words {
+            println!("cargo:warning={num_as_words}");
+            // Add in the converted number
+            for char in num_as_words.chars() {
+                result.insert(0, char);
+            }
         }
     }
 
