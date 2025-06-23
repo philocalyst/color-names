@@ -74,7 +74,32 @@ fn main() {
     // Add use statements at the top of the generated file
     generated_code.extend(quote! {
         use rgb;
-        use hex::{FromHex, ToHex};
+        use hex::FromHex;
+    });
+
+    // Add the error type at the almost top
+    generated_code.extend(quote! {
+
+        // Errors for hex parsing failures
+        #[derive(Debug, Clone, PartialEq, Eq)]
+        pub enum HexParseError {
+            InvalidLength,
+            InvalidCharacter,
+            ColorNotFound,
+        }
+
+        impl std::fmt::Display for HexParseError {
+            fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+            match self {
+                HexParseError::InvalidLength => write!(f, "Invalid hex string length"),
+                HexParseError::InvalidCharacter => write!(f, "Invalid character in hex string"),
+                HexParseError::ColorNotFound => write!(f, "No color found matching the hex value"),
+                }
+            }
+        }
+
+        impl std::error::Error for HexParseError {}
+
     });
 
     // Generate a master enum containing all color sets
