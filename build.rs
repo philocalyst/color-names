@@ -399,15 +399,12 @@ fn sanitize_identifier(name: &str) -> String {
         }
     }
 
-    let num_as_words = Num2Words::new(num).ordinal().to_words();
+    let num_as_words = Num2Words::new(num).to_words();
 
     if num != 0 {
         if let Ok(num_as_words) = num_as_words {
-            println!("cargo:warning={num_as_words}");
             // Add in the converted number
-            for char in num_as_words.chars() {
-                result.insert(0, char);
-            }
+            result.insert_str(0, &num_as_words);
         }
     }
 
