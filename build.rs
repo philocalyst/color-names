@@ -84,6 +84,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let mut complete_colors: Vec<Color> = Vec::new();
     let mut short_colors: Vec<Color> = Vec::new();
+    let mut elite_colors: Vec<Color> = Vec::new();
 
     // Load into the various children lists
     for record in complete_data.deserialize() {
@@ -96,6 +97,10 @@ fn main() -> Result<(), Box<dyn Error>> {
 
         if record.name.len() <= 12 {
             short_colors.push(color.clone());
+        }
+
+        if record.good_name.is_some() {
+            elite_colors.push(color.clone());
         }
 
         complete_colors.push(color);
