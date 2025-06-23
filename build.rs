@@ -17,7 +17,7 @@ struct ColorData {
     meta: HashMap<String, ColorSetMeta>,
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Clone, Deserialize, Serialize)]
 struct Color {
     name: String,
     hex: String,
@@ -33,7 +33,7 @@ struct CompleteRecord {
     good_name: Option<String>, // Some entries are empty, so optional
 }
 
-#[derive(Debug, Deserialize, Serialize)]
+#[derive(Debug, Clone, Deserialize, Serialize)]
 struct ColorMeta {
     #[serde(default)]
     link: Option<String>,
@@ -80,18 +80,24 @@ fn main() -> Result<(), Box<dyn Error>> {
         serde_json::from_str(&json_content).expect("Failed to parse JSON");
 
     // Read the CSV file for the 'complete' list
-    let mut complete_data = csv::Reader::from_path("complete.csv")?;
+    let mut complete_data = csv::Reader::from_path("colornames.csv")?;
 
     let mut complete_colors: Vec<Color> = Vec::new();
+    let mut short_colors: Vec<Color> = Vec::new();
 
-    // Load into the color struct
+    // Load into the various children lists
     for record in complete_data.deserialize() {
         let record: CompleteRecord = record?;
         let color: Color = Color {
-            name: record.name,
+            name: record.name.clone(),
             hex: record.hex,
             meta: None,
         };
+
+        if record.name.len() <= 12 {
+            short_colors.push(color.clone());
+        }
+
         complete_colors.push(color);
     }
 
