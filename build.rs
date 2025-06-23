@@ -199,13 +199,88 @@ fn main() {
                     color.hex().to_string()
                 }
             }
+
+
         });
 
-        // Generate From implementation for easy conversion from hex
+        let from_hex_match_arms: Vec<TokenStream> = colors
+            .iter()
+            .filter_map(|color| {
+                let variant_name = sanitize_identifier(&color.name).to_pascal_case();
+                let variant_identifier =
+                    syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
+
+                // Skip if this variant was filtered out due to duplicate names
+                if !identifers.contains(&variant_identifier) {
+                    return None;
+                }
+
+                let hex_value = &color.hex;
+                // Remove the # prefix for matching
+                let hex_without_prefix = hex_value.trim_start_matches('#');
+
+                Some(quote! {
+                    #hex_without_prefix | #hex_value => Ok(#enum_identifier::#variant_identifier)
+                })
+            })
+            .collect();
+
         generated_code.extend(quote! {
-            impl From<self::#enum_identifier> for FromHex {
-                fn from(color: self::#enum_identifier) -> Self {
-                    color.hex().to_string()
+            impl FromHex for #enum_identifier {
+                type Error = HexParseError;
+
+                fn from_hex<T: AsRef<[u8]>>(hex: T) -> Result<Self, Self::Error> {
+                    let hex_str = std::str::from_utf8(hex.as_ref())
+                        .map_err(|_| HexParseError::InvalidCharacter)?;
+
+                    // Normalize the hex string (remove # if present, convert to lowercase)
+                    let normalized = hex_str.trim_start_matches('#').to_lowercase();
+
+                    // Validate length (should be 6 characters for RGB)
+                    if normalized.len() != 6 {
+                        return Err(HexParseError::InvalidLength);
+                    }
+
+                    // Validate that all characters are valid hex
+                    if !normalized.chars().all(|c| c.is_ascii_hexdigit()) {
+                        return Err(HexParseError::InvalidCharacter);
+                    }
+
+                    // Match against known colors
+                    match normalized.as_str() {
+                        #(#from_hex_match_arms),*,
+                        _ => Err(HexParseError::ColorNotFound)
+                    }
+                }
+            }
+        });
+
+        // Parse from a string
+        generated_code.extend(quote! {
+            impl std::str::FromStr for #enum_identifier {
+                type Err = HexParseError;
+
+                fn from_str(s: &str) -> Result<Self, Self::Err> {
+                    Self::from_hex(s.as_bytes())
+                }
+            }
+        });
+
+        // Parse from the rest of the string types
+        generated_code.extend(quote! {
+            impl TryFrom<&str> for #enum_identifier {
+                type Error = HexParseError;
+
+                fn try_from(hex: &str) -> Result<Self, Self::Error> {
+                    Self::from_hex(hex.as_bytes())
+                }
+            }
+
+            impl TryFrom<String> for #enum_identifier {
+                type Error = HexParseError;
+
+                fn try_from(hex: String) -> Result<Self, Self::Error> {
+                    Self::from_hex(hex.as_bytes())
                 }
             }
         });

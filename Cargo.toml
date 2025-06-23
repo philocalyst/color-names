@@ -5,6 +5,7 @@ edition = "2024"
 
 [dependencies]
 rgb = "0.8.50"
+hex = "0.4.3"
 
 [build-dependencies]
 hex = "0.4.3"
