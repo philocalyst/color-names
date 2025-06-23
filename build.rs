@@ -1,6 +1,7 @@
 use heck::ToPascalCase;
 use rgb;
 use std::collections::HashMap;
+use std::collections::HashSet;
 use std::env;
 use std::fs;
 use std::path::Path;
@@ -78,20 +79,28 @@ fn main() {
         let enum_name = set_key.to_pascal_case();
         let enum_identifier = syn::Ident::new(&enum_name, proc_macro2::Span::call_site());
 
+        let mut identifers = HashSet::new();
+
         let variants: Vec<_> = colors
             .iter()
-            .map(|color| {
+            .filter_map(|color| {
                 let variant_name = sanitize_identifier(&color.name).to_pascal_case();
                 let variant_identitifer =
                     syn::Ident::new(&variant_name, proc_macro2::Span::call_site());
+
+                // If the identifier is not unique, the insertion is skipped.
+                if !identifers.insert(variant_identitifer.clone()) {
+                    return None;
+                }
+
                 let hex_value = &color.hex;
                 let original_name = &color.name;
 
-                quote! {
+                Some(quote! {
                     #[doc = #original_name]
                     #[doc = #hex_value]
                     #variant_identitifer
-                }
+                })
             })
             .collect();
 
