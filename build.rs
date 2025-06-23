@@ -41,6 +41,26 @@ struct ColorSetMeta {
     color_count: u32,
 }
 
+// Errors for hex parsing failures
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub enum HexParseError {
+    InvalidLength,
+    InvalidCharacter,
+    ColorNotFound,
+}
+
+impl std::fmt::Display for HexParseError {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            HexParseError::InvalidLength => write!(f, "Invalid hex string length"),
+            HexParseError::InvalidCharacter => write!(f, "Invalid character in hex string"),
+            HexParseError::ColorNotFound => write!(f, "No color found matching the hex value"),
+        }
+    }
+}
+
+impl std::error::Error for HexParseError {}
+
 fn main() {
     println!("cargo:rerun-if-changed=colors.json");
 
@@ -114,7 +134,7 @@ fn main() {
         });
 
         // Generate implementation with hex values
-        let hex_match_arms: Vec<_> = colors
+        let hex_match_arms: Vec<TokenStream> = colors
             .iter()
             .map(|color| {
                 let variant_name = sanitize_identifier(&color.name).to_pascal_case();
@@ -128,7 +148,7 @@ fn main() {
             })
             .collect();
 
-        let name_match_arms: Vec<_> = colors
+        let name_match_arms: Vec<TokenStream> = colors
             .iter()
             .map(|color| {
                 let variant_name = sanitize_identifier(&color.name).to_pascal_case();
@@ -175,6 +195,15 @@ fn main() {
         // Generate From implementation for easy conversion to hex
         generated_code.extend(quote! {
             impl From<self::#enum_identifier> for String {
+                fn from(color: self::#enum_identifier) -> Self {
+                    color.hex().to_string()
+                }
+            }
+        });
+
+        // Generate From implementation for easy conversion from hex
+        generated_code.extend(quote! {
+            impl From<self::#enum_identifier> for FromHex {
                 fn from(color: self::#enum_identifier) -> Self {
                     color.hex().to_string()
                 }
