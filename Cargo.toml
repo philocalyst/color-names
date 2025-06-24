@@ -8,6 +8,31 @@ rgb = "0.8.50"
 hex = "0.4.3"
 
 [features]
+default = ["basic"]
+all = [
+    "basic",
+    "html", 
+    "japanese-traditional",
+    "le-corbusier",
+    "nbs-iscc",
+    "ntc",
+    "osx-crayons",
+    "ral",
+    "ridgway",
+    "sanzo-wada-i",
+    "thesaurus",
+    "werner",
+    "windows",
+    "wikipedia",
+    "french",
+    "spanish",
+    "german",
+    "x11",
+    "xkcd",
+    "risograph",
+    "chinese-traditional",
+    "hindi",
+]
 basic = []
 html = []
 japanese-traditional = []
