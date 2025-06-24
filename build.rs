@@ -180,7 +180,7 @@ fn main() -> Result<(), Box<dyn Error>> {
             "le-corbusier" if cfg!(feature = "le-corbusier") != true => continue,
             "nbs-iscc" if cfg!(feature = "nbs-iscc") != true => continue,
             "ntc" if cfg!(feature = "ntc") != true => continue,
-            "osx-crayons" if cfg!(feature = "osx-crayons") != true => continue,
+            "osxcrayons" if cfg!(feature = "osxcrayons") != true => continue,
             "ral" if cfg!(feature = "ral") != true => continue,
             "ridgway" if cfg!(feature = "ridgway") != true => continue,
             "sanzo-wada-i" if cfg!(feature = "sanzo-wada-i") != true => continue,

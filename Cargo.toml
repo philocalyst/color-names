@@ -16,7 +16,7 @@ all = [
     "le-corbusier",
     "nbs-iscc",
     "ntc",
-    "osx-crayons",
+    "osxcrayons",
     "ral",
     "ridgway",
     "sanzo-wada-i",
@@ -45,7 +45,7 @@ japanese-traditional = []
 le-corbusier = []
 nbs-iscc = []
 ntc = []
-osx-crayons = []
+osxcrayons = []
 ral = []
 ridgway = []
 sanzo-wada-i = []
