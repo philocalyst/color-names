@@ -171,6 +171,32 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     // Generate individual enums for each color set
     for (set_key, colors) in &color_data.lists {
+        // Make sure to conditionally ignore certain sets and not generate if the feature flag isn't on. If it is on, of course compile.
+        match set_key.as_str() {
+            "basic" if cfg!(feature = "basic") != true => continue,
+            "html" if cfg!(feature = "html") != true => continue,
+            "japanese-traditional" if cfg!(feature = "japanese-traditional") != true => continue,
+            "le-corbusier" if cfg!(feature = "le-corbusier") != true => continue,
+            "nbs-iscc" if cfg!(feature = "nbs-iscc") != true => continue,
+            "ntc" if cfg!(feature = "ntc") != true => continue,
+            "osx-crayons" if cfg!(feature = "osx-crayons") != true => continue,
+            "ral" if cfg!(feature = "ral") != true => continue,
+            "ridgway" if cfg!(feature = "ridgway") != true => continue,
+            "sanzo-wada-i" if cfg!(feature = "sanzo-wada-i") != true => continue,
+            "thesaurus" if cfg!(feature = "thesaurus") != true => continue,
+            "werner" if cfg!(feature = "werner") != true => continue,
+            "windows" if cfg!(feature = "windows") != true => continue,
+            "wikipedia" if cfg!(feature = "wikipedia") != true => continue,
+            "french" if cfg!(feature = "french") != true => continue,
+            "spanish" if cfg!(feature = "spanish") != true => continue,
+            "german" if cfg!(feature = "german") != true => continue,
+            "x11" if cfg!(feature = "x11") != true => continue,
+            "xkcd" if cfg!(feature = "xkcd") != true => continue,
+            "risograph" if cfg!(feature = "risograph") != true => continue,
+            "chinese-traditional" if cfg!(feature = "chinese-traditional") != true => continue,
+            _ => println!("cargo:warning={set_key}"),
+        }
+
         let enum_name = set_key.to_pascal_case();
         let enum_identifier = syn::Ident::new(&enum_name, proc_macro2::Span::call_site());
 
