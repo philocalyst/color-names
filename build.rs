@@ -1,7 +1,5 @@
-use core::panic;
 use heck::ToKebabCase;
 use heck::ToPascalCase;
-use rgb;
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::env;
@@ -171,6 +169,36 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     // Generate individual enums for each color set
     for (set_key, colors) in &color_data.lists {
+        // Make sure to conditionally ignore certain sets and not generate if the feature flag isn't on. If it is on, of course compile.
+        match set_key.to_kebab_case().as_str() {
+            "basic" if cfg!(feature = "basic") == false => continue,
+            "html" if cfg!(feature = "html") == false => continue,
+            "short" if cfg!(feature = "short") == false => continue,
+            "best-of" if cfg!(feature = "best-of") == false => continue,
+            "complete" if cfg!(feature = "complete") == false => continue,
+            "japanese-traditional" if cfg!(feature = "japanese-traditional") == false => continue,
+            "le-corbusier" if cfg!(feature = "le-corbusier") == false => continue,
+            "nbs-iscc" if cfg!(feature = "nbs-iscc") == false => continue,
+            "ntc" if cfg!(feature = "ntc") == false => continue,
+            "osxcrayons" if cfg!(feature = "osxcrayons") == false => continue,
+            "ral" if cfg!(feature = "ral") == false => continue,
+            "ridgway" if cfg!(feature = "ridgway") == false => continue,
+            "sanzo-wada-i" if cfg!(feature = "sanzo-wada-i") == false => continue,
+            "thesaurus" if cfg!(feature = "thesaurus") == false => continue,
+            "werner" if cfg!(feature = "werner") == false => continue,
+            "windows" if cfg!(feature = "windows") == false => continue,
+            "wikipedia" if cfg!(feature = "wikipedia") == false => continue,
+            "french" if cfg!(feature = "french") == false => continue,
+            "spanish" if cfg!(feature = "spanish") == false => continue,
+            "german" if cfg!(feature = "german") == false => continue,
+            "x11" if cfg!(feature = "x11") == false => continue,
+            "xkcd" if cfg!(feature = "xkcd") == false => continue,
+            "risograph" if cfg!(feature = "risograph") == false => continue,
+            "chinese-traditional" if cfg!(feature = "chinese-traditional") == false => continue,
+            "hindi" if cfg!(feature = "hindi") == false => continue,
+            _ => println!("List {} is not enabled, skipping", set_key),
+        }
+
         let enum_name = set_key.to_pascal_case();
         let enum_identifier = syn::Ident::new(&enum_name, proc_macro2::Span::call_site());
 
@@ -399,15 +427,12 @@ fn sanitize_identifier(name: &str) -> String {
         }
     }
 
-    let num_as_words = Num2Words::new(num).ordinal().to_words();
+    let num_as_words = Num2Words::new(num).to_words();
 
     if num != 0 {
         if let Ok(num_as_words) = num_as_words {
-            println!("cargo:warning={num_as_words}");
             // Add in the converted number
-            for char in num_as_words.chars() {
-                result.insert(0, char);
-            }
+            result.insert_str(0, &num_as_words);
         }
     }
 
