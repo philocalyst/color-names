@@ -25,6 +25,9 @@ all = [
     "windows",
     "wikipedia",
     "french",
+    "complete",
+    "short",
+    "best-of",
     "spanish",
     "german",
     "x11",
@@ -35,6 +38,9 @@ all = [
 ]
 basic = []
 html = []
+complete = []
+short = []
+best-of = []
 japanese-traditional = []
 le-corbusier = []
 nbs-iscc = []

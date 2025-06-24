@@ -1,7 +1,5 @@
-use core::panic;
 use heck::ToKebabCase;
 use heck::ToPascalCase;
-use rgb;
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::env;
@@ -172,9 +170,12 @@ fn main() -> Result<(), Box<dyn Error>> {
     // Generate individual enums for each color set
     for (set_key, colors) in &color_data.lists {
         // Make sure to conditionally ignore certain sets and not generate if the feature flag isn't on. If it is on, of course compile.
-        match set_key.as_str() {
+        match set_key.to_kebab_case().as_str() {
             "basic" if cfg!(feature = "basic") != true => continue,
             "html" if cfg!(feature = "html") != true => continue,
+            "short" if cfg!(feature = "short") != true => continue,
+            "best-of" if cfg!(feature = "best-of") != true => continue,
+            "complete" if cfg!(feature = "complete") != true => continue,
             "japanese-traditional" if cfg!(feature = "japanese-traditional") != true => continue,
             "le-corbusier" if cfg!(feature = "le-corbusier") != true => continue,
             "nbs-iscc" if cfg!(feature = "nbs-iscc") != true => continue,
