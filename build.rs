@@ -195,7 +195,8 @@ fn main() -> Result<(), Box<dyn Error>> {
             "xkcd" if cfg!(feature = "xkcd") != true => continue,
             "risograph" if cfg!(feature = "risograph") != true => continue,
             "chinese-traditional" if cfg!(feature = "chinese-traditional") != true => continue,
-            _ => println!("cargo:warning={set_key}"),
+            "hindi" if cfg!(feature = "hindi") != true => continue,
+            _ => println!("List {} is not enabled, skipping", set_key),
         }
 
         let enum_name = set_key.to_pascal_case();
