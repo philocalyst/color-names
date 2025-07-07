@@ -50,7 +50,7 @@ struct ColorSetMeta {
     color_count: u32,
 }
 
-// Errors for hex parsing failures
+// Errors for color name parsing failures
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub enum HexParseError {
     InvalidLength,
@@ -63,7 +63,7 @@ impl std::fmt::Display for HexParseError {
         match self {
             HexParseError::InvalidLength => write!(f, "Invalid hex string length"),
             HexParseError::InvalidCharacter => write!(f, "Invalid character in hex string"),
-            HexParseError::ColorNotFound => write!(f, "No color found matching the hex value"),
+            HexParseError::ColorNotFound => write!(f, "No color found matching the name"),
         }
     }
 }
@@ -71,7 +71,7 @@ impl std::fmt::Display for HexParseError {
 impl std::error::Error for HexParseError {}
 
 fn main() -> Result<(), Box<dyn Error>> {
-    println!("cargo:rerun-if-changed=colors.json");
+    println!("cargo:rerun-if-changed=./color-name-lists/dist/colorlists.json");
 
     // Read the JSON file
     let json_content = fs::read_to_string("colors.json").expect("Failed to read colors.json");
@@ -80,7 +80,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         serde_json::from_str(&json_content).expect("Failed to parse JSON");
 
     // Read the CSV file for the 'complete' list
-    let mut complete_data = csv::Reader::from_path("colornames.csv")?;
+    let mut complete_data = csv::Reader::from_path("./color-names/src/colornames.csv")?;
 
     let mut complete_colors: Vec<Color> = Vec::new();
     let mut short_colors: Vec<Color> = Vec::new();
@@ -121,13 +121,14 @@ fn main() -> Result<(), Box<dyn Error>> {
     // Add use statements at the top of the generated file
     generated_code.extend(quote! {
         use rgb;
-        use hex::FromHex;
+        use hex::ToHex;
     });
 
     // Add the error type at the almost top
     generated_code.extend(quote! {
 
-        // Errors for hex parsing failures
+        // Errors for color name parsing failures
+        #[allow(dead_code)]
         #[derive(Debug, Clone, PartialEq, Eq)]
         pub enum HexParseError {
             InvalidLength,
@@ -140,7 +141,7 @@ fn main() -> Result<(), Box<dyn Error>> {
             match self {
                 HexParseError::InvalidLength => write!(f, "Invalid hex string length"),
                 HexParseError::InvalidCharacter => write!(f, "Invalid character in hex string"),
-                HexParseError::ColorNotFound => write!(f, "No color found matching the hex value"),
+                HexParseError::ColorNotFound => write!(f, "No color found matching the name"),
                 }
             }
         }
@@ -161,6 +162,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         .collect();
 
     generated_code.extend(quote! {
+        #[allow(dead_code)]
         #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
         pub enum ColorSet {
             #(#color_set_variants),*
@@ -230,6 +232,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 
         // Generate the enum
         generated_code.extend(quote! {
+            #[allow(dead_code)]
             #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
             pub enum #enum_identifier {
                 #(#variants),*
@@ -265,6 +268,8 @@ fn main() -> Result<(), Box<dyn Error>> {
             .collect();
 
         generated_code.extend(quote! {
+            #[allow(unreachable_patterns)]
+            #[allow(dead_code)]
             impl #enum_identifier {
                 /// Returns the hex color value (including the # prefix)
                 pub fn hex(&self) -> &'static str {
@@ -295,18 +300,8 @@ fn main() -> Result<(), Box<dyn Error>> {
             }
         });
 
-        // Generate From implementation for easy conversion to hex
-        generated_code.extend(quote! {
-            impl From<self::#enum_identifier> for String {
-                fn from(color: self::#enum_identifier) -> Self {
-                    color.hex().to_string()
-                }
-            }
-
-
-        });
-
-        let from_hex_match_arms: Vec<TokenStream> = colors
+        // Generate match arms for parsing by name
+        let from_name_match_arms: Vec<TokenStream> = colors
             .iter()
             .filter_map(|color| {
                 let variant_name = sanitize_identifier(&color.name).to_pascal_case();
@@ -318,72 +313,58 @@ fn main() -> Result<(), Box<dyn Error>> {
                     return None;
                 }
 
-                let hex_value = &color.hex;
-                // Remove the # prefix for matching
-                let hex_without_prefix = hex_value.trim_start_matches('#');
+                let original_name = &color.name;
 
                 Some(quote! {
-                    #hex_without_prefix | #hex_value => Ok(#enum_identifier::#variant_identifier)
+                    #original_name => Ok(#enum_identifier::#variant_identifier)
                 })
             })
             .collect();
 
+        // Parse from a string (by name)
         generated_code.extend(quote! {
-            impl FromHex for #enum_identifier {
-                type Error = HexParseError;
+            impl std::str::FromStr for #enum_identifier {
+                type Err = HexParseError;
 
-                fn from_hex<T: AsRef<[u8]>>(hex: T) -> Result<Self, Self::Error> {
-                    let hex_str = std::str::from_utf8(hex.as_ref())
-                        .map_err(|_| HexParseError::InvalidCharacter)?;
-
-                    // Normalize the hex string (remove # if present, convert to lowercase)
-                    let normalized = hex_str.trim_start_matches('#').to_lowercase();
-
-                    // Validate length (should be 6 characters for RGB)
-                    if normalized.len() != 6 {
-                        return Err(HexParseError::InvalidLength);
-                    }
-
-                    // Validate that all characters are valid hex
-                    if !normalized.chars().all(|c| c.is_ascii_hexdigit()) {
-                        return Err(HexParseError::InvalidCharacter);
-                    }
-
-                    // Match against known colors
-                    match normalized.as_str() {
-                        #(#from_hex_match_arms),*,
+                fn from_str(s: &str) -> Result<Self, Self::Err> {
+                    match s {
+                        #(#from_name_match_arms),*,
                         _ => Err(HexParseError::ColorNotFound)
                     }
                 }
             }
         });
 
-        // Parse from a string
+        // Implement ToHex
         generated_code.extend(quote! {
-            impl std::str::FromStr for #enum_identifier {
-                type Err = HexParseError;
+            impl ToHex for #enum_identifier {
+                fn encode_hex<T: FromIterator<char>>(&self) -> T {
+                    let hex = self.hex().trim_start_matches('#');
+                    hex.chars().collect()
+                }
 
-                fn from_str(s: &str) -> Result<Self, Self::Err> {
-                    Self::from_hex(s.as_bytes())
+                fn encode_hex_upper<T: FromIterator<char>>(&self) -> T {
+                    let hex = self.hex().trim_start_matches('#').to_uppercase();
+                    hex.chars().collect()
                 }
             }
         });
 
-        // Parse from the rest of the string types
+        // Parse from the rest of the string types (by name)
         generated_code.extend(quote! {
             impl TryFrom<&str> for #enum_identifier {
                 type Error = HexParseError;
 
-                fn try_from(hex: &str) -> Result<Self, Self::Error> {
-                    Self::from_hex(hex.as_bytes())
+                fn try_from(name: &str) -> Result<Self, Self::Error> {
+                    name.parse()
                 }
             }
 
             impl TryFrom<String> for #enum_identifier {
                 type Error = HexParseError;
 
-                fn try_from(hex: String) -> Result<Self, Self::Error> {
-                    Self::from_hex(hex.as_bytes())
+                fn try_from(name: String) -> Result<Self, Self::Error> {
+                    name.parse()
                 }
             }
         });
@@ -422,6 +403,8 @@ fn sanitize_identifier(name: &str) -> String {
         } else if ch == '№' {
             result.push('N');
             result.push('o');
+        } else if ch == 'Ⅱ' {
+            result.push('|')
         } else {
             result.push(ch);
         }

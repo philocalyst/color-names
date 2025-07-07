@@ -1,0 +1,1069 @@
+[{
+    "name": "Vivid Pink",
+    "hex": "#ffb5ba"
+  },
+  {
+    "name": "Strong Pink",
+    "hex": "#ea9399"
+  },
+  {
+    "name": "Deep Pink",
+    "hex": "#e4717a"
+  },
+  {
+    "name": "Light Pink",
+    "hex": "#f9ccca"
+  },
+  {
+    "name": "Moderate Pink",
+    "hex": "#dea5a4"
+  },
+  {
+    "name": "Dark Pink",
+    "hex": "#c08081"
+  },
+  {
+    "name": "Pale Pink",
+    "hex": "#ead8d7"
+  },
+  {
+    "name": "Grayish Pink",
+    "hex": "#c4aead"
+  },
+  {
+    "name": "Pinkish White",
+    "hex": "#eae3e1"
+  },
+  {
+    "name": "Pinkish Gray",
+    "hex": "#c1b6b3"
+  },
+  {
+    "name": "Vivid Red",
+    "hex": "#be0032"
+  },
+  {
+    "name": "Strong Red",
+    "hex": "#bc3f4a"
+  },
+  {
+    "name": "Deep Red",
+    "hex": "#841b2d"
+  },
+  {
+    "name": "Very Deep Red",
+    "hex": "#5c0923"
+  },
+  {
+    "name": "Moderate Red",
+    "hex": "#ab4e52"
+  },
+  {
+    "name": "Dark Red",
+    "hex": "#722f37"
+  },
+  {
+    "name": "Very Dark Red",
+    "hex": "#3f1728"
+  },
+  {
+    "name": "Light Grayish Red",
+    "hex": "#ad8884"
+  },
+  {
+    "name": "Grayish Red",
+    "hex": "#905d5d"
+  },
+  {
+    "name": "Dark Grayish Red",
+    "hex": "#543d3f"
+  },
+  {
+    "name": "Blackish Red",
+    "hex": "#2e1d21"
+  },
+  {
+    "name": "Reddish Gray",
+    "hex": "#8f817f"
+  },
+  {
+    "name": "Dark Reddish Gray",
+    "hex": "#5c504f"
+  },
+  {
+    "name": "Reddish Black",
+    "hex": "#282022"
+  },
+  {
+    "name": "Vivid Yellowish Pink",
+    "hex": "#ffb7a5"
+  },
+  {
+    "name": "Strong Yellowish Pink",
+    "hex": "#f99379"
+  },
+  {
+    "name": "Deep Yellowish Pink",
+    "hex": "#e66761"
+  },
+  {
+    "name": "Light Yellowish Pink",
+    "hex": "#f4c2c2"
+  },
+  {
+    "name": "Moderate Yellowish Pink",
+    "hex": "#d9a6a9"
+  },
+  {
+    "name": "Dark Yellowish Pink",
+    "hex": "#c48379"
+  },
+  {
+    "name": "Pale Yellowish Pink",
+    "hex": "#ecd5c5"
+  },
+  {
+    "name": "Grayish Yellowish Pink",
+    "hex": "#c7ada3"
+  },
+  {
+    "name": "Brownish Pink",
+    "hex": "#c2ac99"
+  },
+  {
+    "name": "Vivid Reddish Orange",
+    "hex": "#e25822"
+  },
+  {
+    "name": "Strong Reddish Orange",
+    "hex": "#d9603b"
+  },
+  {
+    "name": "Deep Reddish Orange",
+    "hex": "#aa381e"
+  },
+  {
+    "name": "Moderate Reddish Orange",
+    "hex": "#cb6d51"
+  },
+  {
+    "name": "Dark Reddish Orange",
+    "hex": "#9e4732"
+  },
+  {
+    "name": "Grayish Reddish Orange",
+    "hex": "#b4745e"
+  },
+  {
+    "name": "Strong Reddish Brown",
+    "hex": "#882d17"
+  },
+  {
+    "name": "Deep Reddish Brown",
+    "hex": "#56070c"
+  },
+  {
+    "name": "Light Reddish Brown",
+    "hex": "#a87c6d"
+  },
+  {
+    "name": "Moderate Reddish Brown",
+    "hex": "#79443b"
+  },
+  {
+    "name": "Dark Reddish Brown",
+    "hex": "#3e1d1e"
+  },
+  {
+    "name": "Light Grayish Reddish Brown",
+    "hex": "#977f73"
+  },
+  {
+    "name": "Grayish Reddish Brown",
+    "hex": "#674c47"
+  },
+  {
+    "name": "Dark Grayish Reddish Brown",
+    "hex": "#43302e"
+  },
+  {
+    "name": "Vivid Orange",
+    "hex": "#f38400"
+  },
+  {
+    "name": "Brilliant Orange",
+    "hex": "#fd943f"
+  },
+  {
+    "name": "Strong Orange",
+    "hex": "#ed872d"
+  },
+  {
+    "name": "Deep Orange",
+    "hex": "#be6516"
+  },
+  {
+    "name": "Light Orange",
+    "hex": "#fab57f"
+  },
+  {
+    "name": "Moderate Orange",
+    "hex": "#d99058"
+  },
+  {
+    "name": "Brownish Orange",
+    "hex": "#ae6938"
+  },
+  {
+    "name": "Strong Brown",
+    "hex": "#80461b"
+  },
+  {
+    "name": "Deep Brown",
+    "hex": "#593319"
+  },
+  {
+    "name": "Light Brown",
+    "hex": "#a67b5b"
+  },
+  {
+    "name": "Moderate Brown",
+    "hex": "#6f4e37"
+  },
+  {
+    "name": "Dark Brown",
+    "hex": "#422518"
+  },
+  {
+    "name": "Light Grayish Brown",
+    "hex": "#958070"
+  },
+  {
+    "name": "Grayish Brown",
+    "hex": "#635147"
+  },
+  {
+    "name": "Dark Grayish Brown",
+    "hex": "#3e322c"
+  },
+  {
+    "name": "Light Brownish Gray",
+    "hex": "#8e8279"
+  },
+  {
+    "name": "Brownish Gray",
+    "hex": "#5b504f"
+  },
+  {
+    "name": "Brownish Black",
+    "hex": "#28201c"
+  },
+  {
+    "name": "Vivid Orange Yellow",
+    "hex": "#f6a600"
+  },
+  {
+    "name": "Brilliant Orange Yellow",
+    "hex": "#ffc14f"
+  },
+  {
+    "name": "Strong Orange Yellow",
+    "hex": "#eaa221"
+  },
+  {
+    "name": "Deep Orange Yellow",
+    "hex": "#c98500"
+  },
+  {
+    "name": "Light Orange Yellow",
+    "hex": "#fbc97f"
+  },
+  {
+    "name": "Moderate Orange Yellow",
+    "hex": "#e3a857"
+  },
+  {
+    "name": "Dark Orange Yellow",
+    "hex": "#be8a3d"
+  },
+  {
+    "name": "Pale Orange Yellow",
+    "hex": "#fad6a5"
+  },
+  {
+    "name": "Strong Yellowish Brown",
+    "hex": "#996515"
+  },
+  {
+    "name": "Deep Yellowish Brown",
+    "hex": "#654522"
+  },
+  {
+    "name": "Light Yellowish Brown",
+    "hex": "#c19a6b"
+  },
+  {
+    "name": "Moderate Yellowish Brown",
+    "hex": "#826644"
+  },
+  {
+    "name": "Dark Yellowish Brown",
+    "hex": "#4b3621"
+  },
+  {
+    "name": "Light Grayish Yellowish Brown",
+    "hex": "#ae9b82"
+  },
+  {
+    "name": "Grayish Yellowish Brown",
+    "hex": "#7e6d5a"
+  },
+  {
+    "name": "Dark Grayish Yellowish Brown",
+    "hex": "#483c32"
+  },
+  {
+    "name": "Vivid Yellow",
+    "hex": "#f3c300"
+  },
+  {
+    "name": "Brilliant Yellow",
+    "hex": "#fada5e"
+  },
+  {
+    "name": "Strong Yellow",
+    "hex": "#d4af37"
+  },
+  {
+    "name": "Deep Yellow",
+    "hex": "#af8d13"
+  },
+  {
+    "name": "Light Yellow",
+    "hex": "#f8de7e"
+  },
+  {
+    "name": "Moderate Yellow",
+    "hex": "#c9ae5d"
+  },
+  {
+    "name": "Dark Yellow",
+    "hex": "#ab9144"
+  },
+  {
+    "name": "Pale Yellow",
+    "hex": "#f3e5ab"
+  },
+  {
+    "name": "Grayish Yellow",
+    "hex": "#c2b280"
+  },
+  {
+    "name": "Dark Grayish Yellow",
+    "hex": "#a18f60"
+  },
+  {
+    "name": "Yellowish White",
+    "hex": "#f0ead6"
+  },
+  {
+    "name": "Yellowish Gray",
+    "hex": "#bfb8a5"
+  },
+  {
+    "name": "Light Olive Brown",
+    "hex": "#967117"
+  },
+  {
+    "name": "Moderate Olive Brown",
+    "hex": "#6c541e"
+  },
+  {
+    "name": "Dark Olive Brown",
+    "hex": "#3b3121"
+  },
+  {
+    "name": "Vivid Greenish Yellow",
+    "hex": "#dcd300"
+  },
+  {
+    "name": "Brilliant Greenish Yellow",
+    "hex": "#e9e450"
+  },
+  {
+    "name": "Strong Greenish Yellow",
+    "hex": "#beb72e"
+  },
+  {
+    "name": "Deep Greenish Yellow",
+    "hex": "#9b9400"
+  },
+  {
+    "name": "Light Greenish Yellow",
+    "hex": "#eae679"
+  },
+  {
+    "name": "Moderate Greenish Yellow",
+    "hex": "#b9b459"
+  },
+  {
+    "name": "Dark Greenish Yellow",
+    "hex": "#98943e"
+  },
+  {
+    "name": "Pale Greenish Yellow",
+    "hex": "#ebe8a4"
+  },
+  {
+    "name": "Grayish Greenish Yellow",
+    "hex": "#b9b57d"
+  },
+  {
+    "name": "Light Olive",
+    "hex": "#867e36"
+  },
+  {
+    "name": "Moderate Olive",
+    "hex": "#665d1e"
+  },
+  {
+    "name": "Dark Olive",
+    "hex": "#403d21"
+  },
+  {
+    "name": "Light Grayish Olive",
+    "hex": "#8c8767"
+  },
+  {
+    "name": "Grayish Olive",
+    "hex": "#5b5842"
+  },
+  {
+    "name": "Dark Grayish Olive",
+    "hex": "#363527"
+  },
+  {
+    "name": "Light Olive Gray",
+    "hex": "#8a8776"
+  },
+  {
+    "name": "Olive Gray",
+    "hex": "#57554c"
+  },
+  {
+    "name": "Olive Black",
+    "hex": "#25241d"
+  },
+  {
+    "name": "Vivid Yellow Green",
+    "hex": "#8db600"
+  },
+  {
+    "name": "Brilliant Yellow Green",
+    "hex": "#bdda57"
+  },
+  {
+    "name": "Strong Yellow Green",
+    "hex": "#7e9f2e"
+  },
+  {
+    "name": "Deep Yellow Green",
+    "hex": "#467129"
+  },
+  {
+    "name": "Light Yellow Green",
+    "hex": "#c9dc89"
+  },
+  {
+    "name": "Moderate Yellow Green",
+    "hex": "#8a9a5b"
+  },
+  {
+    "name": "Pale Yellow Green",
+    "hex": "#dadfb7"
+  },
+  {
+    "name": "Grayish Yellow Green",
+    "hex": "#8f9779"
+  },
+  {
+    "name": "Strong Olive Green",
+    "hex": "#404f00"
+  },
+  {
+    "name": "Deep Olive Green",
+    "hex": "#232f00"
+  },
+  {
+    "name": "Moderate Olive Green",
+    "hex": "#4a5d23"
+  },
+  {
+    "name": "Dark Olive Green",
+    "hex": "#2b3d26"
+  },
+  {
+    "name": "Grayish Olive Green",
+    "hex": "#515744"
+  },
+  {
+    "name": "Dark Grayish Olive Green",
+    "hex": "#31362b"
+  },
+  {
+    "name": "Vivid Yellowish Green see #115",
+    "hex": "#27a64c"
+  },
+  {
+    "name": "Brilliant Yellowish Green",
+    "hex": "#83d37d"
+  },
+  {
+    "name": "Strong Yellowish Green",
+    "hex": "#44944a"
+  },
+  {
+    "name": "Deep Yellowish Green",
+    "hex": "#00622d"
+  },
+  {
+    "name": "Very Deep Yellowish Green",
+    "hex": "#003118"
+  },
+  {
+    "name": "Very Light Yellowish Green",
+    "hex": "#b6e5af"
+  },
+  {
+    "name": "Light Yellowish Green",
+    "hex": "#93c592"
+  },
+  {
+    "name": "Moderate Yellowish Green",
+    "hex": "#679267"
+  },
+  {
+    "name": "Dark Yellowish Green",
+    "hex": "#355e3b"
+  },
+  {
+    "name": "Very Dark Yellowish Green",
+    "hex": "#173620"
+  },
+  {
+    "name": "Vivid Green",
+    "hex": "#008856"
+  },
+  {
+    "name": "Brilliant Green",
+    "hex": "#3eb489"
+  },
+  {
+    "name": "Strong Green",
+    "hex": "#007959"
+  },
+  {
+    "name": "Deep Green",
+    "hex": "#00543d"
+  },
+  {
+    "name": "Very Light Green",
+    "hex": "#8ed1b2"
+  },
+  {
+    "name": "Light Green",
+    "hex": "#6aab8e"
+  },
+  {
+    "name": "Moderate Green",
+    "hex": "#3b7861"
+  },
+  {
+    "name": "Dark Green",
+    "hex": "#1b4d3e"
+  },
+  {
+    "name": "Very Dark Green",
+    "hex": "#1c352d"
+  },
+  {
+    "name": "Very Pale Green",
+    "hex": "#c7e6d7"
+  },
+  {
+    "name": "Pale Green",
+    "hex": "#8da399"
+  },
+  {
+    "name": "Grayish Green",
+    "hex": "#5e716a"
+  },
+  {
+    "name": "Dark Grayish Green",
+    "hex": "#3a4b47"
+  },
+  {
+    "name": "Blackish Green",
+    "hex": "#1a2421"
+  },
+  {
+    "name": "Greenish White",
+    "hex": "#dfede8"
+  },
+  {
+    "name": "Light Greenish Gray",
+    "hex": "#b2beb5"
+  },
+  {
+    "name": "Greenish Gray",
+    "hex": "#7d8984"
+  },
+  {
+    "name": "Dark Greenish Gray",
+    "hex": "#4e5755"
+  },
+  {
+    "name": "Greenish Black",
+    "hex": "#1e2321"
+  },
+  {
+    "name": "Vivid Bluish Green",
+    "hex": "#008882"
+  },
+  {
+    "name": "Brilliant Bluish Green",
+    "hex": "#00a693"
+  },
+  {
+    "name": "Strong Bluish Green",
+    "hex": "#007a74"
+  },
+  {
+    "name": "Deep Bluish Green",
+    "hex": "#00443f"
+  },
+  {
+    "name": "Very Light Bluish Green",
+    "hex": "#96ded1"
+  },
+  {
+    "name": "Light Bluish Green",
+    "hex": "#66ada4"
+  },
+  {
+    "name": "Moderate Bluish Green",
+    "hex": "#317873"
+  },
+  {
+    "name": "Dark Bluish Green",
+    "hex": "#004b49"
+  },
+  {
+    "name": "Very Dark Bluish Green",
+    "hex": "#002a29"
+  },
+  {
+    "name": "Vivid Greenish Blue",
+    "hex": "#0085a1"
+  },
+  {
+    "name": "Brilliant Greenish Blue",
+    "hex": "#239eba"
+  },
+  {
+    "name": "Strong Greenish Blue",
+    "hex": "#007791"
+  },
+  {
+    "name": "Deep Greenish Blue",
+    "hex": "#2e8495"
+  },
+  {
+    "name": "Very Light Greenish Blue",
+    "hex": "#9cd1dc"
+  },
+  {
+    "name": "Light Greenish Blue",
+    "hex": "#66aabc"
+  },
+  {
+    "name": "Moderate Greenish Blue",
+    "hex": "#367588"
+  },
+  {
+    "name": "Dark Greenish Blue",
+    "hex": "#004958"
+  },
+  {
+    "name": "Very Dark Greenish Blue",
+    "hex": "#002e3b"
+  },
+  {
+    "name": "Vivid Blue, ultramarine",
+    "hex": "#00a1c2"
+  },
+  {
+    "name": "Brilliant Blue, celestial blue",
+    "hex": "#4997d0"
+  },
+  {
+    "name": "Strong Blue, bright blue",
+    "hex": "#0067a5"
+  },
+  {
+    "name": "Deep Blue, royal blue",
+    "hex": "#00416a"
+  },
+  {
+    "name": "Very Light Blue, baby blue",
+    "hex": "#a1caf1"
+  },
+  {
+    "name": "Light Blue, sky blue",
+    "hex": "#70a3cc"
+  },
+  {
+    "name": "Moderate Blue, cerulean blue",
+    "hex": "#436b95"
+  },
+  {
+    "name": "Dark Blue, navy blue",
+    "hex": "#00304e"
+  },
+  {
+    "name": "Very Pale Blue, cloud blue",
+    "hex": "#bcd4e6"
+  },
+  {
+    "name": "Pale Blue, alice blue",
+    "hex": "#91a3b0"
+  },
+  {
+    "name": "Grayish Blue, slate blue",
+    "hex": "#536878"
+  },
+  {
+    "name": "Dark Grayish Blue",
+    "hex": "#36454f"
+  },
+  {
+    "name": "Blackish Blue",
+    "hex": "#202830"
+  },
+  {
+    "name": "Bluish White",
+    "hex": "#e9e9ed"
+  },
+  {
+    "name": "Light Bluish Gray",
+    "hex": "#b4bcc0"
+  },
+  {
+    "name": "Bluish Gray",
+    "hex": "#81878b"
+  },
+  {
+    "name": "Dark Bluish Gray",
+    "hex": "#51585e"
+  },
+  {
+    "name": "Bluish Black",
+    "hex": "#202428"
+  },
+  {
+    "name": "Vivid Purplish Blue",
+    "hex": "#30267a"
+  },
+  {
+    "name": "Brilliant Purplish Blue",
+    "hex": "#6c79b8"
+  },
+  {
+    "name": "Strong Purplish Blue",
+    "hex": "#545aa7"
+  },
+  {
+    "name": "Deep Purplish Blue",
+    "hex": "#272458"
+  },
+  {
+    "name": "Very Light Purplish Blue",
+    "hex": "#b3bce2"
+  },
+  {
+    "name": "Light Purplish Blue",
+    "hex": "#8791bf"
+  },
+  {
+    "name": "Moderate Purplish Blue",
+    "hex": "#4e5180"
+  },
+  {
+    "name": "Dark Purplish Blue",
+    "hex": "#252440"
+  },
+  {
+    "name": "Very Pale Purplish Blue",
+    "hex": "#c0c8e1"
+  },
+  {
+    "name": "Pale Purplish Blue",
+    "hex": "#8c92ac"
+  },
+  {
+    "name": "Grayish Purplish Blue",
+    "hex": "#4c516d"
+  },
+  {
+    "name": "Vivid Violet",
+    "hex": "#9065ca"
+  },
+  {
+    "name": "Brilliant Violet",
+    "hex": "#7e73b8"
+  },
+  {
+    "name": "Strong Violet",
+    "hex": "#604e97"
+  },
+  {
+    "name": "Deep Violet",
+    "hex": "#32174d"
+  },
+  {
+    "name": "Very Light Violet",
+    "hex": "#dcd0ff"
+  },
+  {
+    "name": "Light Violet",
+    "hex": "#8c82b6"
+  },
+  {
+    "name": "Moderate Violet",
+    "hex": "#604e81"
+  },
+  {
+    "name": "Dark Violet",
+    "hex": "#2f2140"
+  },
+  {
+    "name": "Very Pale Violet",
+    "hex": "#c4c3dd"
+  },
+  {
+    "name": "Pale Violet",
+    "hex": "#9690ab"
+  },
+  {
+    "name": "Grayish Violet",
+    "hex": "#554c69"
+  },
+  {
+    "name": "Vivid Purple",
+    "hex": "#9a4eae"
+  },
+  {
+    "name": "Brilliant Purple",
+    "hex": "#d399e6"
+  },
+  {
+    "name": "Strong Purple",
+    "hex": "#875692"
+  },
+  {
+    "name": "Deep Purple",
+    "hex": "#602f6b"
+  },
+  {
+    "name": "Very Deep Purple",
+    "hex": "#401a4c"
+  },
+  {
+    "name": "Very Light Purple",
+    "hex": "#d5badb"
+  },
+  {
+    "name": "Light Purple",
+    "hex": "#b695c0"
+  },
+  {
+    "name": "Moderate Purple",
+    "hex": "#86608e"
+  },
+  {
+    "name": "Dark Purple",
+    "hex": "#563c5c"
+  },
+  {
+    "name": "Very Dark Purple",
+    "hex": "#301934"
+  },
+  {
+    "name": "Very Pale Purple",
+    "hex": "#d6cadd"
+  },
+  {
+    "name": "Pale Purple",
+    "hex": "#aa98a9"
+  },
+  {
+    "name": "Grayish Purple",
+    "hex": "#796878"
+  },
+  {
+    "name": "Dark Grayish Purple",
+    "hex": "#50404d"
+  },
+  {
+    "name": "Blackish Purple",
+    "hex": "#291e29"
+  },
+  {
+    "name": "Purplish White",
+    "hex": "#e8e3e5"
+  },
+  {
+    "name": "Light Purplish Gray",
+    "hex": "#bfb9bd"
+  },
+  {
+    "name": "Purplish Gray",
+    "hex": "#8b8589"
+  },
+  {
+    "name": "Dark Purplish Gray",
+    "hex": "#5d555b"
+  },
+  {
+    "name": "Purplish Black",
+    "hex": "#242124"
+  },
+  {
+    "name": "Vivid Reddish Purple",
+    "hex": "#870074"
+  },
+  {
+    "name": "Strong Reddish Purple",
+    "hex": "#9e4f88"
+  },
+  {
+    "name": "Deep Reddish Purple",
+    "hex": "#702963"
+  },
+  {
+    "name": "Very Deep Reddish Purple",
+    "hex": "#54194e"
+  },
+  {
+    "name": "Light Reddish Purple",
+    "hex": "#b784a7"
+  },
+  {
+    "name": "Moderate Reddish Purple",
+    "hex": "#915c83"
+  },
+  {
+    "name": "Dark Reddish Purple",
+    "hex": "#5d3954"
+  },
+  {
+    "name": "Very Dark Reddish Purple",
+    "hex": "#341731"
+  },
+  {
+    "name": "Pale Reddish Purple",
+    "hex": "#aa8a9e"
+  },
+  {
+    "name": "Grayish Reddish Purple",
+    "hex": "#836479"
+  },
+  {
+    "name": "Brilliant Purplish Pink",
+    "hex": "#ffc8d6"
+  },
+  {
+    "name": "Strong Purplish Pink",
+    "hex": "#e68fac"
+  },
+  {
+    "name": "Deep Purplish Pink",
+    "hex": "#de6fa1"
+  },
+  {
+    "name": "Light Purplish Pink",
+    "hex": "#efbbcc"
+  },
+  {
+    "name": "Moderate Purplish Pink",
+    "hex": "#d597ae"
+  },
+  {
+    "name": "Dark Purplish Pink",
+    "hex": "#c17e91"
+  },
+  {
+    "name": "Pale Purplish Pink",
+    "hex": "#e8ccd7"
+  },
+  {
+    "name": "Grayish Purplish Pink",
+    "hex": "#c3a6b1"
+  },
+  {
+    "name": "Vivid Purplish Red",
+    "hex": "#ce4676"
+  },
+  {
+    "name": "Strong Purplish Red",
+    "hex": "#b3446c"
+  },
+  {
+    "name": "Deep Purplish Red",
+    "hex": "#78184a"
+  },
+  {
+    "name": "Very Deep Purplish Red",
+    "hex": "#54133b"
+  },
+  {
+    "name": "Moderate Purplish Red",
+    "hex": "#a8516e"
+  },
+  {
+    "name": "Dark Purplish Red",
+    "hex": "#673147"
+  },
+  {
+    "name": "Very Dark Purplish Red",
+    "hex": "#38152c"
+  },
+  {
+    "name": "Light Grayish Purplish Red",
+    "hex": "#af868e"
+  },
+  {
+    "name": "Grayish Purplish Red",
+    "hex": "#915f6d"
+  },
+  {
+    "name": "White",
+    "hex": "#f2f3f4"
+  },
+  {
+    "name": "Light Gray",
+    "hex": "#b9b8b5"
+  },
+  {
+    "name": "Medium Gray",
+    "hex": "#848482"
+  },
+  {
+    "name": "Dark Gray",
+    "hex": "#555555"
+  },
+  {
+    "name": "Black",
+    "hex": "#222222"
+  }
+]
