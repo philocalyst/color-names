@@ -1,0 +1,6266 @@
+[
+    {
+        "name": "Black",
+        "hex": "#000000"
+    },
+    {
+        "name": "Navy Blue",
+        "hex": "#000080"
+    },
+    {
+        "name": "Dark Blue",
+        "hex": "#0000c8"
+    },
+    {
+        "name": "Blue",
+        "hex": "#0000ff"
+    },
+    {
+        "name": "Stratos",
+        "hex": "#000741"
+    },
+    {
+        "name": "Swamp",
+        "hex": "#001b1c"
+    },
+    {
+        "name": "Resolution Blue",
+        "hex": "#002387"
+    },
+    {
+        "name": "Deep Fir",
+        "hex": "#002900"
+    },
+    {
+        "name": "Burnham",
+        "hex": "#002e20"
+    },
+    {
+        "name": "International Klein Blue",
+        "hex": "#002fa7"
+    },
+    {
+        "name": "Prussian Blue",
+        "hex": "#003153"
+    },
+    {
+        "name": "Midnight Blue",
+        "hex": "#003366"
+    },
+    {
+        "name": "Smalt",
+        "hex": "#003399"
+    },
+    {
+        "name": "Deep Teal",
+        "hex": "#003532"
+    },
+    {
+        "name": "Cyprus",
+        "hex": "#003e40"
+    },
+    {
+        "name": "Kaitoke Green",
+        "hex": "#004620"
+    },
+    {
+        "name": "Cobalt",
+        "hex": "#0047ab"
+    },
+    {
+        "name": "Crusoe",
+        "hex": "#004816"
+    },
+    {
+        "name": "Sherpa Blue",
+        "hex": "#004950"
+    },
+    {
+        "name": "Endeavour",
+        "hex": "#0056a7"
+    },
+    {
+        "name": "Camarone",
+        "hex": "#00581a"
+    },
+    {
+        "name": "Science Blue",
+        "hex": "#0066cc"
+    },
+    {
+        "name": "Blue Ribbon",
+        "hex": "#0066ff"
+    },
+    {
+        "name": "Tropical Rain Forest",
+        "hex": "#00755e"
+    },
+    {
+        "name": "Allports",
+        "hex": "#0076a3"
+    },
+    {
+        "name": "Deep Cerulean",
+        "hex": "#007ba7"
+    },
+    {
+        "name": "Lochmara",
+        "hex": "#007ec7"
+    },
+    {
+        "name": "Azure Radiance",
+        "hex": "#007fff"
+    },
+    {
+        "name": "Teal",
+        "hex": "#008080"
+    },
+    {
+        "name": "Bondi Blue",
+        "hex": "#0095b6"
+    },
+    {
+        "name": "Pacific Blue",
+        "hex": "#009dc4"
+    },
+    {
+        "name": "Persian Green",
+        "hex": "#00a693"
+    },
+    {
+        "name": "Jade",
+        "hex": "#00a86b"
+    },
+    {
+        "name": "Caribbean Green",
+        "hex": "#00cc99"
+    },
+    {
+        "name": "Robin's Egg Blue",
+        "hex": "#00cccc"
+    },
+    {
+        "name": "Green",
+        "hex": "#00ff00"
+    },
+    {
+        "name": "Spring Green",
+        "hex": "#00ff7f"
+    },
+    {
+        "name": "Cyan / Aqua",
+        "hex": "#00ffff"
+    },
+    {
+        "name": "Blue Charcoal",
+        "hex": "#010d1a"
+    },
+    {
+        "name": "Midnight",
+        "hex": "#011635"
+    },
+    {
+        "name": "Holly",
+        "hex": "#011d13"
+    },
+    {
+        "name": "Daintree",
+        "hex": "#012731"
+    },
+    {
+        "name": "Cardin Green",
+        "hex": "#01361c"
+    },
+    {
+        "name": "County Green",
+        "hex": "#01371a"
+    },
+    {
+        "name": "Astronaut Blue",
+        "hex": "#013e62"
+    },
+    {
+        "name": "Regal Blue",
+        "hex": "#013f6a"
+    },
+    {
+        "name": "Aqua Deep",
+        "hex": "#014b43"
+    },
+    {
+        "name": "Orient",
+        "hex": "#015e85"
+    },
+    {
+        "name": "Blue Stone",
+        "hex": "#016162"
+    },
+    {
+        "name": "Fun Green",
+        "hex": "#016d39"
+    },
+    {
+        "name": "Pine Green",
+        "hex": "#01796f"
+    },
+    {
+        "name": "Blue Lagoon",
+        "hex": "#017987"
+    },
+    {
+        "name": "Deep Sea",
+        "hex": "#01826b"
+    },
+    {
+        "name": "Green Haze",
+        "hex": "#01a368"
+    },
+    {
+        "name": "English Holly",
+        "hex": "#022d15"
+    },
+    {
+        "name": "Sherwood Green",
+        "hex": "#02402c"
+    },
+    {
+        "name": "Congress Blue",
+        "hex": "#02478e"
+    },
+    {
+        "name": "Evening Sea",
+        "hex": "#024e46"
+    },
+    {
+        "name": "Bahama Blue",
+        "hex": "#026395"
+    },
+    {
+        "name": "Observatory",
+        "hex": "#02866f"
+    },
+    {
+        "name": "Cerulean",
+        "hex": "#02a4d3"
+    },
+    {
+        "name": "Tangaroa",
+        "hex": "#03163c"
+    },
+    {
+        "name": "Green Vogue",
+        "hex": "#032b52"
+    },
+    {
+        "name": "Mosque",
+        "hex": "#036a6e"
+    },
+    {
+        "name": "Midnight Moss",
+        "hex": "#041004"
+    },
+    {
+        "name": "Black Pearl",
+        "hex": "#041322"
+    },
+    {
+        "name": "Blue Whale",
+        "hex": "#042e4c"
+    },
+    {
+        "name": "Zuccini",
+        "hex": "#044022"
+    },
+    {
+        "name": "Teal Blue",
+        "hex": "#044259"
+    },
+    {
+        "name": "Deep Cove",
+        "hex": "#051040"
+    },
+    {
+        "name": "Gulf Blue",
+        "hex": "#051657"
+    },
+    {
+        "name": "Venice Blue",
+        "hex": "#055989"
+    },
+    {
+        "name": "Watercourse",
+        "hex": "#056f57"
+    },
+    {
+        "name": "Catalina Blue",
+        "hex": "#062a78"
+    },
+    {
+        "name": "Tiber",
+        "hex": "#063537"
+    },
+    {
+        "name": "Gossamer",
+        "hex": "#069b81"
+    },
+    {
+        "name": "Niagara",
+        "hex": "#06a189"
+    },
+    {
+        "name": "Tarawera",
+        "hex": "#073a50"
+    },
+    {
+        "name": "Jaguar",
+        "hex": "#080110"
+    },
+    {
+        "name": "Black Bean",
+        "hex": "#081910"
+    },
+    {
+        "name": "Deep Sapphire",
+        "hex": "#082567"
+    },
+    {
+        "name": "Elf Green",
+        "hex": "#088370"
+    },
+    {
+        "name": "Bright Turquoise",
+        "hex": "#08e8de"
+    },
+    {
+        "name": "Downriver",
+        "hex": "#092256"
+    },
+    {
+        "name": "Palm Green",
+        "hex": "#09230f"
+    },
+    {
+        "name": "Madison",
+        "hex": "#09255d"
+    },
+    {
+        "name": "Bottle Green",
+        "hex": "#093624"
+    },
+    {
+        "name": "Deep Sea Green",
+        "hex": "#095859"
+    },
+    {
+        "name": "Salem",
+        "hex": "#097f4b"
+    },
+    {
+        "name": "Black Russian",
+        "hex": "#0a001c"
+    },
+    {
+        "name": "Dark Fern",
+        "hex": "#0a480d"
+    },
+    {
+        "name": "Japanese Laurel",
+        "hex": "#0a6906"
+    },
+    {
+        "name": "Atoll",
+        "hex": "#0a6f75"
+    },
+    {
+        "name": "Cod Gray",
+        "hex": "#0b0b0b"
+    },
+    {
+        "name": "Marshland",
+        "hex": "#0b0f08"
+    },
+    {
+        "name": "Gordons Green",
+        "hex": "#0b1107"
+    },
+    {
+        "name": "Black Forest",
+        "hex": "#0b1304"
+    },
+    {
+        "name": "San Felix",
+        "hex": "#0b6207"
+    },
+    {
+        "name": "Malachite",
+        "hex": "#0bda51"
+    },
+    {
+        "name": "Ebony",
+        "hex": "#0c0b1d"
+    },
+    {
+        "name": "Woodsmoke",
+        "hex": "#0c0d0f"
+    },
+    {
+        "name": "Racing Green",
+        "hex": "#0c1911"
+    },
+    {
+        "name": "Surfie Green",
+        "hex": "#0c7a79"
+    },
+    {
+        "name": "Blue Chill",
+        "hex": "#0c8990"
+    },
+    {
+        "name": "Black Rock",
+        "hex": "#0d0332"
+    },
+    {
+        "name": "Bunker",
+        "hex": "#0d1117"
+    },
+    {
+        "name": "Aztec",
+        "hex": "#0d1c19"
+    },
+    {
+        "name": "Bush",
+        "hex": "#0d2e1c"
+    },
+    {
+        "name": "Cinder",
+        "hex": "#0e0e18"
+    },
+    {
+        "name": "Firefly",
+        "hex": "#0e2a30"
+    },
+    {
+        "name": "Torea Bay",
+        "hex": "#0f2d9e"
+    },
+    {
+        "name": "Vulcan",
+        "hex": "#10121d"
+    },
+    {
+        "name": "Green Waterloo",
+        "hex": "#101405"
+    },
+    {
+        "name": "Eden",
+        "hex": "#105852"
+    },
+    {
+        "name": "Arapawa",
+        "hex": "#110c6c"
+    },
+    {
+        "name": "Ultramarine",
+        "hex": "#120a8f"
+    },
+    {
+        "name": "Elephant",
+        "hex": "#123447"
+    },
+    {
+        "name": "Jewel",
+        "hex": "#126b40"
+    },
+    {
+        "name": "Diesel",
+        "hex": "#130000"
+    },
+    {
+        "name": "Asphalt",
+        "hex": "#130a06"
+    },
+    {
+        "name": "Blue Zodiac",
+        "hex": "#13264d"
+    },
+    {
+        "name": "Parsley",
+        "hex": "#134f19"
+    },
+    {
+        "name": "Nero",
+        "hex": "#140600"
+    },
+    {
+        "name": "Tory Blue",
+        "hex": "#1450aa"
+    },
+    {
+        "name": "Bunting",
+        "hex": "#151f4c"
+    },
+    {
+        "name": "Denim",
+        "hex": "#1560bd"
+    },
+    {
+        "name": "Genoa",
+        "hex": "#15736b"
+    },
+    {
+        "name": "Mirage",
+        "hex": "#161928"
+    },
+    {
+        "name": "Hunter Green",
+        "hex": "#161d10"
+    },
+    {
+        "name": "Big Stone",
+        "hex": "#162a40"
+    },
+    {
+        "name": "Celtic",
+        "hex": "#163222"
+    },
+    {
+        "name": "Timber Green",
+        "hex": "#16322c"
+    },
+    {
+        "name": "Gable Green",
+        "hex": "#163531"
+    },
+    {
+        "name": "Pine Tree",
+        "hex": "#171f04"
+    },
+    {
+        "name": "Chathams Blue",
+        "hex": "#175579"
+    },
+    {
+        "name": "Deep Forest Green",
+        "hex": "#182d09"
+    },
+    {
+        "name": "Blumine",
+        "hex": "#18587a"
+    },
+    {
+        "name": "Palm Leaf",
+        "hex": "#19330e"
+    },
+    {
+        "name": "Nile Blue",
+        "hex": "#193751"
+    },
+    {
+        "name": "Fun Blue",
+        "hex": "#1959a8"
+    },
+    {
+        "name": "Lucky Point",
+        "hex": "#1a1a68"
+    },
+    {
+        "name": "Mountain Meadow",
+        "hex": "#1ab385"
+    },
+    {
+        "name": "Tolopea",
+        "hex": "#1b0245"
+    },
+    {
+        "name": "Haiti",
+        "hex": "#1b1035"
+    },
+    {
+        "name": "Deep Koamaru",
+        "hex": "#1b127b"
+    },
+    {
+        "name": "Acadia",
+        "hex": "#1b1404"
+    },
+    {
+        "name": "Seaweed",
+        "hex": "#1b2f11"
+    },
+    {
+        "name": "Biscay",
+        "hex": "#1b3162"
+    },
+    {
+        "name": "Matisse",
+        "hex": "#1b659d"
+    },
+    {
+        "name": "Crowshead",
+        "hex": "#1c1208"
+    },
+    {
+        "name": "Rangoon Green",
+        "hex": "#1c1e13"
+    },
+    {
+        "name": "Persian Blue",
+        "hex": "#1c39bb"
+    },
+    {
+        "name": "Everglade",
+        "hex": "#1c402e"
+    },
+    {
+        "name": "Elm",
+        "hex": "#1c7c7d"
+    },
+    {
+        "name": "Green Pea",
+        "hex": "#1d6142"
+    },
+    {
+        "name": "Creole",
+        "hex": "#1e0f04"
+    },
+    {
+        "name": "Karaka",
+        "hex": "#1e1609"
+    },
+    {
+        "name": "El Paso",
+        "hex": "#1e1708"
+    },
+    {
+        "name": "Cello",
+        "hex": "#1e385b"
+    },
+    {
+        "name": "Te Papa Green",
+        "hex": "#1e433c"
+    },
+    {
+        "name": "Dodger Blue",
+        "hex": "#1e90ff"
+    },
+    {
+        "name": "Eastern Blue",
+        "hex": "#1e9ab0"
+    },
+    {
+        "name": "Night Rider",
+        "hex": "#1f120f"
+    },
+    {
+        "name": "Java",
+        "hex": "#1fc2c2"
+    },
+    {
+        "name": "Jacksons Purple",
+        "hex": "#20208d"
+    },
+    {
+        "name": "Cloud Burst",
+        "hex": "#202e54"
+    },
+    {
+        "name": "Blue Dianne",
+        "hex": "#204852"
+    },
+    {
+        "name": "Eternity",
+        "hex": "#211a0e"
+    },
+    {
+        "name": "Deep Blue",
+        "hex": "#220878"
+    },
+    {
+        "name": "Forest Green",
+        "hex": "#228b22"
+    },
+    {
+        "name": "Mallard",
+        "hex": "#233418"
+    },
+    {
+        "name": "Violet",
+        "hex": "#240a40"
+    },
+    {
+        "name": "Kilamanjaro",
+        "hex": "#240c02"
+    },
+    {
+        "name": "Log Cabin",
+        "hex": "#242a1d"
+    },
+    {
+        "name": "Black Olive",
+        "hex": "#242e16"
+    },
+    {
+        "name": "Green House",
+        "hex": "#24500f"
+    },
+    {
+        "name": "Graphite",
+        "hex": "#251607"
+    },
+    {
+        "name": "Cannon Black",
+        "hex": "#251706"
+    },
+    {
+        "name": "Port Gore",
+        "hex": "#251f4f"
+    },
+    {
+        "name": "Shark",
+        "hex": "#25272c"
+    },
+    {
+        "name": "Green Kelp",
+        "hex": "#25311c"
+    },
+    {
+        "name": "Curious Blue",
+        "hex": "#2596d1"
+    },
+    {
+        "name": "Paua",
+        "hex": "#260368"
+    },
+    {
+        "name": "Paris M",
+        "hex": "#26056a"
+    },
+    {
+        "name": "Wood Bark",
+        "hex": "#261105"
+    },
+    {
+        "name": "Gondola",
+        "hex": "#261414"
+    },
+    {
+        "name": "Steel Gray",
+        "hex": "#262335"
+    },
+    {
+        "name": "Ebony Clay",
+        "hex": "#26283b"
+    },
+    {
+        "name": "Bay of Many",
+        "hex": "#273a81"
+    },
+    {
+        "name": "Plantation",
+        "hex": "#27504b"
+    },
+    {
+        "name": "Eucalyptus",
+        "hex": "#278a5b"
+    },
+    {
+        "name": "Oil",
+        "hex": "#281e15"
+    },
+    {
+        "name": "Astronaut",
+        "hex": "#283a77"
+    },
+    {
+        "name": "Mariner",
+        "hex": "#286acd"
+    },
+    {
+        "name": "Violent Violet",
+        "hex": "#290c5e"
+    },
+    {
+        "name": "Bastille",
+        "hex": "#292130"
+    },
+    {
+        "name": "Zeus",
+        "hex": "#292319"
+    },
+    {
+        "name": "Charade",
+        "hex": "#292937"
+    },
+    {
+        "name": "Jelly Bean",
+        "hex": "#297b9a"
+    },
+    {
+        "name": "Jungle Green",
+        "hex": "#29ab87"
+    },
+    {
+        "name": "Cherry Pie",
+        "hex": "#2a0359"
+    },
+    {
+        "name": "Coffee Bean",
+        "hex": "#2a140e"
+    },
+    {
+        "name": "Baltic Sea",
+        "hex": "#2a2630"
+    },
+    {
+        "name": "Turtle Green",
+        "hex": "#2a380b"
+    },
+    {
+        "name": "Cerulean Blue",
+        "hex": "#2a52be"
+    },
+    {
+        "name": "Sepia Black",
+        "hex": "#2b0202"
+    },
+    {
+        "name": "Valhalla",
+        "hex": "#2b194f"
+    },
+    {
+        "name": "Heavy Metal",
+        "hex": "#2b3228"
+    },
+    {
+        "name": "Blue Gem",
+        "hex": "#2c0e8c"
+    },
+    {
+        "name": "Revolver",
+        "hex": "#2c1632"
+    },
+    {
+        "name": "Bleached Cedar",
+        "hex": "#2c2133"
+    },
+    {
+        "name": "Lochinvar",
+        "hex": "#2c8c84"
+    },
+    {
+        "name": "Mikado",
+        "hex": "#2d2510"
+    },
+    {
+        "name": "Outer Space",
+        "hex": "#2d383a"
+    },
+    {
+        "name": "St Tropaz",
+        "hex": "#2d569b"
+    },
+    {
+        "name": "Jacaranda",
+        "hex": "#2e0329"
+    },
+    {
+        "name": "Jacko Bean",
+        "hex": "#2e1905"
+    },
+    {
+        "name": "Rangitoto",
+        "hex": "#2e3222"
+    },
+    {
+        "name": "Rhino",
+        "hex": "#2e3f62"
+    },
+    {
+        "name": "Sea Green",
+        "hex": "#2e8b57"
+    },
+    {
+        "name": "Scooter",
+        "hex": "#2ebfd4"
+    },
+    {
+        "name": "Onion",
+        "hex": "#2f270e"
+    },
+    {
+        "name": "Governor Bay",
+        "hex": "#2f3cb3"
+    },
+    {
+        "name": "Sapphire",
+        "hex": "#2f519e"
+    },
+    {
+        "name": "Spectra",
+        "hex": "#2f5a57"
+    },
+    {
+        "name": "Casal",
+        "hex": "#2f6168"
+    },
+    {
+        "name": "Melanzane",
+        "hex": "#300529"
+    },
+    {
+        "name": "Cocoa Brown",
+        "hex": "#301f1e"
+    },
+    {
+        "name": "Woodrush",
+        "hex": "#302a0f"
+    },
+    {
+        "name": "San Juan",
+        "hex": "#304b6a"
+    },
+    {
+        "name": "Turquoise",
+        "hex": "#30d5c8"
+    },
+    {
+        "name": "Eclipse",
+        "hex": "#311c17"
+    },
+    {
+        "name": "Pickled Bluewood",
+        "hex": "#314459"
+    },
+    {
+        "name": "Azure",
+        "hex": "#315ba1"
+    },
+    {
+        "name": "Calypso",
+        "hex": "#31728d"
+    },
+    {
+        "name": "Paradiso",
+        "hex": "#317d82"
+    },
+    {
+        "name": "Persian Indigo",
+        "hex": "#32127a"
+    },
+    {
+        "name": "Blackcurrant",
+        "hex": "#32293a"
+    },
+    {
+        "name": "Mine Shaft",
+        "hex": "#323232"
+    },
+    {
+        "name": "Stromboli",
+        "hex": "#325d52"
+    },
+    {
+        "name": "Bilbao",
+        "hex": "#327c14"
+    },
+    {
+        "name": "Astral",
+        "hex": "#327da0"
+    },
+    {
+        "name": "Christalle",
+        "hex": "#33036b"
+    },
+    {
+        "name": "Thunder",
+        "hex": "#33292f"
+    },
+    {
+        "name": "Shamrock",
+        "hex": "#33cc99"
+    },
+    {
+        "name": "Tamarind",
+        "hex": "#341515"
+    },
+    {
+        "name": "Mardi Gras",
+        "hex": "#350036"
+    },
+    {
+        "name": "Valentino",
+        "hex": "#350e42"
+    },
+    {
+        "name": "Jagger",
+        "hex": "#350e57"
+    },
+    {
+        "name": "Tuna",
+        "hex": "#353542"
+    },
+    {
+        "name": "Chambray",
+        "hex": "#354e8c"
+    },
+    {
+        "name": "Martinique",
+        "hex": "#363050"
+    },
+    {
+        "name": "Tuatara",
+        "hex": "#363534"
+    },
+    {
+        "name": "Waiouru",
+        "hex": "#363c0d"
+    },
+    {
+        "name": "Ming",
+        "hex": "#36747d"
+    },
+    {
+        "name": "La Palma",
+        "hex": "#368716"
+    },
+    {
+        "name": "Chocolate",
+        "hex": "#370202"
+    },
+    {
+        "name": "Clinker",
+        "hex": "#371d09"
+    },
+    {
+        "name": "Brown Tumbleweed",
+        "hex": "#37290e"
+    },
+    {
+        "name": "Birch",
+        "hex": "#373021"
+    },
+    {
+        "name": "Oracle",
+        "hex": "#377475"
+    },
+    {
+        "name": "Blue Diamond",
+        "hex": "#380474"
+    },
+    {
+        "name": "Grape",
+        "hex": "#381a51"
+    },
+    {
+        "name": "Dune",
+        "hex": "#383533"
+    },
+    {
+        "name": "Oxford Blue",
+        "hex": "#384555"
+    },
+    {
+        "name": "Clover",
+        "hex": "#384910"
+    },
+    {
+        "name": "Limed Spruce",
+        "hex": "#394851"
+    },
+    {
+        "name": "Dell",
+        "hex": "#396413"
+    },
+    {
+        "name": "Toledo",
+        "hex": "#3a0020"
+    },
+    {
+        "name": "Sambuca",
+        "hex": "#3a2010"
+    },
+    {
+        "name": "Jacarta",
+        "hex": "#3a2a6a"
+    },
+    {
+        "name": "William",
+        "hex": "#3a686c"
+    },
+    {
+        "name": "Killarney",
+        "hex": "#3a6a47"
+    },
+    {
+        "name": "Keppel",
+        "hex": "#3ab09e"
+    },
+    {
+        "name": "Temptress",
+        "hex": "#3b000b"
+    },
+    {
+        "name": "Aubergine",
+        "hex": "#3b0910"
+    },
+    {
+        "name": "Jon",
+        "hex": "#3b1f1f"
+    },
+    {
+        "name": "Treehouse",
+        "hex": "#3b2820"
+    },
+    {
+        "name": "Amazon",
+        "hex": "#3b7a57"
+    },
+    {
+        "name": "Boston Blue",
+        "hex": "#3b91b4"
+    },
+    {
+        "name": "Windsor",
+        "hex": "#3c0878"
+    },
+    {
+        "name": "Rebel",
+        "hex": "#3c1206"
+    },
+    {
+        "name": "Meteorite",
+        "hex": "#3c1f76"
+    },
+    {
+        "name": "Dark Ebony",
+        "hex": "#3c2005"
+    },
+    {
+        "name": "Camouflage",
+        "hex": "#3c3910"
+    },
+    {
+        "name": "Bright Gray",
+        "hex": "#3c4151"
+    },
+    {
+        "name": "Cape Cod",
+        "hex": "#3c4443"
+    },
+    {
+        "name": "Lunar Green",
+        "hex": "#3c493a"
+    },
+    {
+        "name": "Bean  ",
+        "hex": "#3d0c02"
+    },
+    {
+        "name": "Bistre",
+        "hex": "#3d2b1f"
+    },
+    {
+        "name": "Goblin",
+        "hex": "#3d7d52"
+    },
+    {
+        "name": "Kingfisher Daisy",
+        "hex": "#3e0480"
+    },
+    {
+        "name": "Cedar",
+        "hex": "#3e1c14"
+    },
+    {
+        "name": "English Walnut",
+        "hex": "#3e2b23"
+    },
+    {
+        "name": "Black Marlin",
+        "hex": "#3e2c1c"
+    },
+    {
+        "name": "Ship Gray",
+        "hex": "#3e3a44"
+    },
+    {
+        "name": "Pelorous",
+        "hex": "#3eabbf"
+    },
+    {
+        "name": "Bronze",
+        "hex": "#3f2109"
+    },
+    {
+        "name": "Cola",
+        "hex": "#3f2500"
+    },
+    {
+        "name": "Madras",
+        "hex": "#3f3002"
+    },
+    {
+        "name": "Minsk",
+        "hex": "#3f307f"
+    },
+    {
+        "name": "Cabbage Pont",
+        "hex": "#3f4c3a"
+    },
+    {
+        "name": "Tom Thumb",
+        "hex": "#3f583b"
+    },
+    {
+        "name": "Mineral Green",
+        "hex": "#3f5d53"
+    },
+    {
+        "name": "Puerto Rico",
+        "hex": "#3fc1aa"
+    },
+    {
+        "name": "Harlequin",
+        "hex": "#3fff00"
+    },
+    {
+        "name": "Brown Pod",
+        "hex": "#401801"
+    },
+    {
+        "name": "Cork",
+        "hex": "#40291d"
+    },
+    {
+        "name": "Masala",
+        "hex": "#403b38"
+    },
+    {
+        "name": "Thatch Green",
+        "hex": "#403d19"
+    },
+    {
+        "name": "Fiord",
+        "hex": "#405169"
+    },
+    {
+        "name": "Viridian",
+        "hex": "#40826d"
+    },
+    {
+        "name": "Chateau Green",
+        "hex": "#40a860"
+    },
+    {
+        "name": "Ripe Plum",
+        "hex": "#410056"
+    },
+    {
+        "name": "Paco",
+        "hex": "#411f10"
+    },
+    {
+        "name": "Deep Oak",
+        "hex": "#412010"
+    },
+    {
+        "name": "Merlin",
+        "hex": "#413c37"
+    },
+    {
+        "name": "Gun Powder",
+        "hex": "#414257"
+    },
+    {
+        "name": "East Bay",
+        "hex": "#414c7d"
+    },
+    {
+        "name": "Royal Blue",
+        "hex": "#4169e1"
+    },
+    {
+        "name": "Ocean Green",
+        "hex": "#41aa78"
+    },
+    {
+        "name": "Burnt Maroon",
+        "hex": "#420303"
+    },
+    {
+        "name": "Lisbon Brown",
+        "hex": "#423921"
+    },
+    {
+        "name": "Faded Jade",
+        "hex": "#427977"
+    },
+    {
+        "name": "Scarlet Gum",
+        "hex": "#431560"
+    },
+    {
+        "name": "Iroko",
+        "hex": "#433120"
+    },
+    {
+        "name": "Armadillo",
+        "hex": "#433e37"
+    },
+    {
+        "name": "River Bed",
+        "hex": "#434c59"
+    },
+    {
+        "name": "Green Leaf",
+        "hex": "#436a0d"
+    },
+    {
+        "name": "Barossa",
+        "hex": "#44012d"
+    },
+    {
+        "name": "Morocco Brown",
+        "hex": "#441d00"
+    },
+    {
+        "name": "Mako",
+        "hex": "#444954"
+    },
+    {
+        "name": "Kelp",
+        "hex": "#454936"
+    },
+    {
+        "name": "San Marino",
+        "hex": "#456cac"
+    },
+    {
+        "name": "Picton Blue",
+        "hex": "#45b1e8"
+    },
+    {
+        "name": "Loulou",
+        "hex": "#460b41"
+    },
+    {
+        "name": "Crater Brown",
+        "hex": "#462425"
+    },
+    {
+        "name": "Gray Asparagus",
+        "hex": "#465945"
+    },
+    {
+        "name": "Steel Blue",
+        "hex": "#4682b4"
+    },
+    {
+        "name": "Rustic Red",
+        "hex": "#480404"
+    },
+    {
+        "name": "Bulgarian Rose",
+        "hex": "#480607"
+    },
+    {
+        "name": "Clairvoyant",
+        "hex": "#480656"
+    },
+    {
+        "name": "Cocoa Bean",
+        "hex": "#481c1c"
+    },
+    {
+        "name": "Woody Brown",
+        "hex": "#483131"
+    },
+    {
+        "name": "Taupe",
+        "hex": "#483c32"
+    },
+    {
+        "name": "Van Cleef",
+        "hex": "#49170c"
+    },
+    {
+        "name": "Brown Derby",
+        "hex": "#492615"
+    },
+    {
+        "name": "Metallic Bronze",
+        "hex": "#49371b"
+    },
+    {
+        "name": "Verdun Green",
+        "hex": "#495400"
+    },
+    {
+        "name": "Blue Bayoux",
+        "hex": "#496679"
+    },
+    {
+        "name": "Bismark",
+        "hex": "#497183"
+    },
+    {
+        "name": "Bracken",
+        "hex": "#4a2a04"
+    },
+    {
+        "name": "Deep Bronze",
+        "hex": "#4a3004"
+    },
+    {
+        "name": "Mondo",
+        "hex": "#4a3c30"
+    },
+    {
+        "name": "Tundora",
+        "hex": "#4a4244"
+    },
+    {
+        "name": "Gravel",
+        "hex": "#4a444b"
+    },
+    {
+        "name": "Trout",
+        "hex": "#4a4e5a"
+    },
+    {
+        "name": "Pigment Indigo",
+        "hex": "#4b0082"
+    },
+    {
+        "name": "Nandor",
+        "hex": "#4b5d52"
+    },
+    {
+        "name": "Saddle",
+        "hex": "#4c3024"
+    },
+    {
+        "name": "Abbey",
+        "hex": "#4c4f56"
+    },
+    {
+        "name": "Blackberry",
+        "hex": "#4d0135"
+    },
+    {
+        "name": "Cab Sav",
+        "hex": "#4d0a18"
+    },
+    {
+        "name": "Indian Tan",
+        "hex": "#4d1e01"
+    },
+    {
+        "name": "Cowboy",
+        "hex": "#4d282d"
+    },
+    {
+        "name": "Livid Brown",
+        "hex": "#4d282e"
+    },
+    {
+        "name": "Rock",
+        "hex": "#4d3833"
+    },
+    {
+        "name": "Punga",
+        "hex": "#4d3d14"
+    },
+    {
+        "name": "Bronzetone",
+        "hex": "#4d400f"
+    },
+    {
+        "name": "Woodland",
+        "hex": "#4d5328"
+    },
+    {
+        "name": "Mahogany",
+        "hex": "#4e0606"
+    },
+    {
+        "name": "Bossanova",
+        "hex": "#4e2a5a"
+    },
+    {
+        "name": "Matterhorn",
+        "hex": "#4e3b41"
+    },
+    {
+        "name": "Bronze Olive",
+        "hex": "#4e420c"
+    },
+    {
+        "name": "Mulled Wine",
+        "hex": "#4e4562"
+    },
+    {
+        "name": "Axolotl",
+        "hex": "#4e6649"
+    },
+    {
+        "name": "Wedgewood",
+        "hex": "#4e7f9e"
+    },
+    {
+        "name": "Shakespeare",
+        "hex": "#4eabd1"
+    },
+    {
+        "name": "Honey Flower",
+        "hex": "#4f1c70"
+    },
+    {
+        "name": "Daisy Bush",
+        "hex": "#4f2398"
+    },
+    {
+        "name": "Indigo",
+        "hex": "#4f69c6"
+    },
+    {
+        "name": "Fern Green",
+        "hex": "#4f7942"
+    },
+    {
+        "name": "Fruit Salad",
+        "hex": "#4f9d5d"
+    },
+    {
+        "name": "Apple",
+        "hex": "#4fa83d"
+    },
+    {
+        "name": "Mortar",
+        "hex": "#504351"
+    },
+    {
+        "name": "Kashmir Blue",
+        "hex": "#507096"
+    },
+    {
+        "name": "Cutty Sark",
+        "hex": "#507672"
+    },
+    {
+        "name": "Emerald",
+        "hex": "#50c878"
+    },
+    {
+        "name": "Emperor",
+        "hex": "#514649"
+    },
+    {
+        "name": "Chalet Green",
+        "hex": "#516e3d"
+    },
+    {
+        "name": "Como",
+        "hex": "#517c66"
+    },
+    {
+        "name": "Smalt Blue",
+        "hex": "#51808f"
+    },
+    {
+        "name": "Castro",
+        "hex": "#52001f"
+    },
+    {
+        "name": "Maroon Oak",
+        "hex": "#520c17"
+    },
+    {
+        "name": "Gigas",
+        "hex": "#523c94"
+    },
+    {
+        "name": "Voodoo",
+        "hex": "#533455"
+    },
+    {
+        "name": "Victoria",
+        "hex": "#534491"
+    },
+    {
+        "name": "Hippie Green",
+        "hex": "#53824b"
+    },
+    {
+        "name": "Heath",
+        "hex": "#541012"
+    },
+    {
+        "name": "Judge Gray",
+        "hex": "#544333"
+    },
+    {
+        "name": "Fuscous Gray",
+        "hex": "#54534d"
+    },
+    {
+        "name": "Vida Loca",
+        "hex": "#549019"
+    },
+    {
+        "name": "Cioccolato",
+        "hex": "#55280c"
+    },
+    {
+        "name": "Saratoga",
+        "hex": "#555b10"
+    },
+    {
+        "name": "Finlandia",
+        "hex": "#556d56"
+    },
+    {
+        "name": "Havelock Blue",
+        "hex": "#5590d9"
+    },
+    {
+        "name": "Fountain Blue",
+        "hex": "#56b4be"
+    },
+    {
+        "name": "Spring Leaves",
+        "hex": "#578363"
+    },
+    {
+        "name": "Saddle Brown",
+        "hex": "#583401"
+    },
+    {
+        "name": "Scarpa Flow",
+        "hex": "#585562"
+    },
+    {
+        "name": "Cactus",
+        "hex": "#587156"
+    },
+    {
+        "name": "Hippie Blue",
+        "hex": "#589aaf"
+    },
+    {
+        "name": "Wine Berry",
+        "hex": "#591d35"
+    },
+    {
+        "name": "Brown Bramble",
+        "hex": "#592804"
+    },
+    {
+        "name": "Congo Brown",
+        "hex": "#593737"
+    },
+    {
+        "name": "Millbrook",
+        "hex": "#594433"
+    },
+    {
+        "name": "Waikawa Gray",
+        "hex": "#5a6e9c"
+    },
+    {
+        "name": "Horizon",
+        "hex": "#5a87a0"
+    },
+    {
+        "name": "Jambalaya",
+        "hex": "#5b3013"
+    },
+    {
+        "name": "Bordeaux",
+        "hex": "#5c0120"
+    },
+    {
+        "name": "Mulberry Wood",
+        "hex": "#5c0536"
+    },
+    {
+        "name": "Carnaby Tan",
+        "hex": "#5c2e01"
+    },
+    {
+        "name": "Comet",
+        "hex": "#5c5d75"
+    },
+    {
+        "name": "Redwood",
+        "hex": "#5d1e0f"
+    },
+    {
+        "name": "Don Juan",
+        "hex": "#5d4c51"
+    },
+    {
+        "name": "Chicago",
+        "hex": "#5d5c58"
+    },
+    {
+        "name": "Verdigris",
+        "hex": "#5d5e37"
+    },
+    {
+        "name": "Dingley",
+        "hex": "#5d7747"
+    },
+    {
+        "name": "Breaker Bay",
+        "hex": "#5da19f"
+    },
+    {
+        "name": "Kabul",
+        "hex": "#5e483e"
+    },
+    {
+        "name": "Hemlock",
+        "hex": "#5e5d3b"
+    },
+    {
+        "name": "Irish Coffee",
+        "hex": "#5f3d26"
+    },
+    {
+        "name": "Mid Gray",
+        "hex": "#5f5f6e"
+    },
+    {
+        "name": "Shuttle Gray",
+        "hex": "#5f6672"
+    },
+    {
+        "name": "Aqua Forest",
+        "hex": "#5fa777"
+    },
+    {
+        "name": "Tradewind",
+        "hex": "#5fb3ac"
+    },
+    {
+        "name": "Horses Neck",
+        "hex": "#604913"
+    },
+    {
+        "name": "Smoky",
+        "hex": "#605b73"
+    },
+    {
+        "name": "Corduroy",
+        "hex": "#606e68"
+    },
+    {
+        "name": "Danube",
+        "hex": "#6093d1"
+    },
+    {
+        "name": "Espresso",
+        "hex": "#612718"
+    },
+    {
+        "name": "Eggplant",
+        "hex": "#614051"
+    },
+    {
+        "name": "Costa Del Sol",
+        "hex": "#615d30"
+    },
+    {
+        "name": "Glade Green",
+        "hex": "#61845f"
+    },
+    {
+        "name": "Buccaneer",
+        "hex": "#622f30"
+    },
+    {
+        "name": "Quincy",
+        "hex": "#623f2d"
+    },
+    {
+        "name": "Butterfly Bush",
+        "hex": "#624e9a"
+    },
+    {
+        "name": "West Coast",
+        "hex": "#625119"
+    },
+    {
+        "name": "Finch",
+        "hex": "#626649"
+    },
+    {
+        "name": "Patina",
+        "hex": "#639a8f"
+    },
+    {
+        "name": "Fern",
+        "hex": "#63b76c"
+    },
+    {
+        "name": "Blue Violet",
+        "hex": "#6456b7"
+    },
+    {
+        "name": "Dolphin",
+        "hex": "#646077"
+    },
+    {
+        "name": "Storm Dust",
+        "hex": "#646463"
+    },
+    {
+        "name": "Siam",
+        "hex": "#646a54"
+    },
+    {
+        "name": "Nevada",
+        "hex": "#646e75"
+    },
+    {
+        "name": "Cornflower Blue",
+        "hex": "#6495ed"
+    },
+    {
+        "name": "Viking",
+        "hex": "#64ccdb"
+    },
+    {
+        "name": "Rosewood",
+        "hex": "#65000b"
+    },
+    {
+        "name": "Cherrywood",
+        "hex": "#651a14"
+    },
+    {
+        "name": "Purple Heart",
+        "hex": "#652dc1"
+    },
+    {
+        "name": "Fern Frond",
+        "hex": "#657220"
+    },
+    {
+        "name": "Willow Grove",
+        "hex": "#65745d"
+    },
+    {
+        "name": "Hoki",
+        "hex": "#65869f"
+    },
+    {
+        "name": "Pompadour",
+        "hex": "#660045"
+    },
+    {
+        "name": "Purple",
+        "hex": "#660099"
+    },
+    {
+        "name": "Tyrian Purple",
+        "hex": "#66023c"
+    },
+    {
+        "name": "Dark Tan",
+        "hex": "#661010"
+    },
+    {
+        "name": "Silver Tree",
+        "hex": "#66b58f"
+    },
+    {
+        "name": "Bright Green",
+        "hex": "#66ff00"
+    },
+    {
+        "name": "Screamin' Green",
+        "hex": "#66ff66"
+    },
+    {
+        "name": "Black Rose",
+        "hex": "#67032d"
+    },
+    {
+        "name": "Scampi",
+        "hex": "#675fa6"
+    },
+    {
+        "name": "Ironside Gray",
+        "hex": "#676662"
+    },
+    {
+        "name": "Viridian Green",
+        "hex": "#678975"
+    },
+    {
+        "name": "Christi",
+        "hex": "#67a712"
+    },
+    {
+        "name": "Nutmeg Wood Finish",
+        "hex": "#683600"
+    },
+    {
+        "name": "Zambezi",
+        "hex": "#685558"
+    },
+    {
+        "name": "Salt Box",
+        "hex": "#685e6e"
+    },
+    {
+        "name": "Tawny Port",
+        "hex": "#692545"
+    },
+    {
+        "name": "Finn",
+        "hex": "#692d54"
+    },
+    {
+        "name": "Scorpion",
+        "hex": "#695f62"
+    },
+    {
+        "name": "Lynch",
+        "hex": "#697e9a"
+    },
+    {
+        "name": "Spice",
+        "hex": "#6a442e"
+    },
+    {
+        "name": "Himalaya",
+        "hex": "#6a5d1b"
+    },
+    {
+        "name": "Soya Bean",
+        "hex": "#6a6051"
+    },
+    {
+        "name": "Hairy Heath",
+        "hex": "#6b2a14"
+    },
+    {
+        "name": "Royal Purple",
+        "hex": "#6b3fa0"
+    },
+    {
+        "name": "Shingle Fawn",
+        "hex": "#6b4e31"
+    },
+    {
+        "name": "Dorado",
+        "hex": "#6b5755"
+    },
+    {
+        "name": "Bermuda Gray",
+        "hex": "#6b8ba2"
+    },
+    {
+        "name": "Olive Drab",
+        "hex": "#6b8e23"
+    },
+    {
+        "name": "Eminence",
+        "hex": "#6c3082"
+    },
+    {
+        "name": "Turquoise Blue",
+        "hex": "#6cdae7"
+    },
+    {
+        "name": "Lonestar",
+        "hex": "#6d0101"
+    },
+    {
+        "name": "Pine Cone",
+        "hex": "#6d5e54"
+    },
+    {
+        "name": "Dove Gray",
+        "hex": "#6d6c6c"
+    },
+    {
+        "name": "Juniper",
+        "hex": "#6d9292"
+    },
+    {
+        "name": "Gothic",
+        "hex": "#6d92a1"
+    },
+    {
+        "name": "Red Oxide",
+        "hex": "#6e0902"
+    },
+    {
+        "name": "Moccaccino",
+        "hex": "#6e1d14"
+    },
+    {
+        "name": "Pickled Bean",
+        "hex": "#6e4826"
+    },
+    {
+        "name": "Dallas",
+        "hex": "#6e4b26"
+    },
+    {
+        "name": "Kokoda",
+        "hex": "#6e6d57"
+    },
+    {
+        "name": "Pale Sky",
+        "hex": "#6e7783"
+    },
+    {
+        "name": "Cafe Royale",
+        "hex": "#6f440c"
+    },
+    {
+        "name": "Flint",
+        "hex": "#6f6a61"
+    },
+    {
+        "name": "Highland",
+        "hex": "#6f8e63"
+    },
+    {
+        "name": "Limeade",
+        "hex": "#6f9d02"
+    },
+    {
+        "name": "Downy",
+        "hex": "#6fd0c5"
+    },
+    {
+        "name": "Persian Plum",
+        "hex": "#701c1c"
+    },
+    {
+        "name": "Sepia",
+        "hex": "#704214"
+    },
+    {
+        "name": "Antique Bronze",
+        "hex": "#704a07"
+    },
+    {
+        "name": "Ferra",
+        "hex": "#704f50"
+    },
+    {
+        "name": "Coffee",
+        "hex": "#706555"
+    },
+    {
+        "name": "Slate Gray",
+        "hex": "#708090"
+    },
+    {
+        "name": "Cedar Wood Finish",
+        "hex": "#711a00"
+    },
+    {
+        "name": "Metallic Copper",
+        "hex": "#71291d"
+    },
+    {
+        "name": "Affair",
+        "hex": "#714693"
+    },
+    {
+        "name": "Studio",
+        "hex": "#714ab2"
+    },
+    {
+        "name": "Tobacco Brown",
+        "hex": "#715d47"
+    },
+    {
+        "name": "Yellow Metal",
+        "hex": "#716338"
+    },
+    {
+        "name": "Peat",
+        "hex": "#716b56"
+    },
+    {
+        "name": "Olivetone",
+        "hex": "#716e10"
+    },
+    {
+        "name": "Storm Gray",
+        "hex": "#717486"
+    },
+    {
+        "name": "Sirocco",
+        "hex": "#718080"
+    },
+    {
+        "name": "Aquamarine Blue",
+        "hex": "#71d9e2"
+    },
+    {
+        "name": "Venetian Red",
+        "hex": "#72010f"
+    },
+    {
+        "name": "Old Copper",
+        "hex": "#724a2f"
+    },
+    {
+        "name": "Go Ben",
+        "hex": "#726d4e"
+    },
+    {
+        "name": "Raven",
+        "hex": "#727b89"
+    },
+    {
+        "name": "Seance",
+        "hex": "#731e8f"
+    },
+    {
+        "name": "Raw Umber",
+        "hex": "#734a12"
+    },
+    {
+        "name": "Kimberly",
+        "hex": "#736c9f"
+    },
+    {
+        "name": "Crocodile",
+        "hex": "#736d58"
+    },
+    {
+        "name": "Crete",
+        "hex": "#737829"
+    },
+    {
+        "name": "Xanadu",
+        "hex": "#738678"
+    },
+    {
+        "name": "Spicy Mustard",
+        "hex": "#74640d"
+    },
+    {
+        "name": "Limed Ash",
+        "hex": "#747d63"
+    },
+    {
+        "name": "Rolling Stone",
+        "hex": "#747d83"
+    },
+    {
+        "name": "Blue Smoke",
+        "hex": "#748881"
+    },
+    {
+        "name": "Laurel",
+        "hex": "#749378"
+    },
+    {
+        "name": "Mantis",
+        "hex": "#74c365"
+    },
+    {
+        "name": "Russett",
+        "hex": "#755a57"
+    },
+    {
+        "name": "Deluge",
+        "hex": "#7563a8"
+    },
+    {
+        "name": "Cosmic",
+        "hex": "#76395d"
+    },
+    {
+        "name": "Blue Marguerite",
+        "hex": "#7666c6"
+    },
+    {
+        "name": "Lima",
+        "hex": "#76bd17"
+    },
+    {
+        "name": "Sky Blue",
+        "hex": "#76d7ea"
+    },
+    {
+        "name": "Dark Burgundy",
+        "hex": "#770f05"
+    },
+    {
+        "name": "Crown of Thorns",
+        "hex": "#771f1f"
+    },
+    {
+        "name": "Walnut",
+        "hex": "#773f1a"
+    },
+    {
+        "name": "Pablo",
+        "hex": "#776f61"
+    },
+    {
+        "name": "Pacifika",
+        "hex": "#778120"
+    },
+    {
+        "name": "Oxley",
+        "hex": "#779e86"
+    },
+    {
+        "name": "Pastel Green",
+        "hex": "#77dd77"
+    },
+    {
+        "name": "Japanese Maple",
+        "hex": "#780109"
+    },
+    {
+        "name": "Mocha",
+        "hex": "#782d19"
+    },
+    {
+        "name": "Peanut",
+        "hex": "#782f16"
+    },
+    {
+        "name": "Camouflage Green",
+        "hex": "#78866b"
+    },
+    {
+        "name": "Wasabi",
+        "hex": "#788a25"
+    },
+    {
+        "name": "Ship Cove",
+        "hex": "#788bba"
+    },
+    {
+        "name": "Sea Nymph",
+        "hex": "#78a39c"
+    },
+    {
+        "name": "Roman Coffee",
+        "hex": "#795d4c"
+    },
+    {
+        "name": "Old Lavender",
+        "hex": "#796878"
+    },
+    {
+        "name": "Rum",
+        "hex": "#796989"
+    },
+    {
+        "name": "Fedora",
+        "hex": "#796a78"
+    },
+    {
+        "name": "Sandstone",
+        "hex": "#796d62"
+    },
+    {
+        "name": "Spray",
+        "hex": "#79deec"
+    },
+    {
+        "name": "Siren",
+        "hex": "#7a013a"
+    },
+    {
+        "name": "Fuchsia Blue",
+        "hex": "#7a58c1"
+    },
+    {
+        "name": "Boulder",
+        "hex": "#7a7a7a"
+    },
+    {
+        "name": "Wild Blue Yonder",
+        "hex": "#7a89b8"
+    },
+    {
+        "name": "De York",
+        "hex": "#7ac488"
+    },
+    {
+        "name": "Red Beech",
+        "hex": "#7b3801"
+    },
+    {
+        "name": "Cinnamon",
+        "hex": "#7b3f00"
+    },
+    {
+        "name": "Yukon Gold",
+        "hex": "#7b6608"
+    },
+    {
+        "name": "Tapa",
+        "hex": "#7b7874"
+    },
+    {
+        "name": "Waterloo ",
+        "hex": "#7b7c94"
+    },
+    {
+        "name": "Flax Smoke",
+        "hex": "#7b8265"
+    },
+    {
+        "name": "Amulet",
+        "hex": "#7b9f80"
+    },
+    {
+        "name": "Asparagus",
+        "hex": "#7ba05b"
+    },
+    {
+        "name": "Kenyan Copper",
+        "hex": "#7c1c05"
+    },
+    {
+        "name": "Pesto",
+        "hex": "#7c7631"
+    },
+    {
+        "name": "Topaz",
+        "hex": "#7c778a"
+    },
+    {
+        "name": "Concord",
+        "hex": "#7c7b7a"
+    },
+    {
+        "name": "Jumbo",
+        "hex": "#7c7b82"
+    },
+    {
+        "name": "Trendy Green",
+        "hex": "#7c881a"
+    },
+    {
+        "name": "Gumbo",
+        "hex": "#7ca1a6"
+    },
+    {
+        "name": "Acapulco",
+        "hex": "#7cb0a1"
+    },
+    {
+        "name": "Neptune",
+        "hex": "#7cb7bb"
+    },
+    {
+        "name": "Pueblo",
+        "hex": "#7d2c14"
+    },
+    {
+        "name": "Bay Leaf",
+        "hex": "#7da98d"
+    },
+    {
+        "name": "Malibu",
+        "hex": "#7dc8f7"
+    },
+    {
+        "name": "Bermuda",
+        "hex": "#7dd8c6"
+    },
+    {
+        "name": "Copper Canyon",
+        "hex": "#7e3a15"
+    },
+    {
+        "name": "Claret",
+        "hex": "#7f1734"
+    },
+    {
+        "name": "Peru Tan",
+        "hex": "#7f3a02"
+    },
+    {
+        "name": "Falcon",
+        "hex": "#7f626d"
+    },
+    {
+        "name": "Mobster",
+        "hex": "#7f7589"
+    },
+    {
+        "name": "Moody Blue",
+        "hex": "#7f76d3"
+    },
+    {
+        "name": "Chartreuse",
+        "hex": "#7fff00"
+    },
+    {
+        "name": "Aquamarine",
+        "hex": "#7fffd4"
+    },
+    {
+        "name": "Maroon",
+        "hex": "#800000"
+    },
+    {
+        "name": "Rose Bud Cherry",
+        "hex": "#800b47"
+    },
+    {
+        "name": "Falu Red",
+        "hex": "#801818"
+    },
+    {
+        "name": "Red Robin",
+        "hex": "#80341f"
+    },
+    {
+        "name": "Vivid Violet",
+        "hex": "#803790"
+    },
+    {
+        "name": "Russet",
+        "hex": "#80461b"
+    },
+    {
+        "name": "Friar Gray",
+        "hex": "#807e79"
+    },
+    {
+        "name": "Olive",
+        "hex": "#808000"
+    },
+    {
+        "name": "Gray",
+        "hex": "#808080"
+    },
+    {
+        "name": "Gulf Stream",
+        "hex": "#80b3ae"
+    },
+    {
+        "name": "Glacier",
+        "hex": "#80b3c4"
+    },
+    {
+        "name": "Seagull",
+        "hex": "#80ccea"
+    },
+    {
+        "name": "Nutmeg",
+        "hex": "#81422c"
+    },
+    {
+        "name": "Spicy Pink",
+        "hex": "#816e71"
+    },
+    {
+        "name": "Empress",
+        "hex": "#817377"
+    },
+    {
+        "name": "Spanish Green",
+        "hex": "#819885"
+    },
+    {
+        "name": "Sand Dune",
+        "hex": "#826f65"
+    },
+    {
+        "name": "Gunsmoke",
+        "hex": "#828685"
+    },
+    {
+        "name": "Battleship Gray",
+        "hex": "#828f72"
+    },
+    {
+        "name": "Merlot",
+        "hex": "#831923"
+    },
+    {
+        "name": "Shadow",
+        "hex": "#837050"
+    },
+    {
+        "name": "Chelsea Cucumber",
+        "hex": "#83aa5d"
+    },
+    {
+        "name": "Monte Carlo",
+        "hex": "#83d0c6"
+    },
+    {
+        "name": "Plum",
+        "hex": "#843179"
+    },
+    {
+        "name": "Granny Smith",
+        "hex": "#84a0a0"
+    },
+    {
+        "name": "Chetwode Blue",
+        "hex": "#8581d9"
+    },
+    {
+        "name": "Bandicoot",
+        "hex": "#858470"
+    },
+    {
+        "name": "Bali Hai",
+        "hex": "#859faf"
+    },
+    {
+        "name": "Half Baked",
+        "hex": "#85c4cc"
+    },
+    {
+        "name": "Red Devil",
+        "hex": "#860111"
+    },
+    {
+        "name": "Lotus",
+        "hex": "#863c3c"
+    },
+    {
+        "name": "Ironstone",
+        "hex": "#86483c"
+    },
+    {
+        "name": "Bull Shot",
+        "hex": "#864d1e"
+    },
+    {
+        "name": "Rusty Nail",
+        "hex": "#86560a"
+    },
+    {
+        "name": "Bitter",
+        "hex": "#868974"
+    },
+    {
+        "name": "Regent Gray",
+        "hex": "#86949f"
+    },
+    {
+        "name": "Disco",
+        "hex": "#871550"
+    },
+    {
+        "name": "Americano",
+        "hex": "#87756e"
+    },
+    {
+        "name": "Hurricane",
+        "hex": "#877c7b"
+    },
+    {
+        "name": "Oslo Gray",
+        "hex": "#878d91"
+    },
+    {
+        "name": "Sushi",
+        "hex": "#87ab39"
+    },
+    {
+        "name": "Spicy Mix",
+        "hex": "#885342"
+    },
+    {
+        "name": "Kumera",
+        "hex": "#886221"
+    },
+    {
+        "name": "Suva Gray",
+        "hex": "#888387"
+    },
+    {
+        "name": "Avocado",
+        "hex": "#888d65"
+    },
+    {
+        "name": "Camelot",
+        "hex": "#893456"
+    },
+    {
+        "name": "Solid Pink",
+        "hex": "#893843"
+    },
+    {
+        "name": "Cannon Pink",
+        "hex": "#894367"
+    },
+    {
+        "name": "Makara",
+        "hex": "#897d6d"
+    },
+    {
+        "name": "Burnt Umber",
+        "hex": "#8a3324"
+    },
+    {
+        "name": "True V",
+        "hex": "#8a73d6"
+    },
+    {
+        "name": "Clay Creek",
+        "hex": "#8a8360"
+    },
+    {
+        "name": "Monsoon",
+        "hex": "#8a8389"
+    },
+    {
+        "name": "Stack",
+        "hex": "#8a8f8a"
+    },
+    {
+        "name": "Jordy Blue",
+        "hex": "#8ab9f1"
+    },
+    {
+        "name": "Electric Violet",
+        "hex": "#8b00ff"
+    },
+    {
+        "name": "Monarch",
+        "hex": "#8b0723"
+    },
+    {
+        "name": "Corn Harvest",
+        "hex": "#8b6b0b"
+    },
+    {
+        "name": "Olive Haze",
+        "hex": "#8b8470"
+    },
+    {
+        "name": "Schooner",
+        "hex": "#8b847e"
+    },
+    {
+        "name": "Natural Gray",
+        "hex": "#8b8680"
+    },
+    {
+        "name": "Mantle",
+        "hex": "#8b9c90"
+    },
+    {
+        "name": "Portage",
+        "hex": "#8b9fee"
+    },
+    {
+        "name": "Envy",
+        "hex": "#8ba690"
+    },
+    {
+        "name": "Cascade",
+        "hex": "#8ba9a5"
+    },
+    {
+        "name": "Riptide",
+        "hex": "#8be6d8"
+    },
+    {
+        "name": "Cardinal Pink",
+        "hex": "#8c055e"
+    },
+    {
+        "name": "Mule Fawn",
+        "hex": "#8c472f"
+    },
+    {
+        "name": "Potters Clay",
+        "hex": "#8c5738"
+    },
+    {
+        "name": "Trendy Pink",
+        "hex": "#8c6495"
+    },
+    {
+        "name": "Paprika",
+        "hex": "#8d0226"
+    },
+    {
+        "name": "Sanguine Brown",
+        "hex": "#8d3d38"
+    },
+    {
+        "name": "Tosca",
+        "hex": "#8d3f3f"
+    },
+    {
+        "name": "Cement",
+        "hex": "#8d7662"
+    },
+    {
+        "name": "Granite Green",
+        "hex": "#8d8974"
+    },
+    {
+        "name": "Manatee",
+        "hex": "#8d90a1"
+    },
+    {
+        "name": "Polo Blue",
+        "hex": "#8da8cc"
+    },
+    {
+        "name": "Red Berry",
+        "hex": "#8e0000"
+    },
+    {
+        "name": "Rope",
+        "hex": "#8e4d1e"
+    },
+    {
+        "name": "Opium",
+        "hex": "#8e6f70"
+    },
+    {
+        "name": "Domino",
+        "hex": "#8e775e"
+    },
+    {
+        "name": "Mamba",
+        "hex": "#8e8190"
+    },
+    {
+        "name": "Nepal",
+        "hex": "#8eabc1"
+    },
+    {
+        "name": "Pohutukawa",
+        "hex": "#8f021c"
+    },
+    {
+        "name": "El Salva",
+        "hex": "#8f3e33"
+    },
+    {
+        "name": "Korma",
+        "hex": "#8f4b0e"
+    },
+    {
+        "name": "Squirrel",
+        "hex": "#8f8176"
+    },
+    {
+        "name": "Vista Blue",
+        "hex": "#8fd6b4"
+    },
+    {
+        "name": "Burgundy",
+        "hex": "#900020"
+    },
+    {
+        "name": "Old Brick",
+        "hex": "#901e1e"
+    },
+    {
+        "name": "Hemp",
+        "hex": "#907874"
+    },
+    {
+        "name": "Almond Frost",
+        "hex": "#907b71"
+    },
+    {
+        "name": "Sycamore",
+        "hex": "#908d39"
+    },
+    {
+        "name": "Sangria",
+        "hex": "#92000a"
+    },
+    {
+        "name": "Cumin",
+        "hex": "#924321"
+    },
+    {
+        "name": "Beaver",
+        "hex": "#926f5b"
+    },
+    {
+        "name": "Stonewall",
+        "hex": "#928573"
+    },
+    {
+        "name": "Venus",
+        "hex": "#928590"
+    },
+    {
+        "name": "Medium Purple",
+        "hex": "#9370db"
+    },
+    {
+        "name": "Cornflower",
+        "hex": "#93ccea"
+    },
+    {
+        "name": "Algae Green",
+        "hex": "#93dfb8"
+    },
+    {
+        "name": "Copper Rust",
+        "hex": "#944747"
+    },
+    {
+        "name": "Arrowtown",
+        "hex": "#948771"
+    },
+    {
+        "name": "Scarlett",
+        "hex": "#950015"
+    },
+    {
+        "name": "Strikemaster",
+        "hex": "#956387"
+    },
+    {
+        "name": "Mountain Mist",
+        "hex": "#959396"
+    },
+    {
+        "name": "Carmine",
+        "hex": "#960018"
+    },
+    {
+        "name": "Brown",
+        "hex": "#964b00"
+    },
+    {
+        "name": "Leather",
+        "hex": "#967059"
+    },
+    {
+        "name": "Purple Mountain's Majesty",
+        "hex": "#9678b6"
+    },
+    {
+        "name": "Lavender Purple",
+        "hex": "#967bb6"
+    },
+    {
+        "name": "Pewter",
+        "hex": "#96a8a1"
+    },
+    {
+        "name": "Summer Green",
+        "hex": "#96bbab"
+    },
+    {
+        "name": "Au Chico",
+        "hex": "#97605d"
+    },
+    {
+        "name": "Wisteria",
+        "hex": "#9771b5"
+    },
+    {
+        "name": "Atlantis",
+        "hex": "#97cd2d"
+    },
+    {
+        "name": "Vin Rouge",
+        "hex": "#983d61"
+    },
+    {
+        "name": "Lilac Bush",
+        "hex": "#9874d3"
+    },
+    {
+        "name": "Bazaar",
+        "hex": "#98777b"
+    },
+    {
+        "name": "Hacienda",
+        "hex": "#98811b"
+    },
+    {
+        "name": "Pale Oyster",
+        "hex": "#988d77"
+    },
+    {
+        "name": "Mint Green",
+        "hex": "#98ff98"
+    },
+    {
+        "name": "Fresh Eggplant",
+        "hex": "#990066"
+    },
+    {
+        "name": "Violet Eggplant",
+        "hex": "#991199"
+    },
+    {
+        "name": "Tamarillo",
+        "hex": "#991613"
+    },
+    {
+        "name": "Totem Pole",
+        "hex": "#991b07"
+    },
+    {
+        "name": "Copper Rose",
+        "hex": "#996666"
+    },
+    {
+        "name": "Amethyst",
+        "hex": "#9966cc"
+    },
+    {
+        "name": "Mountbatten Pink",
+        "hex": "#997a8d"
+    },
+    {
+        "name": "Blue Bell",
+        "hex": "#9999cc"
+    },
+    {
+        "name": "Prairie Sand",
+        "hex": "#9a3820"
+    },
+    {
+        "name": "Toast",
+        "hex": "#9a6e61"
+    },
+    {
+        "name": "Gurkha",
+        "hex": "#9a9577"
+    },
+    {
+        "name": "Olivine",
+        "hex": "#9ab973"
+    },
+    {
+        "name": "Shadow Green",
+        "hex": "#9ac2b8"
+    },
+    {
+        "name": "Oregon",
+        "hex": "#9b4703"
+    },
+    {
+        "name": "Lemon Grass",
+        "hex": "#9b9e8f"
+    },
+    {
+        "name": "Stiletto",
+        "hex": "#9c3336"
+    },
+    {
+        "name": "Hawaiian Tan",
+        "hex": "#9d5616"
+    },
+    {
+        "name": "Gull Gray",
+        "hex": "#9dacb7"
+    },
+    {
+        "name": "Pistachio",
+        "hex": "#9dc209"
+    },
+    {
+        "name": "Granny Smith Apple",
+        "hex": "#9de093"
+    },
+    {
+        "name": "Anakiwa",
+        "hex": "#9de5ff"
+    },
+    {
+        "name": "Chelsea Gem",
+        "hex": "#9e5302"
+    },
+    {
+        "name": "Sepia Skin",
+        "hex": "#9e5b40"
+    },
+    {
+        "name": "Sage",
+        "hex": "#9ea587"
+    },
+    {
+        "name": "Citron",
+        "hex": "#9ea91f"
+    },
+    {
+        "name": "Rock Blue",
+        "hex": "#9eb1cd"
+    },
+    {
+        "name": "Morning Glory",
+        "hex": "#9edee0"
+    },
+    {
+        "name": "Cognac",
+        "hex": "#9f381d"
+    },
+    {
+        "name": "Reef Gold",
+        "hex": "#9f821c"
+    },
+    {
+        "name": "Star Dust",
+        "hex": "#9f9f9c"
+    },
+    {
+        "name": "Santas Gray",
+        "hex": "#9fa0b1"
+    },
+    {
+        "name": "Sinbad",
+        "hex": "#9fd7d3"
+    },
+    {
+        "name": "Feijoa",
+        "hex": "#9fdd8c"
+    },
+    {
+        "name": "Tabasco",
+        "hex": "#a02712"
+    },
+    {
+        "name": "Buttered Rum",
+        "hex": "#a1750d"
+    },
+    {
+        "name": "Hit Gray",
+        "hex": "#a1adb5"
+    },
+    {
+        "name": "Citrus",
+        "hex": "#a1c50a"
+    },
+    {
+        "name": "Aqua Island",
+        "hex": "#a1dad7"
+    },
+    {
+        "name": "Water Leaf",
+        "hex": "#a1e9de"
+    },
+    {
+        "name": "Flirt",
+        "hex": "#a2006d"
+    },
+    {
+        "name": "Rouge",
+        "hex": "#a23b6c"
+    },
+    {
+        "name": "Cape Palliser",
+        "hex": "#a26645"
+    },
+    {
+        "name": "Gray Chateau",
+        "hex": "#a2aab3"
+    },
+    {
+        "name": "Edward",
+        "hex": "#a2aeab"
+    },
+    {
+        "name": "Pharlap",
+        "hex": "#a3807b"
+    },
+    {
+        "name": "Amethyst Smoke",
+        "hex": "#a397b4"
+    },
+    {
+        "name": "Blizzard Blue",
+        "hex": "#a3e3ed"
+    },
+    {
+        "name": "Delta",
+        "hex": "#a4a49d"
+    },
+    {
+        "name": "Wistful",
+        "hex": "#a4a6d3"
+    },
+    {
+        "name": "Green Smoke",
+        "hex": "#a4af6e"
+    },
+    {
+        "name": "Jazzberry Jam",
+        "hex": "#a50b5e"
+    },
+    {
+        "name": "Zorba",
+        "hex": "#a59b91"
+    },
+    {
+        "name": "Bahia",
+        "hex": "#a5cb0c"
+    },
+    {
+        "name": "Roof Terracotta",
+        "hex": "#a62f20"
+    },
+    {
+        "name": "Paarl",
+        "hex": "#a65529"
+    },
+    {
+        "name": "Barley Corn",
+        "hex": "#a68b5b"
+    },
+    {
+        "name": "Donkey Brown",
+        "hex": "#a69279"
+    },
+    {
+        "name": "Dawn",
+        "hex": "#a6a29a"
+    },
+    {
+        "name": "Mexican Red",
+        "hex": "#a72525"
+    },
+    {
+        "name": "Luxor Gold",
+        "hex": "#a7882c"
+    },
+    {
+        "name": "Rich Gold",
+        "hex": "#a85307"
+    },
+    {
+        "name": "Reno Sand",
+        "hex": "#a86515"
+    },
+    {
+        "name": "Coral Tree",
+        "hex": "#a86b6b"
+    },
+    {
+        "name": "Dusty Gray",
+        "hex": "#a8989b"
+    },
+    {
+        "name": "Dull Lavender",
+        "hex": "#a899e6"
+    },
+    {
+        "name": "Tallow",
+        "hex": "#a8a589"
+    },
+    {
+        "name": "Bud",
+        "hex": "#a8ae9c"
+    },
+    {
+        "name": "Locust",
+        "hex": "#a8af8e"
+    },
+    {
+        "name": "Norway",
+        "hex": "#a8bd9f"
+    },
+    {
+        "name": "Chinook",
+        "hex": "#a8e3bd"
+    },
+    {
+        "name": "Gray Olive",
+        "hex": "#a9a491"
+    },
+    {
+        "name": "Aluminium",
+        "hex": "#a9acb6"
+    },
+    {
+        "name": "Cadet Blue",
+        "hex": "#a9b2c3"
+    },
+    {
+        "name": "Schist",
+        "hex": "#a9b497"
+    },
+    {
+        "name": "Tower Gray",
+        "hex": "#a9bdbf"
+    },
+    {
+        "name": "Perano",
+        "hex": "#a9bef2"
+    },
+    {
+        "name": "Opal",
+        "hex": "#a9c6c2"
+    },
+    {
+        "name": "Night Shadz",
+        "hex": "#aa375a"
+    },
+    {
+        "name": "Fire",
+        "hex": "#aa4203"
+    },
+    {
+        "name": "Muesli",
+        "hex": "#aa8b5b"
+    },
+    {
+        "name": "Sandal",
+        "hex": "#aa8d6f"
+    },
+    {
+        "name": "Shady Lady",
+        "hex": "#aaa5a9"
+    },
+    {
+        "name": "Logan",
+        "hex": "#aaa9cd"
+    },
+    {
+        "name": "Spun Pearl",
+        "hex": "#aaabb7"
+    },
+    {
+        "name": "Regent St Blue",
+        "hex": "#aad6e6"
+    },
+    {
+        "name": "Magic Mint",
+        "hex": "#aaf0d1"
+    },
+    {
+        "name": "Lipstick",
+        "hex": "#ab0563"
+    },
+    {
+        "name": "Royal Heath",
+        "hex": "#ab3472"
+    },
+    {
+        "name": "Sandrift",
+        "hex": "#ab917a"
+    },
+    {
+        "name": "Cold Purple",
+        "hex": "#aba0d9"
+    },
+    {
+        "name": "Bronco",
+        "hex": "#aba196"
+    },
+    {
+        "name": "Limed Oak",
+        "hex": "#ac8a56"
+    },
+    {
+        "name": "East Side",
+        "hex": "#ac91ce"
+    },
+    {
+        "name": "Lemon Ginger",
+        "hex": "#ac9e22"
+    },
+    {
+        "name": "Napa",
+        "hex": "#aca494"
+    },
+    {
+        "name": "Hillary",
+        "hex": "#aca586"
+    },
+    {
+        "name": "Cloudy",
+        "hex": "#aca59f"
+    },
+    {
+        "name": "Silver Chalice",
+        "hex": "#acacac"
+    },
+    {
+        "name": "Swamp Green",
+        "hex": "#acb78e"
+    },
+    {
+        "name": "Spring Rain",
+        "hex": "#accbb1"
+    },
+    {
+        "name": "Conifer",
+        "hex": "#acdd4d"
+    },
+    {
+        "name": "Celadon",
+        "hex": "#ace1af"
+    },
+    {
+        "name": "Mandalay",
+        "hex": "#ad781b"
+    },
+    {
+        "name": "Casper",
+        "hex": "#adbed1"
+    },
+    {
+        "name": "Moss Green",
+        "hex": "#addfad"
+    },
+    {
+        "name": "Padua",
+        "hex": "#ade6c4"
+    },
+    {
+        "name": "Green Yellow",
+        "hex": "#adff2f"
+    },
+    {
+        "name": "Hippie Pink",
+        "hex": "#ae4560"
+    },
+    {
+        "name": "Desert",
+        "hex": "#ae6020"
+    },
+    {
+        "name": "Bouquet",
+        "hex": "#ae809e"
+    },
+    {
+        "name": "Medium Carmine",
+        "hex": "#af4035"
+    },
+    {
+        "name": "Apple Blossom",
+        "hex": "#af4d43"
+    },
+    {
+        "name": "Brown Rust",
+        "hex": "#af593e"
+    },
+    {
+        "name": "Driftwood",
+        "hex": "#af8751"
+    },
+    {
+        "name": "Alpine",
+        "hex": "#af8f2c"
+    },
+    {
+        "name": "Lucky",
+        "hex": "#af9f1c"
+    },
+    {
+        "name": "Martini",
+        "hex": "#afa09e"
+    },
+    {
+        "name": "Bombay",
+        "hex": "#afb1b8"
+    },
+    {
+        "name": "Pigeon Post",
+        "hex": "#afbdd9"
+    },
+    {
+        "name": "Cadillac",
+        "hex": "#b04c6a"
+    },
+    {
+        "name": "Matrix",
+        "hex": "#b05d54"
+    },
+    {
+        "name": "Tapestry",
+        "hex": "#b05e81"
+    },
+    {
+        "name": "Mai Tai",
+        "hex": "#b06608"
+    },
+    {
+        "name": "Del Rio",
+        "hex": "#b09a95"
+    },
+    {
+        "name": "Powder Blue",
+        "hex": "#b0e0e6"
+    },
+    {
+        "name": "Inch Worm",
+        "hex": "#b0e313"
+    },
+    {
+        "name": "Bright Red",
+        "hex": "#b10000"
+    },
+    {
+        "name": "Vesuvius",
+        "hex": "#b14a0b"
+    },
+    {
+        "name": "Pumpkin Skin",
+        "hex": "#b1610b"
+    },
+    {
+        "name": "Santa Fe",
+        "hex": "#b16d52"
+    },
+    {
+        "name": "Teak",
+        "hex": "#b19461"
+    },
+    {
+        "name": "Fringy Flower",
+        "hex": "#b1e2c1"
+    },
+    {
+        "name": "Ice Cold",
+        "hex": "#b1f4e7"
+    },
+    {
+        "name": "Shiraz",
+        "hex": "#b20931"
+    },
+    {
+        "name": "Biloba Flower",
+        "hex": "#b2a1ea"
+    },
+    {
+        "name": "Tall Poppy",
+        "hex": "#b32d29"
+    },
+    {
+        "name": "Fiery Orange",
+        "hex": "#b35213"
+    },
+    {
+        "name": "Hot Toddy",
+        "hex": "#b38007"
+    },
+    {
+        "name": "Taupe Gray",
+        "hex": "#b3af95"
+    },
+    {
+        "name": "La Rioja",
+        "hex": "#b3c110"
+    },
+    {
+        "name": "Well Read",
+        "hex": "#b43332"
+    },
+    {
+        "name": "Blush",
+        "hex": "#b44668"
+    },
+    {
+        "name": "Jungle Mist",
+        "hex": "#b4cfd3"
+    },
+    {
+        "name": "Turkish Rose",
+        "hex": "#b57281"
+    },
+    {
+        "name": "Lavender",
+        "hex": "#b57edc"
+    },
+    {
+        "name": "Mongoose",
+        "hex": "#b5a27f"
+    },
+    {
+        "name": "Olive Green",
+        "hex": "#b5b35c"
+    },
+    {
+        "name": "Jet Stream",
+        "hex": "#b5d2ce"
+    },
+    {
+        "name": "Cruise",
+        "hex": "#b5ecdf"
+    },
+    {
+        "name": "Hibiscus",
+        "hex": "#b6316c"
+    },
+    {
+        "name": "Thatch",
+        "hex": "#b69d98"
+    },
+    {
+        "name": "Heathered Gray",
+        "hex": "#b6b095"
+    },
+    {
+        "name": "Eagle",
+        "hex": "#b6baa4"
+    },
+    {
+        "name": "Spindle",
+        "hex": "#b6d1ea"
+    },
+    {
+        "name": "Gum Leaf",
+        "hex": "#b6d3bf"
+    },
+    {
+        "name": "Rust",
+        "hex": "#b7410e"
+    },
+    {
+        "name": "Muddy Waters",
+        "hex": "#b78e5c"
+    },
+    {
+        "name": "Sahara",
+        "hex": "#b7a214"
+    },
+    {
+        "name": "Husk",
+        "hex": "#b7a458"
+    },
+    {
+        "name": "Nobel",
+        "hex": "#b7b1b1"
+    },
+    {
+        "name": "Heather",
+        "hex": "#b7c3d0"
+    },
+    {
+        "name": "Madang",
+        "hex": "#b7f0be"
+    },
+    {
+        "name": "Milano Red",
+        "hex": "#b81104"
+    },
+    {
+        "name": "Copper",
+        "hex": "#b87333"
+    },
+    {
+        "name": "Gimblet",
+        "hex": "#b8b56a"
+    },
+    {
+        "name": "Green Spring",
+        "hex": "#b8c1b1"
+    },
+    {
+        "name": "Celery",
+        "hex": "#b8c25d"
+    },
+    {
+        "name": "Sail",
+        "hex": "#b8e0f9"
+    },
+    {
+        "name": "Chestnut",
+        "hex": "#b94e48"
+    },
+    {
+        "name": "Crail",
+        "hex": "#b95140"
+    },
+    {
+        "name": "Marigold",
+        "hex": "#b98d28"
+    },
+    {
+        "name": "Wild Willow",
+        "hex": "#b9c46a"
+    },
+    {
+        "name": "Rainee",
+        "hex": "#b9c8ac"
+    },
+    {
+        "name": "Guardsman Red",
+        "hex": "#ba0101"
+    },
+    {
+        "name": "Rock Spray",
+        "hex": "#ba450c"
+    },
+    {
+        "name": "Bourbon",
+        "hex": "#ba6f1e"
+    },
+    {
+        "name": "Pirate Gold",
+        "hex": "#ba7f03"
+    },
+    {
+        "name": "Nomad",
+        "hex": "#bab1a2"
+    },
+    {
+        "name": "Submarine",
+        "hex": "#bac7c9"
+    },
+    {
+        "name": "Charlotte",
+        "hex": "#baeef9"
+    },
+    {
+        "name": "Medium Red Violet",
+        "hex": "#bb3385"
+    },
+    {
+        "name": "Brandy Rose",
+        "hex": "#bb8983"
+    },
+    {
+        "name": "Rio Grande",
+        "hex": "#bbd009"
+    },
+    {
+        "name": "Surf",
+        "hex": "#bbd7c1"
+    },
+    {
+        "name": "Powder Ash",
+        "hex": "#bcc9c2"
+    },
+    {
+        "name": "Tuscany",
+        "hex": "#bd5e2e"
+    },
+    {
+        "name": "Quicksand",
+        "hex": "#bd978e"
+    },
+    {
+        "name": "Silk",
+        "hex": "#bdb1a8"
+    },
+    {
+        "name": "Malta",
+        "hex": "#bdb2a1"
+    },
+    {
+        "name": "Chatelle",
+        "hex": "#bdb3c7"
+    },
+    {
+        "name": "Lavender Gray",
+        "hex": "#bdbbd7"
+    },
+    {
+        "name": "French Gray",
+        "hex": "#bdbdc6"
+    },
+    {
+        "name": "Clay Ash",
+        "hex": "#bdc8b3"
+    },
+    {
+        "name": "Loblolly",
+        "hex": "#bdc9ce"
+    },
+    {
+        "name": "French Pass",
+        "hex": "#bdedfd"
+    },
+    {
+        "name": "London Hue",
+        "hex": "#bea6c3"
+    },
+    {
+        "name": "Pink Swan",
+        "hex": "#beb5b7"
+    },
+    {
+        "name": "Fuego",
+        "hex": "#bede0d"
+    },
+    {
+        "name": "Rose of Sharon",
+        "hex": "#bf5500"
+    },
+    {
+        "name": "Tide",
+        "hex": "#bfb8b0"
+    },
+    {
+        "name": "Blue Haze",
+        "hex": "#bfbed8"
+    },
+    {
+        "name": "Silver Sand",
+        "hex": "#bfc1c2"
+    },
+    {
+        "name": "Key Lime Pie",
+        "hex": "#bfc921"
+    },
+    {
+        "name": "Ziggurat",
+        "hex": "#bfdbe2"
+    },
+    {
+        "name": "Lime",
+        "hex": "#bfff00"
+    },
+    {
+        "name": "Thunderbird",
+        "hex": "#c02b18"
+    },
+    {
+        "name": "Mojo",
+        "hex": "#c04737"
+    },
+    {
+        "name": "Old Rose",
+        "hex": "#c08081"
+    },
+    {
+        "name": "Silver",
+        "hex": "#c0c0c0"
+    },
+    {
+        "name": "Pale Leaf",
+        "hex": "#c0d3b9"
+    },
+    {
+        "name": "Pixie Green",
+        "hex": "#c0d8b6"
+    },
+    {
+        "name": "Tia Maria",
+        "hex": "#c1440e"
+    },
+    {
+        "name": "Fuchsia Pink",
+        "hex": "#c154c1"
+    },
+    {
+        "name": "Buddha Gold",
+        "hex": "#c1a004"
+    },
+    {
+        "name": "Bison Hide",
+        "hex": "#c1b7a4"
+    },
+    {
+        "name": "Tea",
+        "hex": "#c1bab0"
+    },
+    {
+        "name": "Gray Suit",
+        "hex": "#c1becd"
+    },
+    {
+        "name": "Sprout",
+        "hex": "#c1d7b0"
+    },
+    {
+        "name": "Sulu",
+        "hex": "#c1f07c"
+    },
+    {
+        "name": "Indochine",
+        "hex": "#c26b03"
+    },
+    {
+        "name": "Twine",
+        "hex": "#c2955d"
+    },
+    {
+        "name": "Cotton Seed",
+        "hex": "#c2bdb6"
+    },
+    {
+        "name": "Pumice",
+        "hex": "#c2cac4"
+    },
+    {
+        "name": "Jagged Ice",
+        "hex": "#c2e8e5"
+    },
+    {
+        "name": "Maroon Flush",
+        "hex": "#c32148"
+    },
+    {
+        "name": "Indian Khaki",
+        "hex": "#c3b091"
+    },
+    {
+        "name": "Pale Slate",
+        "hex": "#c3bfc1"
+    },
+    {
+        "name": "Gray Nickel",
+        "hex": "#c3c3bd"
+    },
+    {
+        "name": "Periwinkle Gray",
+        "hex": "#c3cde6"
+    },
+    {
+        "name": "Tiara",
+        "hex": "#c3d1d1"
+    },
+    {
+        "name": "Tropical Blue",
+        "hex": "#c3ddf9"
+    },
+    {
+        "name": "Cardinal",
+        "hex": "#c41e3a"
+    },
+    {
+        "name": "Fuzzy Wuzzy Brown",
+        "hex": "#c45655"
+    },
+    {
+        "name": "Orange Roughy",
+        "hex": "#c45719"
+    },
+    {
+        "name": "Mist Gray",
+        "hex": "#c4c4bc"
+    },
+    {
+        "name": "Coriander",
+        "hex": "#c4d0b0"
+    },
+    {
+        "name": "Mint Tulip",
+        "hex": "#c4f4eb"
+    },
+    {
+        "name": "Mulberry",
+        "hex": "#c54b8c"
+    },
+    {
+        "name": "Nugget",
+        "hex": "#c59922"
+    },
+    {
+        "name": "Tussock",
+        "hex": "#c5994b"
+    },
+    {
+        "name": "Sea Mist",
+        "hex": "#c5dbca"
+    },
+    {
+        "name": "Yellow Green",
+        "hex": "#c5e17a"
+    },
+    {
+        "name": "Brick Red",
+        "hex": "#c62d42"
+    },
+    {
+        "name": "Contessa",
+        "hex": "#c6726b"
+    },
+    {
+        "name": "Oriental Pink",
+        "hex": "#c69191"
+    },
+    {
+        "name": "Roti",
+        "hex": "#c6a84b"
+    },
+    {
+        "name": "Ash",
+        "hex": "#c6c3b5"
+    },
+    {
+        "name": "Kangaroo",
+        "hex": "#c6c8bd"
+    },
+    {
+        "name": "Las Palmas",
+        "hex": "#c6e610"
+    },
+    {
+        "name": "Monza",
+        "hex": "#c7031e"
+    },
+    {
+        "name": "Red Violet",
+        "hex": "#c71585"
+    },
+    {
+        "name": "Coral Reef",
+        "hex": "#c7bca2"
+    },
+    {
+        "name": "Melrose",
+        "hex": "#c7c1ff"
+    },
+    {
+        "name": "Cloud",
+        "hex": "#c7c4bf"
+    },
+    {
+        "name": "Ghost",
+        "hex": "#c7c9d5"
+    },
+    {
+        "name": "Pine Glade",
+        "hex": "#c7cd90"
+    },
+    {
+        "name": "Botticelli",
+        "hex": "#c7dde5"
+    },
+    {
+        "name": "Antique Brass",
+        "hex": "#c88a65"
+    },
+    {
+        "name": "Lilac",
+        "hex": "#c8a2c8"
+    },
+    {
+        "name": "Hokey Pokey",
+        "hex": "#c8a528"
+    },
+    {
+        "name": "Lily",
+        "hex": "#c8aabf"
+    },
+    {
+        "name": "Laser",
+        "hex": "#c8b568"
+    },
+    {
+        "name": "Edgewater",
+        "hex": "#c8e3d7"
+    },
+    {
+        "name": "Piper",
+        "hex": "#c96323"
+    },
+    {
+        "name": "Pizza",
+        "hex": "#c99415"
+    },
+    {
+        "name": "Light Wisteria",
+        "hex": "#c9a0dc"
+    },
+    {
+        "name": "Rodeo Dust",
+        "hex": "#c9b29b"
+    },
+    {
+        "name": "Sundance",
+        "hex": "#c9b35b"
+    },
+    {
+        "name": "Earls Green",
+        "hex": "#c9b93b"
+    },
+    {
+        "name": "Silver Rust",
+        "hex": "#c9c0bb"
+    },
+    {
+        "name": "Conch",
+        "hex": "#c9d9d2"
+    },
+    {
+        "name": "Reef",
+        "hex": "#c9ffa2"
+    },
+    {
+        "name": "Aero Blue",
+        "hex": "#c9ffe5"
+    },
+    {
+        "name": "Flush Mahogany",
+        "hex": "#ca3435"
+    },
+    {
+        "name": "Turmeric",
+        "hex": "#cabb48"
+    },
+    {
+        "name": "Paris White",
+        "hex": "#cadcd4"
+    },
+    {
+        "name": "Bitter Lemon",
+        "hex": "#cae00d"
+    },
+    {
+        "name": "Skeptic",
+        "hex": "#cae6da"
+    },
+    {
+        "name": "Viola",
+        "hex": "#cb8fa9"
+    },
+    {
+        "name": "Foggy Gray",
+        "hex": "#cbcab6"
+    },
+    {
+        "name": "Green Mist",
+        "hex": "#cbd3b0"
+    },
+    {
+        "name": "Nebula",
+        "hex": "#cbdbd6"
+    },
+    {
+        "name": "Persian Red",
+        "hex": "#cc3333"
+    },
+    {
+        "name": "Burnt Orange",
+        "hex": "#cc5500"
+    },
+    {
+        "name": "Ochre",
+        "hex": "#cc7722"
+    },
+    {
+        "name": "Puce",
+        "hex": "#cc8899"
+    },
+    {
+        "name": "Thistle Green",
+        "hex": "#cccaa8"
+    },
+    {
+        "name": "Periwinkle",
+        "hex": "#ccccff"
+    },
+    {
+        "name": "Electric Lime",
+        "hex": "#ccff00"
+    },
+    {
+        "name": "Tenn",
+        "hex": "#cd5700"
+    },
+    {
+        "name": "Chestnut Rose",
+        "hex": "#cd5c5c"
+    },
+    {
+        "name": "Brandy Punch",
+        "hex": "#cd8429"
+    },
+    {
+        "name": "Onahau",
+        "hex": "#cdf4ff"
+    },
+    {
+        "name": "Sorrell Brown",
+        "hex": "#ceb98f"
+    },
+    {
+        "name": "Cold Turkey",
+        "hex": "#cebaba"
+    },
+    {
+        "name": "Yuma",
+        "hex": "#cec291"
+    },
+    {
+        "name": "Chino",
+        "hex": "#cec7a7"
+    },
+    {
+        "name": "Eunry",
+        "hex": "#cfa39d"
+    },
+    {
+        "name": "Old Gold",
+        "hex": "#cfb53b"
+    },
+    {
+        "name": "Tasman",
+        "hex": "#cfdccf"
+    },
+    {
+        "name": "Surf Crest",
+        "hex": "#cfe5d2"
+    },
+    {
+        "name": "Humming Bird",
+        "hex": "#cff9f3"
+    },
+    {
+        "name": "Scandal",
+        "hex": "#cffaf4"
+    },
+    {
+        "name": "Red Stage",
+        "hex": "#d05f04"
+    },
+    {
+        "name": "Hopbush",
+        "hex": "#d06da1"
+    },
+    {
+        "name": "Meteor",
+        "hex": "#d07d12"
+    },
+    {
+        "name": "Perfume",
+        "hex": "#d0bef8"
+    },
+    {
+        "name": "Prelude",
+        "hex": "#d0c0e5"
+    },
+    {
+        "name": "Tea Green",
+        "hex": "#d0f0c0"
+    },
+    {
+        "name": "Geebung",
+        "hex": "#d18f1b"
+    },
+    {
+        "name": "Vanilla",
+        "hex": "#d1bea8"
+    },
+    {
+        "name": "Soft Amber",
+        "hex": "#d1c6b4"
+    },
+    {
+        "name": "Celeste",
+        "hex": "#d1d2ca"
+    },
+    {
+        "name": "Mischka",
+        "hex": "#d1d2dd"
+    },
+    {
+        "name": "Pear",
+        "hex": "#d1e231"
+    },
+    {
+        "name": "Hot Cinnamon",
+        "hex": "#d2691e"
+    },
+    {
+        "name": "Raw Sienna",
+        "hex": "#d27d46"
+    },
+    {
+        "name": "Careys Pink",
+        "hex": "#d29eaa"
+    },
+    {
+        "name": "Tan",
+        "hex": "#d2b48c"
+    },
+    {
+        "name": "Deco",
+        "hex": "#d2da97"
+    },
+    {
+        "name": "Blue Romance",
+        "hex": "#d2f6de"
+    },
+    {
+        "name": "Gossip",
+        "hex": "#d2f8b0"
+    },
+    {
+        "name": "Sisal",
+        "hex": "#d3cbba"
+    },
+    {
+        "name": "Swirl",
+        "hex": "#d3cdc5"
+    },
+    {
+        "name": "Charm",
+        "hex": "#d47494"
+    },
+    {
+        "name": "Clam Shell",
+        "hex": "#d4b6af"
+    },
+    {
+        "name": "Straw",
+        "hex": "#d4bf8d"
+    },
+    {
+        "name": "Akaroa",
+        "hex": "#d4c4a8"
+    },
+    {
+        "name": "Bird Flower",
+        "hex": "#d4cd16"
+    },
+    {
+        "name": "Iron",
+        "hex": "#d4d7d9"
+    },
+    {
+        "name": "Geyser",
+        "hex": "#d4dfe2"
+    },
+    {
+        "name": "Hawkes Blue",
+        "hex": "#d4e2fc"
+    },
+    {
+        "name": "Grenadier",
+        "hex": "#d54600"
+    },
+    {
+        "name": "Can Can",
+        "hex": "#d591a4"
+    },
+    {
+        "name": "Whiskey",
+        "hex": "#d59a6f"
+    },
+    {
+        "name": "Winter Hazel",
+        "hex": "#d5d195"
+    },
+    {
+        "name": "Granny Apple",
+        "hex": "#d5f6e3"
+    },
+    {
+        "name": "My Pink",
+        "hex": "#d69188"
+    },
+    {
+        "name": "Tacha",
+        "hex": "#d6c562"
+    },
+    {
+        "name": "Moon Raker",
+        "hex": "#d6cef6"
+    },
+    {
+        "name": "Quill Gray",
+        "hex": "#d6d6d1"
+    },
+    {
+        "name": "Snowy Mint",
+        "hex": "#d6ffdb"
+    },
+    {
+        "name": "New York Pink",
+        "hex": "#d7837f"
+    },
+    {
+        "name": "Pavlova",
+        "hex": "#d7c498"
+    },
+    {
+        "name": "Fog",
+        "hex": "#d7d0ff"
+    },
+    {
+        "name": "Valencia",
+        "hex": "#d84437"
+    },
+    {
+        "name": "Japonica",
+        "hex": "#d87c63"
+    },
+    {
+        "name": "Thistle",
+        "hex": "#d8bfd8"
+    },
+    {
+        "name": "Maverick",
+        "hex": "#d8c2d5"
+    },
+    {
+        "name": "Foam",
+        "hex": "#d8fcfa"
+    },
+    {
+        "name": "Cabaret",
+        "hex": "#d94972"
+    },
+    {
+        "name": "Burning Sand",
+        "hex": "#d99376"
+    },
+    {
+        "name": "Cameo",
+        "hex": "#d9b99b"
+    },
+    {
+        "name": "Timberwolf",
+        "hex": "#d9d6cf"
+    },
+    {
+        "name": "Tana",
+        "hex": "#d9dcc1"
+    },
+    {
+        "name": "Link Water",
+        "hex": "#d9e4f5"
+    },
+    {
+        "name": "Mabel",
+        "hex": "#d9f7ff"
+    },
+    {
+        "name": "Cerise",
+        "hex": "#da3287"
+    },
+    {
+        "name": "Flame Pea",
+        "hex": "#da5b38"
+    },
+    {
+        "name": "Bamboo",
+        "hex": "#da6304"
+    },
+    {
+        "name": "Red Damask",
+        "hex": "#da6a41"
+    },
+    {
+        "name": "Orchid",
+        "hex": "#da70d6"
+    },
+    {
+        "name": "Copperfield",
+        "hex": "#da8a67"
+    },
+    {
+        "name": "Golden Grass",
+        "hex": "#daa520"
+    },
+    {
+        "name": "Zanah",
+        "hex": "#daecd6"
+    },
+    {
+        "name": "Iceberg",
+        "hex": "#daf4f0"
+    },
+    {
+        "name": "Oyster Bay",
+        "hex": "#dafaff"
+    },
+    {
+        "name": "Cranberry",
+        "hex": "#db5079"
+    },
+    {
+        "name": "Petite Orchid",
+        "hex": "#db9690"
+    },
+    {
+        "name": "Di Serria",
+        "hex": "#db995e"
+    },
+    {
+        "name": "Alto",
+        "hex": "#dbdbdb"
+    },
+    {
+        "name": "Frosted Mint",
+        "hex": "#dbfff8"
+    },
+    {
+        "name": "Crimson",
+        "hex": "#dc143c"
+    },
+    {
+        "name": "Punch",
+        "hex": "#dc4333"
+    },
+    {
+        "name": "Galliano",
+        "hex": "#dcb20c"
+    },
+    {
+        "name": "Blossom",
+        "hex": "#dcb4bc"
+    },
+    {
+        "name": "Wattle",
+        "hex": "#dcd747"
+    },
+    {
+        "name": "Westar",
+        "hex": "#dcd9d2"
+    },
+    {
+        "name": "Moon Mist",
+        "hex": "#dcddcc"
+    },
+    {
+        "name": "Caper",
+        "hex": "#dcedb4"
+    },
+    {
+        "name": "Swans Down",
+        "hex": "#dcf0ea"
+    },
+    {
+        "name": "Swiss Coffee",
+        "hex": "#ddd6d5"
+    },
+    {
+        "name": "White Ice",
+        "hex": "#ddf9f1"
+    },
+    {
+        "name": "Cerise Red",
+        "hex": "#de3163"
+    },
+    {
+        "name": "Roman",
+        "hex": "#de6360"
+    },
+    {
+        "name": "Tumbleweed",
+        "hex": "#dea681"
+    },
+    {
+        "name": "Gold Tips",
+        "hex": "#deba13"
+    },
+    {
+        "name": "Brandy",
+        "hex": "#dec196"
+    },
+    {
+        "name": "Wafer",
+        "hex": "#decbc6"
+    },
+    {
+        "name": "Sapling",
+        "hex": "#ded4a4"
+    },
+    {
+        "name": "Barberry",
+        "hex": "#ded717"
+    },
+    {
+        "name": "Beryl Green",
+        "hex": "#dee5c0"
+    },
+    {
+        "name": "Pattens Blue",
+        "hex": "#def5ff"
+    },
+    {
+        "name": "Heliotrope",
+        "hex": "#df73ff"
+    },
+    {
+        "name": "Apache",
+        "hex": "#dfbe6f"
+    },
+    {
+        "name": "Chenin",
+        "hex": "#dfcd6f"
+    },
+    {
+        "name": "Lola",
+        "hex": "#dfcfdb"
+    },
+    {
+        "name": "Willow Brook",
+        "hex": "#dfecda"
+    },
+    {
+        "name": "Chartreuse Yellow",
+        "hex": "#dfff00"
+    },
+    {
+        "name": "Mauve",
+        "hex": "#e0b0ff"
+    },
+    {
+        "name": "Anzac",
+        "hex": "#e0b646"
+    },
+    {
+        "name": "Harvest Gold",
+        "hex": "#e0b974"
+    },
+    {
+        "name": "Calico",
+        "hex": "#e0c095"
+    },
+    {
+        "name": "Baby Blue",
+        "hex": "#e0ffff"
+    },
+    {
+        "name": "Sunglo",
+        "hex": "#e16865"
+    },
+    {
+        "name": "Equator",
+        "hex": "#e1bc64"
+    },
+    {
+        "name": "Pink Flare",
+        "hex": "#e1c0c8"
+    },
+    {
+        "name": "Periglacial Blue",
+        "hex": "#e1e6d6"
+    },
+    {
+        "name": "Kidnapper",
+        "hex": "#e1ead4"
+    },
+    {
+        "name": "Tara",
+        "hex": "#e1f6e8"
+    },
+    {
+        "name": "Mandy",
+        "hex": "#e25465"
+    },
+    {
+        "name": "Terracotta",
+        "hex": "#e2725b"
+    },
+    {
+        "name": "Golden Bell",
+        "hex": "#e28913"
+    },
+    {
+        "name": "Shocking",
+        "hex": "#e292c0"
+    },
+    {
+        "name": "Dixie",
+        "hex": "#e29418"
+    },
+    {
+        "name": "Light Orchid",
+        "hex": "#e29cd2"
+    },
+    {
+        "name": "Snuff",
+        "hex": "#e2d8ed"
+    },
+    {
+        "name": "Mystic",
+        "hex": "#e2ebed"
+    },
+    {
+        "name": "Apple Green",
+        "hex": "#e2f3ec"
+    },
+    {
+        "name": "Razzmatazz",
+        "hex": "#e30b5c"
+    },
+    {
+        "name": "Alizarin Crimson",
+        "hex": "#e32636"
+    },
+    {
+        "name": "Cinnabar",
+        "hex": "#e34234"
+    },
+    {
+        "name": "Cavern Pink",
+        "hex": "#e3bebe"
+    },
+    {
+        "name": "Peppermint",
+        "hex": "#e3f5e1"
+    },
+    {
+        "name": "Mindaro",
+        "hex": "#e3f988"
+    },
+    {
+        "name": "Deep Blush",
+        "hex": "#e47698"
+    },
+    {
+        "name": "Gamboge",
+        "hex": "#e49b0f"
+    },
+    {
+        "name": "Melanie",
+        "hex": "#e4c2d5"
+    },
+    {
+        "name": "Twilight",
+        "hex": "#e4cfde"
+    },
+    {
+        "name": "Bone",
+        "hex": "#e4d1c0"
+    },
+    {
+        "name": "Sunflower",
+        "hex": "#e4d422"
+    },
+    {
+        "name": "Grain Brown",
+        "hex": "#e4d5b7"
+    },
+    {
+        "name": "Zombie",
+        "hex": "#e4d69b"
+    },
+    {
+        "name": "Frostee",
+        "hex": "#e4f6e7"
+    },
+    {
+        "name": "Snow Flurry",
+        "hex": "#e4ffd1"
+    },
+    {
+        "name": "Amaranth",
+        "hex": "#e52b50"
+    },
+    {
+        "name": "Zest",
+        "hex": "#e5841b"
+    },
+    {
+        "name": "Dust Storm",
+        "hex": "#e5ccc9"
+    },
+    {
+        "name": "Stark White",
+        "hex": "#e5d7bd"
+    },
+    {
+        "name": "Hampton",
+        "hex": "#e5d8af"
+    },
+    {
+        "name": "Bon Jour",
+        "hex": "#e5e0e1"
+    },
+    {
+        "name": "Mercury",
+        "hex": "#e5e5e5"
+    },
+    {
+        "name": "Polar",
+        "hex": "#e5f9f6"
+    },
+    {
+        "name": "Trinidad",
+        "hex": "#e64e03"
+    },
+    {
+        "name": "Gold Sand",
+        "hex": "#e6be8a"
+    },
+    {
+        "name": "Cashmere",
+        "hex": "#e6bea5"
+    },
+    {
+        "name": "Double Spanish White",
+        "hex": "#e6d7b9"
+    },
+    {
+        "name": "Satin Linen",
+        "hex": "#e6e4d4"
+    },
+    {
+        "name": "Harp",
+        "hex": "#e6f2ea"
+    },
+    {
+        "name": "Off Green",
+        "hex": "#e6f8f3"
+    },
+    {
+        "name": "Hint of Green",
+        "hex": "#e6ffe9"
+    },
+    {
+        "name": "Tranquil",
+        "hex": "#e6ffff"
+    },
+    {
+        "name": "Mango Tango",
+        "hex": "#e77200"
+    },
+    {
+        "name": "Christine",
+        "hex": "#e7730a"
+    },
+    {
+        "name": "Tonys Pink",
+        "hex": "#e79f8c"
+    },
+    {
+        "name": "Kobi",
+        "hex": "#e79fc4"
+    },
+    {
+        "name": "Rose Fog",
+        "hex": "#e7bcb4"
+    },
+    {
+        "name": "Corn",
+        "hex": "#e7bf05"
+    },
+    {
+        "name": "Putty",
+        "hex": "#e7cd8c"
+    },
+    {
+        "name": "Gray Nurse",
+        "hex": "#e7ece6"
+    },
+    {
+        "name": "Lily White",
+        "hex": "#e7f8ff"
+    },
+    {
+        "name": "Bubbles",
+        "hex": "#e7feff"
+    },
+    {
+        "name": "Fire Bush",
+        "hex": "#e89928"
+    },
+    {
+        "name": "Shilo",
+        "hex": "#e8b9b3"
+    },
+    {
+        "name": "Pearl Bush",
+        "hex": "#e8e0d5"
+    },
+    {
+        "name": "Green White",
+        "hex": "#e8ebe0"
+    },
+    {
+        "name": "Chrome White",
+        "hex": "#e8f1d4"
+    },
+    {
+        "name": "Gin",
+        "hex": "#e8f2eb"
+    },
+    {
+        "name": "Aqua Squeeze",
+        "hex": "#e8f5f2"
+    },
+    {
+        "name": "Clementine",
+        "hex": "#e96e00"
+    },
+    {
+        "name": "Burnt Sienna",
+        "hex": "#e97451"
+    },
+    {
+        "name": "Tahiti Gold",
+        "hex": "#e97c07"
+    },
+    {
+        "name": "Oyster Pink",
+        "hex": "#e9cecd"
+    },
+    {
+        "name": "Confetti",
+        "hex": "#e9d75a"
+    },
+    {
+        "name": "Ebb",
+        "hex": "#e9e3e3"
+    },
+    {
+        "name": "Ottoman",
+        "hex": "#e9f8ed"
+    },
+    {
+        "name": "Clear Day",
+        "hex": "#e9fffd"
+    },
+    {
+        "name": "Carissma",
+        "hex": "#ea88a8"
+    },
+    {
+        "name": "Porsche",
+        "hex": "#eaae69"
+    },
+    {
+        "name": "Tulip Tree",
+        "hex": "#eab33b"
+    },
+    {
+        "name": "Rob Roy",
+        "hex": "#eac674"
+    },
+    {
+        "name": "Raffia",
+        "hex": "#eadab8"
+    },
+    {
+        "name": "White Rock",
+        "hex": "#eae8d4"
+    },
+    {
+        "name": "Panache",
+        "hex": "#eaf6ee"
+    },
+    {
+        "name": "Solitude",
+        "hex": "#eaf6ff"
+    },
+    {
+        "name": "Aqua Spring",
+        "hex": "#eaf9f5"
+    },
+    {
+        "name": "Dew",
+        "hex": "#eafffe"
+    },
+    {
+        "name": "Apricot",
+        "hex": "#eb9373"
+    },
+    {
+        "name": "Zinnwaldite",
+        "hex": "#ebc2af"
+    },
+    {
+        "name": "Fuel Yellow",
+        "hex": "#eca927"
+    },
+    {
+        "name": "Ronchi",
+        "hex": "#ecc54e"
+    },
+    {
+        "name": "French Lilac",
+        "hex": "#ecc7ee"
+    },
+    {
+        "name": "Just Right",
+        "hex": "#eccdb9"
+    },
+    {
+        "name": "Wild Rice",
+        "hex": "#ece090"
+    },
+    {
+        "name": "Fall Green",
+        "hex": "#ecebbd"
+    },
+    {
+        "name": "Aths Special",
+        "hex": "#ecebce"
+    },
+    {
+        "name": "Starship",
+        "hex": "#ecf245"
+    },
+    {
+        "name": "Red Ribbon",
+        "hex": "#ed0a3f"
+    },
+    {
+        "name": "Tango",
+        "hex": "#ed7a1c"
+    },
+    {
+        "name": "Carrot Orange",
+        "hex": "#ed9121"
+    },
+    {
+        "name": "Sea Pink",
+        "hex": "#ed989e"
+    },
+    {
+        "name": "Tacao",
+        "hex": "#edb381"
+    },
+    {
+        "name": "Desert Sand",
+        "hex": "#edc9af"
+    },
+    {
+        "name": "Pancho",
+        "hex": "#edcdab"
+    },
+    {
+        "name": "Chamois",
+        "hex": "#eddcb1"
+    },
+    {
+        "name": "Primrose",
+        "hex": "#edea99"
+    },
+    {
+        "name": "Frost",
+        "hex": "#edf5dd"
+    },
+    {
+        "name": "Aqua Haze",
+        "hex": "#edf5f5"
+    },
+    {
+        "name": "Zumthor",
+        "hex": "#edf6ff"
+    },
+    {
+        "name": "Narvik",
+        "hex": "#edf9f1"
+    },
+    {
+        "name": "Honeysuckle",
+        "hex": "#edfc84"
+    },
+    {
+        "name": "Lavender Magenta",
+        "hex": "#ee82ee"
+    },
+    {
+        "name": "Beauty Bush",
+        "hex": "#eec1be"
+    },
+    {
+        "name": "Chalky",
+        "hex": "#eed794"
+    },
+    {
+        "name": "Almond",
+        "hex": "#eed9c4"
+    },
+    {
+        "name": "Flax",
+        "hex": "#eedc82"
+    },
+    {
+        "name": "Bizarre",
+        "hex": "#eededa"
+    },
+    {
+        "name": "Double Colonial White",
+        "hex": "#eee3ad"
+    },
+    {
+        "name": "Cararra",
+        "hex": "#eeeee8"
+    },
+    {
+        "name": "Manz",
+        "hex": "#eeef78"
+    },
+    {
+        "name": "Tahuna Sands",
+        "hex": "#eef0c8"
+    },
+    {
+        "name": "Athens Gray",
+        "hex": "#eef0f3"
+    },
+    {
+        "name": "Tusk",
+        "hex": "#eef3c3"
+    },
+    {
+        "name": "Loafer",
+        "hex": "#eef4de"
+    },
+    {
+        "name": "Catskill White",
+        "hex": "#eef6f7"
+    },
+    {
+        "name": "Twilight Blue",
+        "hex": "#eefdff"
+    },
+    {
+        "name": "Jonquil",
+        "hex": "#eeff9a"
+    },
+    {
+        "name": "Rice Flower",
+        "hex": "#eeffe2"
+    },
+    {
+        "name": "Jaffa",
+        "hex": "#ef863f"
+    },
+    {
+        "name": "Gallery",
+        "hex": "#efefef"
+    },
+    {
+        "name": "Porcelain",
+        "hex": "#eff2f3"
+    },
+    {
+        "name": "Mauvelous",
+        "hex": "#f091a9"
+    },
+    {
+        "name": "Golden Dream",
+        "hex": "#f0d52d"
+    },
+    {
+        "name": "Golden Sand",
+        "hex": "#f0db7d"
+    },
+    {
+        "name": "Buff",
+        "hex": "#f0dc82"
+    },
+    {
+        "name": "Prim",
+        "hex": "#f0e2ec"
+    },
+    {
+        "name": "Khaki",
+        "hex": "#f0e68c"
+    },
+    {
+        "name": "Selago",
+        "hex": "#f0eefd"
+    },
+    {
+        "name": "Titan White",
+        "hex": "#f0eeff"
+    },
+    {
+        "name": "Alice Blue",
+        "hex": "#f0f8ff"
+    },
+    {
+        "name": "Feta",
+        "hex": "#f0fcea"
+    },
+    {
+        "name": "Gold Drop",
+        "hex": "#f18200"
+    },
+    {
+        "name": "Wewak",
+        "hex": "#f19bab"
+    },
+    {
+        "name": "Sahara Sand",
+        "hex": "#f1e788"
+    },
+    {
+        "name": "Parchment",
+        "hex": "#f1e9d2"
+    },
+    {
+        "name": "Blue Chalk",
+        "hex": "#f1e9ff"
+    },
+    {
+        "name": "Mint Julep",
+        "hex": "#f1eec1"
+    },
+    {
+        "name": "Seashell",
+        "hex": "#f1f1f1"
+    },
+    {
+        "name": "Saltpan",
+        "hex": "#f1f7f2"
+    },
+    {
+        "name": "Tidal",
+        "hex": "#f1ffad"
+    },
+    {
+        "name": "Chiffon",
+        "hex": "#f1ffc8"
+    },
+    {
+        "name": "Flamingo",
+        "hex": "#f2552a"
+    },
+    {
+        "name": "Tangerine",
+        "hex": "#f28500"
+    },
+    {
+        "name": "Mandys Pink",
+        "hex": "#f2c3b2"
+    },
+    {
+        "name": "Concrete",
+        "hex": "#f2f2f2"
+    },
+    {
+        "name": "Black Squeeze",
+        "hex": "#f2fafa"
+    },
+    {
+        "name": "Pomegranate",
+        "hex": "#f34723"
+    },
+    {
+        "name": "Buttercup",
+        "hex": "#f3ad16"
+    },
+    {
+        "name": "New Orleans",
+        "hex": "#f3d69d"
+    },
+    {
+        "name": "Vanilla Ice",
+        "hex": "#f3d9df"
+    },
+    {
+        "name": "Sidecar",
+        "hex": "#f3e7bb"
+    },
+    {
+        "name": "Dawn Pink",
+        "hex": "#f3e9e5"
+    },
+    {
+        "name": "Wheatfield",
+        "hex": "#f3edcf"
+    },
+    {
+        "name": "Canary",
+        "hex": "#f3fb62"
+    },
+    {
+        "name": "Orinoco",
+        "hex": "#f3fbd4"
+    },
+    {
+        "name": "Carla",
+        "hex": "#f3ffd8"
+    },
+    {
+        "name": "Hollywood Cerise",
+        "hex": "#f400a1"
+    },
+    {
+        "name": "Sandy brown",
+        "hex": "#f4a460"
+    },
+    {
+        "name": "Saffron",
+        "hex": "#f4c430"
+    },
+    {
+        "name": "Ripe Lemon",
+        "hex": "#f4d81c"
+    },
+    {
+        "name": "Janna",
+        "hex": "#f4ebd3"
+    },
+    {
+        "name": "Pampas",
+        "hex": "#f4f2ee"
+    },
+    {
+        "name": "Wild Sand",
+        "hex": "#f4f4f4"
+    },
+    {
+        "name": "Zircon",
+        "hex": "#f4f8ff"
+    },
+    {
+        "name": "Froly",
+        "hex": "#f57584"
+    },
+    {
+        "name": "Cream Can",
+        "hex": "#f5c85c"
+    },
+    {
+        "name": "Manhattan",
+        "hex": "#f5c999"
+    },
+    {
+        "name": "Maize",
+        "hex": "#f5d5a0"
+    },
+    {
+        "name": "Wheat",
+        "hex": "#f5deb3"
+    },
+    {
+        "name": "Sandwisp",
+        "hex": "#f5e7a2"
+    },
+    {
+        "name": "Pot Pourri",
+        "hex": "#f5e7e2"
+    },
+    {
+        "name": "Albescent White",
+        "hex": "#f5e9d3"
+    },
+    {
+        "name": "Soft Peach",
+        "hex": "#f5edef"
+    },
+    {
+        "name": "Ecru White",
+        "hex": "#f5f3e5"
+    },
+    {
+        "name": "Beige",
+        "hex": "#f5f5dc"
+    },
+    {
+        "name": "Golden Fizz",
+        "hex": "#f5fb3d"
+    },
+    {
+        "name": "Australian Mint",
+        "hex": "#f5ffbe"
+    },
+    {
+        "name": "French Rose",
+        "hex": "#f64a8a"
+    },
+    {
+        "name": "Brilliant Rose",
+        "hex": "#f653a6"
+    },
+    {
+        "name": "Illusion",
+        "hex": "#f6a4c9"
+    },
+    {
+        "name": "Merino",
+        "hex": "#f6f0e6"
+    },
+    {
+        "name": "Black Haze",
+        "hex": "#f6f7f7"
+    },
+    {
+        "name": "Spring Sun",
+        "hex": "#f6ffdc"
+    },
+    {
+        "name": "Violet Red",
+        "hex": "#f7468a"
+    },
+    {
+        "name": "Chilean Fire",
+        "hex": "#f77703"
+    },
+    {
+        "name": "Persian Pink",
+        "hex": "#f77fbe"
+    },
+    {
+        "name": "Rajah",
+        "hex": "#f7b668"
+    },
+    {
+        "name": "Azalea",
+        "hex": "#f7c8da"
+    },
+    {
+        "name": "We Peep",
+        "hex": "#f7dbe6"
+    },
+    {
+        "name": "Quarter Spanish White",
+        "hex": "#f7f2e1"
+    },
+    {
+        "name": "Whisper",
+        "hex": "#f7f5fa"
+    },
+    {
+        "name": "Snow Drift",
+        "hex": "#f7faf7"
+    },
+    {
+        "name": "Casablanca",
+        "hex": "#f8b853"
+    },
+    {
+        "name": "Chantilly",
+        "hex": "#f8c3df"
+    },
+    {
+        "name": "Cherub",
+        "hex": "#f8d9e9"
+    },
+    {
+        "name": "Marzipan",
+        "hex": "#f8db9d"
+    },
+    {
+        "name": "Energy Yellow",
+        "hex": "#f8dd5c"
+    },
+    {
+        "name": "Givry",
+        "hex": "#f8e4bf"
+    },
+    {
+        "name": "White Linen",
+        "hex": "#f8f0e8"
+    },
+    {
+        "name": "Magnolia",
+        "hex": "#f8f4ff"
+    },
+    {
+        "name": "Spring Wood",
+        "hex": "#f8f6f1"
+    },
+    {
+        "name": "Coconut Cream",
+        "hex": "#f8f7dc"
+    },
+    {
+        "name": "White Lilac",
+        "hex": "#f8f7fc"
+    },
+    {
+        "name": "Desert Storm",
+        "hex": "#f8f8f7"
+    },
+    {
+        "name": "Texas",
+        "hex": "#f8f99c"
+    },
+    {
+        "name": "Corn Field",
+        "hex": "#f8facd"
+    },
+    {
+        "name": "Mimosa",
+        "hex": "#f8fdd3"
+    },
+    {
+        "name": "Carnation",
+        "hex": "#f95a61"
+    },
+    {
+        "name": "Saffron Mango",
+        "hex": "#f9bf58"
+    },
+    {
+        "name": "Carousel Pink",
+        "hex": "#f9e0ed"
+    },
+    {
+        "name": "Dairy Cream",
+        "hex": "#f9e4bc"
+    },
+    {
+        "name": "Portica",
+        "hex": "#f9e663"
+    },
+    {
+        "name": "Amour",
+        "hex": "#f9eaf3"
+    },
+    {
+        "name": "Rum Swizzle",
+        "hex": "#f9f8e4"
+    },
+    {
+        "name": "Dolly",
+        "hex": "#f9ff8b"
+    },
+    {
+        "name": "Sugar Cane",
+        "hex": "#f9fff6"
+    },
+    {
+        "name": "Ecstasy",
+        "hex": "#fa7814"
+    },
+    {
+        "name": "Tan Hide",
+        "hex": "#fa9d5a"
+    },
+    {
+        "name": "Corvette",
+        "hex": "#fad3a2"
+    },
+    {
+        "name": "Peach Yellow",
+        "hex": "#fadfad"
+    },
+    {
+        "name": "Turbo",
+        "hex": "#fae600"
+    },
+    {
+        "name": "Astra",
+        "hex": "#faeab9"
+    },
+    {
+        "name": "Champagne",
+        "hex": "#faeccc"
+    },
+    {
+        "name": "Linen",
+        "hex": "#faf0e6"
+    },
+    {
+        "name": "Fantasy",
+        "hex": "#faf3f0"
+    },
+    {
+        "name": "Citrine White",
+        "hex": "#faf7d6"
+    },
+    {
+        "name": "Alabaster",
+        "hex": "#fafafa"
+    },
+    {
+        "name": "Hint of Yellow",
+        "hex": "#fafde4"
+    },
+    {
+        "name": "Milan",
+        "hex": "#faffa4"
+    },
+    {
+        "name": "Brink Pink",
+        "hex": "#fb607f"
+    },
+    {
+        "name": "Geraldine",
+        "hex": "#fb8989"
+    },
+    {
+        "name": "Lavender Rose",
+        "hex": "#fba0e3"
+    },
+    {
+        "name": "Sea Buckthorn",
+        "hex": "#fba129"
+    },
+    {
+        "name": "Sun",
+        "hex": "#fbac13"
+    },
+    {
+        "name": "Lavender Pink",
+        "hex": "#fbaed2"
+    },
+    {
+        "name": "Rose Bud",
+        "hex": "#fbb2a3"
+    },
+    {
+        "name": "Cupid",
+        "hex": "#fbbeda"
+    },
+    {
+        "name": "Classic Rose",
+        "hex": "#fbcce7"
+    },
+    {
+        "name": "Apricot Peach",
+        "hex": "#fbceb1"
+    },
+    {
+        "name": "Banana Mania",
+        "hex": "#fbe7b2"
+    },
+    {
+        "name": "Marigold Yellow",
+        "hex": "#fbe870"
+    },
+    {
+        "name": "Festival",
+        "hex": "#fbe96c"
+    },
+    {
+        "name": "Sweet Corn",
+        "hex": "#fbea8c"
+    },
+    {
+        "name": "Candy Corn",
+        "hex": "#fbec5d"
+    },
+    {
+        "name": "Hint of Red",
+        "hex": "#fbf9f9"
+    },
+    {
+        "name": "Shalimar",
+        "hex": "#fbffba"
+    },
+    {
+        "name": "Shocking Pink",
+        "hex": "#fc0fc0"
+    },
+    {
+        "name": "Tickle Me Pink",
+        "hex": "#fc80a5"
+    },
+    {
+        "name": "Tree Poppy",
+        "hex": "#fc9c1d"
+    },
+    {
+        "name": "Lightning Yellow",
+        "hex": "#fcc01e"
+    },
+    {
+        "name": "Goldenrod",
+        "hex": "#fcd667"
+    },
+    {
+        "name": "Candlelight",
+        "hex": "#fcd917"
+    },
+    {
+        "name": "Cherokee",
+        "hex": "#fcda98"
+    },
+    {
+        "name": "Double Pearl Lusta",
+        "hex": "#fcf4d0"
+    },
+    {
+        "name": "Pearl Lusta",
+        "hex": "#fcf4dc"
+    },
+    {
+        "name": "Vista White",
+        "hex": "#fcf8f7"
+    },
+    {
+        "name": "Bianca",
+        "hex": "#fcfbf3"
+    },
+    {
+        "name": "Moon Glow",
+        "hex": "#fcfeda"
+    },
+    {
+        "name": "China Ivory",
+        "hex": "#fcffe7"
+    },
+    {
+        "name": "Ceramic",
+        "hex": "#fcfff9"
+    },
+    {
+        "name": "Torch Red",
+        "hex": "#fd0e35"
+    },
+    {
+        "name": "Wild Watermelon",
+        "hex": "#fd5b78"
+    },
+    {
+        "name": "Crusta",
+        "hex": "#fd7b33"
+    },
+    {
+        "name": "Sorbus",
+        "hex": "#fd7c07"
+    },
+    {
+        "name": "Sweet Pink",
+        "hex": "#fd9fa2"
+    },
+    {
+        "name": "Light Apricot",
+        "hex": "#fdd5b1"
+    },
+    {
+        "name": "Pig Pink",
+        "hex": "#fdd7e4"
+    },
+    {
+        "name": "Cinderella",
+        "hex": "#fde1dc"
+    },
+    {
+        "name": "Golden Glow",
+        "hex": "#fde295"
+    },
+    {
+        "name": "Lemon",
+        "hex": "#fde910"
+    },
+    {
+        "name": "Old Lace",
+        "hex": "#fdf5e6"
+    },
+    {
+        "name": "Half Colonial White",
+        "hex": "#fdf6d3"
+    },
+    {
+        "name": "Drover",
+        "hex": "#fdf7ad"
+    },
+    {
+        "name": "Pale Prim",
+        "hex": "#fdfeb8"
+    },
+    {
+        "name": "Cumulus",
+        "hex": "#fdffd5"
+    },
+    {
+        "name": "Persian Rose",
+        "hex": "#fe28a2"
+    },
+    {
+        "name": "Sunset Orange",
+        "hex": "#fe4c40"
+    },
+    {
+        "name": "Bittersweet",
+        "hex": "#fe6f5e"
+    },
+    {
+        "name": "California",
+        "hex": "#fe9d04"
+    },
+    {
+        "name": "Yellow Sea",
+        "hex": "#fea904"
+    },
+    {
+        "name": "Melon",
+        "hex": "#febaad"
+    },
+    {
+        "name": "Bright Sun",
+        "hex": "#fed33c"
+    },
+    {
+        "name": "Dandelion",
+        "hex": "#fed85d"
+    },
+    {
+        "name": "Salomie",
+        "hex": "#fedb8d"
+    },
+    {
+        "name": "Cape Honey",
+        "hex": "#fee5ac"
+    },
+    {
+        "name": "Remy",
+        "hex": "#feebf3"
+    },
+    {
+        "name": "Oasis",
+        "hex": "#feefce"
+    },
+    {
+        "name": "Bridesmaid",
+        "hex": "#fef0ec"
+    },
+    {
+        "name": "Beeswax",
+        "hex": "#fef2c7"
+    },
+    {
+        "name": "Bleach White",
+        "hex": "#fef3d8"
+    },
+    {
+        "name": "Pipi",
+        "hex": "#fef4cc"
+    },
+    {
+        "name": "Half Spanish White",
+        "hex": "#fef4db"
+    },
+    {
+        "name": "Wisp Pink",
+        "hex": "#fef4f8"
+    },
+    {
+        "name": "Provincial Pink",
+        "hex": "#fef5f1"
+    },
+    {
+        "name": "Half Dutch White",
+        "hex": "#fef7de"
+    },
+    {
+        "name": "Solitaire",
+        "hex": "#fef8e2"
+    },
+    {
+        "name": "White Pointer",
+        "hex": "#fef8ff"
+    },
+    {
+        "name": "Off Yellow",
+        "hex": "#fef9e3"
+    },
+    {
+        "name": "Orange White",
+        "hex": "#fefced"
+    },
+    {
+        "name": "Red",
+        "hex": "#ff0000"
+    },
+    {
+        "name": "Rose",
+        "hex": "#ff007f"
+    },
+    {
+        "name": "Purple Pizzazz",
+        "hex": "#ff00cc"
+    },
+    {
+        "name": "Magenta / Fuchsia",
+        "hex": "#ff00ff"
+    },
+    {
+        "name": "Scarlet",
+        "hex": "#ff2400"
+    },
+    {
+        "name": "Wild Strawberry",
+        "hex": "#ff3399"
+    },
+    {
+        "name": "Razzle Dazzle Rose",
+        "hex": "#ff33cc"
+    },
+    {
+        "name": "Radical Red",
+        "hex": "#ff355e"
+    },
+    {
+        "name": "Red Orange",
+        "hex": "#ff3f34"
+    },
+    {
+        "name": "Coral Red",
+        "hex": "#ff4040"
+    },
+    {
+        "name": "Vermilion",
+        "hex": "#ff4d00"
+    },
+    {
+        "name": "International Orange",
+        "hex": "#ff4f00"
+    },
+    {
+        "name": "Outrageous Orange",
+        "hex": "#ff6037"
+    },
+    {
+        "name": "Blaze Orange",
+        "hex": "#ff6600"
+    },
+    {
+        "name": "Pink Flamingo",
+        "hex": "#ff66ff"
+    },
+    {
+        "name": "Orange",
+        "hex": "#ff681f"
+    },
+    {
+        "name": "Hot Pink",
+        "hex": "#ff69b4"
+    },
+    {
+        "name": "Persimmon",
+        "hex": "#ff6b53"
+    },
+    {
+        "name": "Blush Pink",
+        "hex": "#ff6fff"
+    },
+    {
+        "name": "Burning Orange",
+        "hex": "#ff7034"
+    },
+    {
+        "name": "Pumpkin",
+        "hex": "#ff7518"
+    },
+    {
+        "name": "Flamenco",
+        "hex": "#ff7d07"
+    },
+    {
+        "name": "Flush Orange",
+        "hex": "#ff7f00"
+    },
+    {
+        "name": "Coral",
+        "hex": "#ff7f50"
+    },
+    {
+        "name": "Salmon",
+        "hex": "#ff8c69"
+    },
+    {
+        "name": "Pizazz",
+        "hex": "#ff9000"
+    },
+    {
+        "name": "West Side",
+        "hex": "#ff910f"
+    },
+    {
+        "name": "Pink Salmon",
+        "hex": "#ff91a4"
+    },
+    {
+        "name": "Neon Carrot",
+        "hex": "#ff9933"
+    },
+    {
+        "name": "Atomic Tangerine",
+        "hex": "#ff9966"
+    },
+    {
+        "name": "Vivid Tangerine",
+        "hex": "#ff9980"
+    },
+    {
+        "name": "Sunshade",
+        "hex": "#ff9e2c"
+    },
+    {
+        "name": "Orange Peel",
+        "hex": "#ffa000"
+    },
+    {
+        "name": "Mona Lisa",
+        "hex": "#ffa194"
+    },
+    {
+        "name": "Web Orange",
+        "hex": "#ffa500"
+    },
+    {
+        "name": "Carnation Pink",
+        "hex": "#ffa6c9"
+    },
+    {
+        "name": "Hit Pink",
+        "hex": "#ffab81"
+    },
+    {
+        "name": "Yellow Orange",
+        "hex": "#ffae42"
+    },
+    {
+        "name": "Cornflower Lilac",
+        "hex": "#ffb0ac"
+    },
+    {
+        "name": "Sundown",
+        "hex": "#ffb1b3"
+    },
+    {
+        "name": "My Sin",
+        "hex": "#ffb31f"
+    },
+    {
+        "name": "Texas Rose",
+        "hex": "#ffb555"
+    },
+    {
+        "name": "Cotton Candy",
+        "hex": "#ffb7d5"
+    },
+    {
+        "name": "Macaroni and Cheese",
+        "hex": "#ffb97b"
+    },
+    {
+        "name": "Selective Yellow",
+        "hex": "#ffba00"
+    },
+    {
+        "name": "Koromiko",
+        "hex": "#ffbd5f"
+    },
+    {
+        "name": "Amber",
+        "hex": "#ffbf00"
+    },
+    {
+        "name": "Wax Flower",
+        "hex": "#ffc0a8"
+    },
+    {
+        "name": "Pink",
+        "hex": "#ffc0cb"
+    },
+    {
+        "name": "Your Pink",
+        "hex": "#ffc3c0"
+    },
+    {
+        "name": "Supernova",
+        "hex": "#ffc901"
+    },
+    {
+        "name": "Flesh",
+        "hex": "#ffcba4"
+    },
+    {
+        "name": "Sunglow",
+        "hex": "#ffcc33"
+    },
+    {
+        "name": "Golden Tainoi",
+        "hex": "#ffcc5c"
+    },
+    {
+        "name": "Peach Orange",
+        "hex": "#ffcc99"
+    },
+    {
+        "name": "Chardonnay",
+        "hex": "#ffcd8c"
+    },
+    {
+        "name": "Pastel Pink",
+        "hex": "#ffd1dc"
+    },
+    {
+        "name": "Romantic",
+        "hex": "#ffd2b7"
+    },
+    {
+        "name": "Grandis",
+        "hex": "#ffd38c"
+    },
+    {
+        "name": "Gold",
+        "hex": "#ffd700"
+    },
+    {
+        "name": "School bus Yellow",
+        "hex": "#ffd800"
+    },
+    {
+        "name": "Cosmos",
+        "hex": "#ffd8d9"
+    },
+    {
+        "name": "Mustard",
+        "hex": "#ffdb58"
+    },
+    {
+        "name": "Peach Schnapps",
+        "hex": "#ffdcd6"
+    },
+    {
+        "name": "Caramel",
+        "hex": "#ffddaf"
+    },
+    {
+        "name": "Tuft Bush",
+        "hex": "#ffddcd"
+    },
+    {
+        "name": "Watusi",
+        "hex": "#ffddcf"
+    },
+    {
+        "name": "Pink Lace",
+        "hex": "#ffddf4"
+    },
+    {
+        "name": "Navajo White",
+        "hex": "#ffdead"
+    },
+    {
+        "name": "Frangipani",
+        "hex": "#ffdeb3"
+    },
+    {
+        "name": "Pippin",
+        "hex": "#ffe1df"
+    },
+    {
+        "name": "Pale Rose",
+        "hex": "#ffe1f2"
+    },
+    {
+        "name": "Negroni",
+        "hex": "#ffe2c5"
+    },
+    {
+        "name": "Cream Brulee",
+        "hex": "#ffe5a0"
+    },
+    {
+        "name": "Peach",
+        "hex": "#ffe5b4"
+    },
+    {
+        "name": "Tequila",
+        "hex": "#ffe6c7"
+    },
+    {
+        "name": "Kournikova",
+        "hex": "#ffe772"
+    },
+    {
+        "name": "Sandy Beach",
+        "hex": "#ffeac8"
+    },
+    {
+        "name": "Karry",
+        "hex": "#ffead4"
+    },
+    {
+        "name": "Broom",
+        "hex": "#ffec13"
+    },
+    {
+        "name": "Colonial White",
+        "hex": "#ffedbc"
+    },
+    {
+        "name": "Derby",
+        "hex": "#ffeed8"
+    },
+    {
+        "name": "Vis Vis",
+        "hex": "#ffefa1"
+    },
+    {
+        "name": "Egg White",
+        "hex": "#ffefc1"
+    },
+    {
+        "name": "Papaya Whip",
+        "hex": "#ffefd5"
+    },
+    {
+        "name": "Fair Pink",
+        "hex": "#ffefec"
+    },
+    {
+        "name": "Peach Cream",
+        "hex": "#fff0db"
+    },
+    {
+        "name": "Lavender blush",
+        "hex": "#fff0f5"
+    },
+    {
+        "name": "Gorse",
+        "hex": "#fff14f"
+    },
+    {
+        "name": "Buttermilk",
+        "hex": "#fff1b5"
+    },
+    {
+        "name": "Pink Lady",
+        "hex": "#fff1d8"
+    },
+    {
+        "name": "Forget Me Not",
+        "hex": "#fff1ee"
+    },
+    {
+        "name": "Tutu",
+        "hex": "#fff1f9"
+    },
+    {
+        "name": "Picasso",
+        "hex": "#fff39d"
+    },
+    {
+        "name": "Chardon",
+        "hex": "#fff3f1"
+    },
+    {
+        "name": "Paris Daisy",
+        "hex": "#fff46e"
+    },
+    {
+        "name": "Barley White",
+        "hex": "#fff4ce"
+    },
+    {
+        "name": "Egg Sour",
+        "hex": "#fff4dd"
+    },
+    {
+        "name": "Sazerac",
+        "hex": "#fff4e0"
+    },
+    {
+        "name": "Serenade",
+        "hex": "#fff4e8"
+    },
+    {
+        "name": "Chablis",
+        "hex": "#fff4f3"
+    },
+    {
+        "name": "Seashell Peach",
+        "hex": "#fff5ee"
+    },
+    {
+        "name": "Sauvignon",
+        "hex": "#fff5f3"
+    },
+    {
+        "name": "Milk Punch",
+        "hex": "#fff6d4"
+    },
+    {
+        "name": "Varden",
+        "hex": "#fff6df"
+    },
+    {
+        "name": "Rose White",
+        "hex": "#fff6f5"
+    },
+    {
+        "name": "Baja White",
+        "hex": "#fff8d1"
+    },
+    {
+        "name": "Gin Fizz",
+        "hex": "#fff9e2"
+    },
+    {
+        "name": "Early Dawn",
+        "hex": "#fff9e6"
+    },
+    {
+        "name": "Lemon Chiffon",
+        "hex": "#fffacd"
+    },
+    {
+        "name": "Bridal Heath",
+        "hex": "#fffaf4"
+    },
+    {
+        "name": "Scotch Mist",
+        "hex": "#fffbdc"
+    },
+    {
+        "name": "Soapstone",
+        "hex": "#fffbf9"
+    },
+    {
+        "name": "Witch Haze",
+        "hex": "#fffc99"
+    },
+    {
+        "name": "Buttery White",
+        "hex": "#fffcea"
+    },
+    {
+        "name": "Island Spice",
+        "hex": "#fffcee"
+    },
+    {
+        "name": "Cream",
+        "hex": "#fffdd0"
+    },
+    {
+        "name": "Chilean Heath",
+        "hex": "#fffde6"
+    },
+    {
+        "name": "Travertine",
+        "hex": "#fffde8"
+    },
+    {
+        "name": "Orchid White",
+        "hex": "#fffdf3"
+    },
+    {
+        "name": "Quarter Pearl Lusta",
+        "hex": "#fffdf4"
+    },
+    {
+        "name": "Half and Half",
+        "hex": "#fffee1"
+    },
+    {
+        "name": "Apricot White",
+        "hex": "#fffeec"
+    },
+    {
+        "name": "Rice Cake",
+        "hex": "#fffef0"
+    },
+    {
+        "name": "Black White",
+        "hex": "#fffef6"
+    },
+    {
+        "name": "Romance",
+        "hex": "#fffefd"
+    },
+    {
+        "name": "Yellow",
+        "hex": "#ffff00"
+    },
+    {
+        "name": "Laser Lemon",
+        "hex": "#ffff66"
+    },
+    {
+        "name": "Pale Canary",
+        "hex": "#ffff99"
+    },
+    {
+        "name": "Portafino",
+        "hex": "#ffffb4"
+    },
+    {
+        "name": "Ivory",
+        "hex": "#fffff0"
+    },
+    {
+        "name": "White",
+        "hex": "#ffffff"
+    }
+]

@@ -1,0 +1,6 @@
+[submodule "color-names"]
+	path = color-names
+	url = https://github.com/meodai/color-names
+[submodule "color-name-lists"]
+	path = color-name-lists
+	url = https://github.com/meodai/color-name-lists

@@ -1,0 +1,1202 @@
+[
+    {
+        "name": "Black",
+        "hex": "#000000",
+        "category": "black"
+    },
+    {
+        "name": "Ebony",
+        "hex": "#080401",
+        "category": "black"
+    },
+    {
+        "name": "Crow",
+        "hex": "#130906",
+        "category": "black"
+    },
+    {
+        "name": "Charcoal",
+        "hex": "#28231d",
+        "category": "black"
+    },
+    {
+        "name": "Midnight",
+        "hex": "#000004",
+        "category": "black"
+    },
+    {
+        "name": "Ink",
+        "hex": "#000000",
+        "category": "black"
+    },
+    {
+        "name": "Raven",
+        "hex": "#040301",
+        "category": "black"
+    },
+    {
+        "name": "Oil",
+        "hex": "#050100",
+        "category": "black"
+    },
+    {
+        "name": "Grease",
+        "hex": "#090806",
+        "category": "black"
+    },
+    {
+        "name": "Onyx",
+        "hex": "#030106",
+        "category": "black"
+    },
+    {
+        "name": "Pitch",
+        "hex": "#020001",
+        "category": "black"
+    },
+    {
+        "name": "Soot",
+        "hex": "#150e06",
+        "category": "black"
+    },
+    {
+        "name": "Sable",
+        "hex": "#030200",
+        "category": "black"
+    },
+    {
+        "name": "Jet black",
+        "hex": "#000000",
+        "category": "black"
+    },
+    {
+        "name": "Coal",
+        "hex": "#111008",
+        "category": "black"
+    },
+    {
+        "name": "Metal",
+        "hex": "#131210",
+        "category": "black"
+    },
+    {
+        "name": "Obsidian",
+        "hex": "#020403",
+        "category": "black"
+    },
+    {
+        "name": "Jade",
+        "hex": "#010302",
+        "category": "black"
+    },
+    {
+        "name": "Spider",
+        "hex": "#030200",
+        "category": "black"
+    },
+    {
+        "name": "Leather",
+        "hex": "#110704",
+        "category": "black"
+    },
+    {
+        "name": "Blue",
+        "hex": "#3a43ba",
+        "category": "blue"
+    },
+    {
+        "name": "Slate",
+        "hex": "#757b87",
+        "category": "blue"
+    },
+    {
+        "name": "Sky",
+        "hex": "#62c5da",
+        "category": "blue"
+    },
+    {
+        "name": "Navy",
+        "hex": "#0b1171",
+        "category": "blue"
+    },
+    {
+        "name": "Indigo",
+        "hex": "#281e5d",
+        "category": "blue"
+    },
+    {
+        "name": "Cobalt",
+        "hex": "#1338bd",
+        "category": "blue"
+    },
+    {
+        "name": "Teal",
+        "hex": "#48aaad",
+        "category": "blue"
+    },
+    {
+        "name": "Ocean",
+        "hex": "#016064",
+        "category": "blue"
+    },
+    {
+        "name": "Peacock",
+        "hex": "#012d36",
+        "category": "blue"
+    },
+    {
+        "name": "Azure",
+        "hex": "#1620a6",
+        "category": "blue"
+    },
+    {
+        "name": "Cerulean",
+        "hex": "#0492c2",
+        "category": "blue"
+    },
+    {
+        "name": "Lapis",
+        "hex": "#2732c2",
+        "category": "blue"
+    },
+    {
+        "name": "Spruce",
+        "hex": "#2c3e4c",
+        "category": "blue"
+    },
+    {
+        "name": "Stone",
+        "hex": "#59788d",
+        "category": "blue"
+    },
+    {
+        "name": "Aegean",
+        "hex": "#1e456e",
+        "category": "blue"
+    },
+    {
+        "name": "Berry",
+        "hex": "#241570",
+        "category": "blue"
+    },
+    {
+        "name": "Denim",
+        "hex": "#151e3d",
+        "category": "blue"
+    },
+    {
+        "name": "Admiral",
+        "hex": "#061094",
+        "category": "blue"
+    },
+    {
+        "name": "Sapphire",
+        "hex": "#52b2c0",
+        "category": "blue"
+    },
+    {
+        "name": "Arctic",
+        "hex": "#82edfd",
+        "category": "blue"
+    },
+    {
+        "name": "Brown",
+        "hex": "#231709",
+        "category": "brown"
+    },
+    {
+        "name": "Coffee",
+        "hex": "#4b371c",
+        "category": "brown"
+    },
+    {
+        "name": "Mocha",
+        "hex": "#3c280d",
+        "category": "brown"
+    },
+    {
+        "name": "Peanut",
+        "hex": "#795c34",
+        "category": "brown"
+    },
+    {
+        "name": "Carob",
+        "hex": "#36260f",
+        "category": "brown"
+    },
+    {
+        "name": "Hickory",
+        "hex": "#371d10",
+        "category": "brown"
+    },
+    {
+        "name": "Wood",
+        "hex": "#3f301d",
+        "category": "brown"
+    },
+    {
+        "name": "Pecan",
+        "hex": "#4a2512",
+        "category": "brown"
+    },
+    {
+        "name": "Walnut",
+        "hex": "#432711",
+        "category": "brown"
+    },
+    {
+        "name": "Caramel",
+        "hex": "#65350f",
+        "category": "brown"
+    },
+    {
+        "name": "Gingerbread",
+        "hex": "#5d2c04",
+        "category": "brown"
+    },
+    {
+        "name": "Syrup",
+        "hex": "#472001",
+        "category": "brown"
+    },
+    {
+        "name": "Chocolate",
+        "hex": "#2c1503",
+        "category": "brown"
+    },
+    {
+        "name": "Tortilla",
+        "hex": "#9a7b4f",
+        "category": "brown"
+    },
+    {
+        "name": "Umber",
+        "hex": "#352315",
+        "category": "brown"
+    },
+    {
+        "name": "Tawny",
+        "hex": "#7e481c",
+        "category": "brown"
+    },
+    {
+        "name": "Brunette",
+        "hex": "#3a1e08",
+        "category": "brown"
+    },
+    {
+        "name": "Cinnamon",
+        "hex": "#632a0d",
+        "category": "brown"
+    },
+    {
+        "name": "Penny",
+        "hex": "#522915",
+        "category": "brown"
+    },
+    {
+        "name": "Cedar",
+        "hex": "#4a3728",
+        "category": "brown"
+    },
+    {
+        "name": "Green",
+        "hex": "#3bb143",
+        "category": "green"
+    },
+    {
+        "name": "Chartreuse",
+        "hex": "#b0fc38",
+        "category": "green"
+    },
+    {
+        "name": "Juniper",
+        "hex": "#3a5311",
+        "category": "green"
+    },
+    {
+        "name": "Sage",
+        "hex": "#728c69",
+        "category": "green"
+    },
+    {
+        "name": "Lime",
+        "hex": "#aef35a",
+        "category": "green"
+    },
+    {
+        "name": "Fern",
+        "hex": "#5cbc63",
+        "category": "green"
+    },
+    {
+        "name": "Olive",
+        "hex": "#98bf64",
+        "category": "green"
+    },
+    {
+        "name": "Emerald",
+        "hex": "#028910",
+        "category": "green"
+    },
+    {
+        "name": "Pear",
+        "hex": "#74b62e",
+        "category": "green"
+    },
+    {
+        "name": "Moss",
+        "hex": "#466d1e",
+        "category": "green"
+    },
+    {
+        "name": "Shamrock",
+        "hex": "#03ac13",
+        "category": "green"
+    },
+    {
+        "name": "Seafoam",
+        "hex": "#3cec97",
+        "category": "green"
+    },
+    {
+        "name": "Pine",
+        "hex": "#234f1e",
+        "category": "green"
+    },
+    {
+        "name": "Parakeet",
+        "hex": "#03c04a",
+        "category": "green"
+    },
+    {
+        "name": "Mint",
+        "hex": "#98edc3",
+        "category": "green"
+    },
+    {
+        "name": "Seaweed",
+        "hex": "#354a21",
+        "category": "green"
+    },
+    {
+        "name": "Pickle",
+        "hex": "#597d35",
+        "category": "green"
+    },
+    {
+        "name": "Pistachio",
+        "hex": "#b2d3c2",
+        "category": "green"
+    },
+    {
+        "name": "Basil",
+        "hex": "#32612d",
+        "category": "green"
+    },
+    {
+        "name": "Crocodile",
+        "hex": "#607d3b",
+        "category": "green"
+    },
+    {
+        "name": "Grey",
+        "hex": "#6c626d",
+        "category": "grey"
+    },
+    {
+        "name": "Shadow",
+        "hex": "#373737",
+        "category": "grey"
+    },
+    {
+        "name": "Graphite",
+        "hex": "#584d5b",
+        "category": "grey"
+    },
+    {
+        "name": "Iron",
+        "hex": "#322d31",
+        "category": "grey"
+    },
+    {
+        "name": "Pewter",
+        "hex": "#6a6880",
+        "category": "grey"
+    },
+    {
+        "name": "Cloud",
+        "hex": "#c6c6d0",
+        "category": "grey"
+    },
+    {
+        "name": "Silver",
+        "hex": "#adadc7",
+        "category": "grey"
+    },
+    {
+        "name": "Smoke",
+        "hex": "#59515e",
+        "category": "grey"
+    },
+    {
+        "name": "Slate",
+        "hex": "#3f3d53",
+        "category": "grey"
+    },
+    {
+        "name": "Anchor",
+        "hex": "#42424c",
+        "category": "grey"
+    },
+    {
+        "name": "Ash",
+        "hex": "#554c4d",
+        "category": "grey"
+    },
+    {
+        "name": "Porpoise",
+        "hex": "#4d4c5c",
+        "category": "grey"
+    },
+    {
+        "name": "Dove",
+        "hex": "#7c6e7f",
+        "category": "grey"
+    },
+    {
+        "name": "Fog",
+        "hex": "#655965",
+        "category": "grey"
+    },
+    {
+        "name": "Flint",
+        "hex": "#7e7d9c",
+        "category": "grey"
+    },
+    {
+        "name": "Charcoal",
+        "hex": "#222023",
+        "category": "grey"
+    },
+    {
+        "name": "Pebble",
+        "hex": "#333333",
+        "category": "grey"
+    },
+    {
+        "name": "Lead",
+        "hex": "#403f4d",
+        "category": "grey"
+    },
+    {
+        "name": "Coin",
+        "hex": "#9897a9",
+        "category": "grey"
+    },
+    {
+        "name": "Fossil",
+        "hex": "#787276",
+        "category": "grey"
+    },
+    {
+        "name": "Orange",
+        "hex": "#ed7014",
+        "category": "orange"
+    },
+    {
+        "name": "Tangerine",
+        "hex": "#f98228",
+        "category": "orange"
+    },
+    {
+        "name": "Marigold",
+        "hex": "#fdae1d",
+        "category": "orange"
+    },
+    {
+        "name": "Cider",
+        "hex": "#b56727",
+        "category": "orange"
+    },
+    {
+        "name": "Rust",
+        "hex": "#8c4004",
+        "category": "orange"
+    },
+    {
+        "name": "Ginger",
+        "hex": "#bc5602",
+        "category": "orange"
+    },
+    {
+        "name": "Tiger",
+        "hex": "#fc6b02",
+        "category": "orange"
+    },
+    {
+        "name": "Fire",
+        "hex": "#dd561c",
+        "category": "orange"
+    },
+    {
+        "name": "Bronze",
+        "hex": "#b2560d",
+        "category": "orange"
+    },
+    {
+        "name": "Cantaloupe",
+        "hex": "#fca172",
+        "category": "orange"
+    },
+    {
+        "name": "Apricot",
+        "hex": "#ed820e",
+        "category": "orange"
+    },
+    {
+        "name": "Clay",
+        "hex": "#7f400b",
+        "category": "orange"
+    },
+    {
+        "name": "Honey",
+        "hex": "#ec9706",
+        "category": "orange"
+    },
+    {
+        "name": "Carrot",
+        "hex": "#ed7117",
+        "category": "orange"
+    },
+    {
+        "name": "Squash",
+        "hex": "#c95c0a",
+        "category": "orange"
+    },
+    {
+        "name": "Spice",
+        "hex": "#7a3903",
+        "category": "orange"
+    },
+    {
+        "name": "Marmalade",
+        "hex": "#d16002",
+        "category": "orange"
+    },
+    {
+        "name": "Amber",
+        "hex": "#893101",
+        "category": "orange"
+    },
+    {
+        "name": "Sandstone",
+        "hex": "#d67129",
+        "category": "orange"
+    },
+    {
+        "name": "Yam",
+        "hex": "#cc5801",
+        "category": "orange"
+    },
+    {
+        "name": "Pink",
+        "hex": "#f69acd",
+        "category": "pink"
+    },
+    {
+        "name": "Rose",
+        "hex": "#fc94ad",
+        "category": "pink"
+    },
+    {
+        "name": "Fushcia",
+        "hex": "#fc46aa",
+        "category": "pink"
+    },
+    {
+        "name": "Punch",
+        "hex": "#f15278",
+        "category": "pink"
+    },
+    {
+        "name": "Blush",
+        "hex": "#fec5e5",
+        "category": "pink"
+    },
+    {
+        "name": "Watermelon",
+        "hex": "#fe7f9c",
+        "category": "pink"
+    },
+    {
+        "name": "Flamingo",
+        "hex": "#fda4b8",
+        "category": "pink"
+    },
+    {
+        "name": "Rouge",
+        "hex": "#f26b8b",
+        "category": "pink"
+    },
+    {
+        "name": "Salmon",
+        "hex": "#fdab9f",
+        "category": "pink"
+    },
+    {
+        "name": "Coral",
+        "hex": "#fe7d68",
+        "category": "pink"
+    },
+    {
+        "name": "Peach",
+        "hex": "#fb9483",
+        "category": "pink"
+    },
+    {
+        "name": "Strawberry",
+        "hex": "#fc4c4e",
+        "category": "pink"
+    },
+    {
+        "name": "Rosewood",
+        "hex": "#a04242",
+        "category": "pink"
+    },
+    {
+        "name": "Lemonade",
+        "hex": "#fbbbcb",
+        "category": "pink"
+    },
+    {
+        "name": "Taffy",
+        "hex": "#fa86c5",
+        "category": "pink"
+    },
+    {
+        "name": "Bubblegum",
+        "hex": "#fd5ca8",
+        "category": "pink"
+    },
+    {
+        "name": "Ballet slipper",
+        "hex": "#f69abf",
+        "category": "pink"
+    },
+    {
+        "name": "Crepe",
+        "hex": "#f2b8c6",
+        "category": "pink"
+    },
+    {
+        "name": "Magenta",
+        "hex": "#e11584",
+        "category": "pink"
+    },
+    {
+        "name": "Hot pink",
+        "hex": "#ff1695",
+        "category": "pink"
+    },
+    {
+        "name": "Purple",
+        "hex": "#a32cc4",
+        "category": "purple"
+    },
+    {
+        "name": "Mauve",
+        "hex": "#7a4a88",
+        "category": "purple"
+    },
+    {
+        "name": "Violet",
+        "hex": "#710193",
+        "category": "purple"
+    },
+    {
+        "name": "Boysenberry",
+        "hex": "#620436",
+        "category": "purple"
+    },
+    {
+        "name": "Lavender",
+        "hex": "#e39ff6",
+        "category": "purple"
+    },
+    {
+        "name": "Plum",
+        "hex": "#601a36",
+        "category": "purple"
+    },
+    {
+        "name": "Magenta",
+        "hex": "#a10559",
+        "category": "purple"
+    },
+    {
+        "name": "Lilac",
+        "hex": "#b660cd",
+        "category": "purple"
+    },
+    {
+        "name": "Grape",
+        "hex": "#663047",
+        "category": "purple"
+    },
+    {
+        "name": "Periwinkle",
+        "hex": "#bd93d3",
+        "category": "purple"
+    },
+    {
+        "name": "Sangria",
+        "hex": "#4d0f28",
+        "category": "purple"
+    },
+    {
+        "name": "Eggplant",
+        "hex": "#311432",
+        "category": "purple"
+    },
+    {
+        "name": "Jam",
+        "hex": "#66042d",
+        "category": "purple"
+    },
+    {
+        "name": "Iris",
+        "hex": "#9866c5",
+        "category": "purple"
+    },
+    {
+        "name": "Heather",
+        "hex": "#9b7cb8",
+        "category": "purple"
+    },
+    {
+        "name": "Amethyst",
+        "hex": "#a45ee5",
+        "category": "purple"
+    },
+    {
+        "name": "Raisin",
+        "hex": "#290916",
+        "category": "purple"
+    },
+    {
+        "name": "Orchid",
+        "hex": "#af69ee",
+        "category": "purple"
+    },
+    {
+        "name": "Mulberry",
+        "hex": "#4c0120",
+        "category": "purple"
+    },
+    {
+        "name": "Wine",
+        "hex": "#2c051a",
+        "category": "purple"
+    },
+    {
+        "name": "Red",
+        "hex": "#d0312d",
+        "category": "red"
+    },
+    {
+        "name": "Cherry",
+        "hex": "#990f02",
+        "category": "red"
+    },
+    {
+        "name": "Rose",
+        "hex": "#e2252b",
+        "category": "red"
+    },
+    {
+        "name": "Jam",
+        "hex": "#600f0b",
+        "category": "red"
+    },
+    {
+        "name": "Merlot",
+        "hex": "#541f1b",
+        "category": "red"
+    },
+    {
+        "name": "Garnet",
+        "hex": "#600b04",
+        "category": "red"
+    },
+    {
+        "name": "Crimson",
+        "hex": "#b80f0a",
+        "category": "red"
+    },
+    {
+        "name": "Ruby",
+        "hex": "#900603",
+        "category": "red"
+    },
+    {
+        "name": "Scarlet",
+        "hex": "#910d09",
+        "category": "red"
+    },
+    {
+        "name": "Wine",
+        "hex": "#4c0805",
+        "category": "red"
+    },
+    {
+        "name": "Brick",
+        "hex": "#7e2811",
+        "category": "red"
+    },
+    {
+        "name": "Apple",
+        "hex": "#a91b0d",
+        "category": "red"
+    },
+    {
+        "name": "Mahogany",
+        "hex": "#420d09",
+        "category": "red"
+    },
+    {
+        "name": "Blood",
+        "hex": "#710c04",
+        "category": "red"
+    },
+    {
+        "name": "Sangria",
+        "hex": "#5e1914",
+        "category": "red"
+    },
+    {
+        "name": "Berry",
+        "hex": "#791812",
+        "category": "red"
+    },
+    {
+        "name": "Currant",
+        "hex": "#670c07",
+        "category": "red"
+    },
+    {
+        "name": "Blush",
+        "hex": "#bc5449",
+        "category": "red"
+    },
+    {
+        "name": "Candy",
+        "hex": "#d21502",
+        "category": "red"
+    },
+    {
+        "name": "Lipstick",
+        "hex": "#9c1003",
+        "category": "red"
+    },
+    {
+        "name": "Tan",
+        "hex": "#e6dbad",
+        "category": "tan"
+    },
+    {
+        "name": "Beige",
+        "hex": "#ecdd9a",
+        "category": "tan"
+    },
+    {
+        "name": "Macaroon",
+        "hex": "#f8e076",
+        "category": "tan"
+    },
+    {
+        "name": "Hazel wood",
+        "hex": "#c9bb8e",
+        "category": "tan"
+    },
+    {
+        "name": "Granola",
+        "hex": "#d6b75a",
+        "category": "tan"
+    },
+    {
+        "name": "Oat",
+        "hex": "#dec98a",
+        "category": "tan"
+    },
+    {
+        "name": "Egg nog",
+        "hex": "#fae29a",
+        "category": "tan"
+    },
+    {
+        "name": "Fawn",
+        "hex": "#c7a951",
+        "category": "tan"
+    },
+    {
+        "name": "Sugar cookie",
+        "hex": "#f3ebad",
+        "category": "tan"
+    },
+    {
+        "name": "Sand",
+        "hex": "#d7b963",
+        "category": "tan"
+    },
+    {
+        "name": "Sepia",
+        "hex": "#e3b778",
+        "category": "tan"
+    },
+    {
+        "name": "Latte",
+        "hex": "#dfc17b",
+        "category": "tan"
+    },
+    {
+        "name": "Oyster",
+        "hex": "#dcd7a0",
+        "category": "tan"
+    },
+    {
+        "name": "Biscotti",
+        "hex": "#e3c565",
+        "category": "tan"
+    },
+    {
+        "name": "Parmesan",
+        "hex": "#fde992",
+        "category": "tan"
+    },
+    {
+        "name": "Hazelnut",
+        "hex": "#bda55d",
+        "category": "tan"
+    },
+    {
+        "name": "Sandcastle",
+        "hex": "#dac27c",
+        "category": "tan"
+    },
+    {
+        "name": "Buttermilk",
+        "hex": "#fdefb2",
+        "category": "tan"
+    },
+    {
+        "name": "Sand dollar",
+        "hex": "#ece8b9",
+        "category": "tan"
+    },
+    {
+        "name": "Shortbread",
+        "hex": "#fbe790",
+        "category": "tan"
+    },
+    {
+        "name": "White",
+        "hex": "#fffefc",
+        "category": "white"
+    },
+    {
+        "name": "Pearl",
+        "hex": "#fbfcf7",
+        "category": "white"
+    },
+    {
+        "name": "Alabaster",
+        "hex": "#fefaf1",
+        "category": "white"
+    },
+    {
+        "name": "Snow",
+        "hex": "#f5fefd",
+        "category": "white"
+    },
+    {
+        "name": "Ivory",
+        "hex": "#fdf6e4",
+        "category": "white"
+    },
+    {
+        "name": "Cream",
+        "hex": "#fffada",
+        "category": "white"
+    },
+    {
+        "name": "Egg Shell",
+        "hex": "#fef9e3",
+        "category": "white"
+    },
+    {
+        "name": "Cotton",
+        "hex": "#fbfcf7",
+        "category": "white"
+    },
+    {
+        "name": "Chiffon",
+        "hex": "#fafaf2",
+        "category": "white"
+    },
+    {
+        "name": "Salt",
+        "hex": "#f7efec",
+        "category": "white"
+    },
+    {
+        "name": "Lace",
+        "hex": "#faf3eb",
+        "category": "white"
+    },
+    {
+        "name": "Coconut",
+        "hex": "#fff1e6",
+        "category": "white"
+    },
+    {
+        "name": "Linen",
+        "hex": "#f2ead3",
+        "category": "white"
+    },
+    {
+        "name": "Bone",
+        "hex": "#e7dfcc",
+        "category": "white"
+    },
+    {
+        "name": "Daisy",
+        "hex": "#ffffff",
+        "category": "white"
+    },
+    {
+        "name": "Powder",
+        "hex": "#fbfcf7",
+        "category": "white"
+    },
+    {
+        "name": "Frost",
+        "hex": "#ecfcfc",
+        "category": "white"
+    },
+    {
+        "name": "Porcelain",
+        "hex": "#fffefc",
+        "category": "white"
+    },
+    {
+        "name": "Parchment",
+        "hex": "#fbf5df",
+        "category": "white"
+    },
+    {
+        "name": "Rice",
+        "hex": "#faf5ef",
+        "category": "white"
+    },
+    {
+        "name": "Yellow",
+        "hex": "#fde64b",
+        "category": "yellow"
+    },
+    {
+        "name": "Canary",
+        "hex": "#f9c802",
+        "category": "yellow"
+    },
+    {
+        "name": "Gold",
+        "hex": "#f9a602",
+        "category": "yellow"
+    },
+    {
+        "name": "Daffodil",
+        "hex": "#fdee87",
+        "category": "yellow"
+    },
+    {
+        "name": "Flaxen",
+        "hex": "#d6b75a",
+        "category": "yellow"
+    },
+    {
+        "name": "Butter",
+        "hex": "#fee227",
+        "category": "yellow"
+    },
+    {
+        "name": "Lemon",
+        "hex": "#effd5f",
+        "category": "yellow"
+    },
+    {
+        "name": "Mustard",
+        "hex": "#e8b828",
+        "category": "yellow"
+    },
+    {
+        "name": "Corn",
+        "hex": "#e4cd05",
+        "category": "yellow"
+    },
+    {
+        "name": "Medallion",
+        "hex": "#e3b104",
+        "category": "yellow"
+    },
+    {
+        "name": "Dandelion",
+        "hex": "#fdce2a",
+        "category": "yellow"
+    },
+    {
+        "name": "Fire",
+        "hex": "#fda50f",
+        "category": "yellow"
+    },
+    {
+        "name": "Bumblebee",
+        "hex": "#fce205",
+        "category": "yellow"
+    },
+    {
+        "name": "Banana",
+        "hex": "#fcf4a3",
+        "category": "yellow"
+    },
+    {
+        "name": "Butterscotch",
+        "hex": "#fabd02",
+        "category": "yellow"
+    },
+    {
+        "name": "Dijon",
+        "hex": "#c29200",
+        "category": "yellow"
+    },
+    {
+        "name": "Honey",
+        "hex": "#ffc30b",
+        "category": "yellow"
+    },
+    {
+        "name": "Blonde",
+        "hex": "#feeb75",
+        "category": "yellow"
+    },
+    {
+        "name": "Pineapple",
+        "hex": "#fee227",
+        "category": "yellow"
+    },
+    {
+        "name": "Tuscan sun",
+        "hex": "#fcd12a",
+        "category": "yellow"
+    }
+]

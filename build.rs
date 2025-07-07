@@ -71,7 +71,7 @@ impl std::fmt::Display for HexParseError {
 impl std::error::Error for HexParseError {}
 
 fn main() -> Result<(), Box<dyn Error>> {
-    println!("cargo:rerun-if-changed=colors.json");
+    println!("cargo:rerun-if-changed=./color-name-lists/dist/colorlists.json");
 
     // Read the JSON file
     let json_content = fs::read_to_string("colors.json").expect("Failed to read colors.json");
@@ -80,7 +80,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         serde_json::from_str(&json_content).expect("Failed to parse JSON");
 
     // Read the CSV file for the 'complete' list
-    let mut complete_data = csv::Reader::from_path("colornames.csv")?;
+    let mut complete_data = csv::Reader::from_path("./color-names/src/colornames.csv")?;
 
     let mut complete_colors: Vec<Color> = Vec::new();
     let mut short_colors: Vec<Color> = Vec::new();

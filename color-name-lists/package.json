@@ -1,0 +1,37 @@
+{
+  "name": "color-name-lists",
+  "version": "3.31.0",
+  "description": "A collection of color name lists",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js",
+    "view": "jless ./dist/colorlists.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meodai/color-name-lists.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meodai/color-name-lists/issues"
+  },
+  "homepage": "https://github.com/meodai/color-name-lists#readme",
+  "dependencies": {
+    "color-standards-and-color-nomenclature": "^1.1.0",
+    "farbnamen": "^0.8.0",
+    "hindi-color-names": "^1.1.0",
+    "nombres-de-colores": "^0.6.0",
+    "recueil-de-couleur": "^0.11.0",
+    "riso-colors": "^1.0.1",
+    "wikipedia-color-names": "^1.12.0"
+  },
+  "devDependencies": {
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10"
+  }
+}
