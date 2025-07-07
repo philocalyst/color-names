@@ -268,6 +268,7 @@ fn main() -> Result<(), Box<dyn Error>> {
             .collect();
 
         generated_code.extend(quote! {
+            #[allow(unreachable_patterns)]
             #[allow(dead_code)]
             impl #enum_identifier {
                 /// Returns the hex color value (including the # prefix)
@@ -402,6 +403,8 @@ fn sanitize_identifier(name: &str) -> String {
         } else if ch == '№' {
             result.push('N');
             result.push('o');
+        } else if ch == 'Ⅱ' {
+            result.push('|')
         } else {
             result.push(ch);
         }
