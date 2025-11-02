@@ -74,7 +74,8 @@ fn main() -> Result<(), Box<dyn Error>> {
     println!("cargo:rerun-if-changed=./color-name-lists/dist/colorlists.json");
 
     // Read the JSON file
-    let json_content = fs::read_to_string("colors.json").expect("Failed to read colors.json");
+    let json_content = fs::read_to_string("./color-name-lists/dist/colorlists.json")
+        .expect("Failed to read colors.json");
 
     let mut color_data: ColorData =
         serde_json::from_str(&json_content).expect("Failed to parse JSON");
@@ -121,6 +122,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     // Add use statements at the top of the generated file
     generated_code.extend(quote! {
         use rgb;
+        use color;
         use hex::ToHex;
     });
 
@@ -279,7 +281,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                 }
 
                 /// Returns the original color name
-                pub fn name(&self) -> &'static str {
+                pub fn color_name(&self) -> &'static str {
                     match self {
                         #(#name_match_arms),*
                     }
