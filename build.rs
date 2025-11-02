@@ -110,6 +110,7 @@ fn main() -> Result<(), Box<dyn Error>> {
 			use rgb;
 			use color;
 			use hex::ToHex;
+			use std::marker::PhantomData;
 	});
 
 	// Add the error type at the almost top
