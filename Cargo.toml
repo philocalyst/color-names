@@ -1,5 +1,7 @@
 [package]
 name = "colornames"
+description = "Names for a large set of widely understood color sets, like HTML or xkcd"
+license = "MIT"
 version = "0.2.0"
 edition = "2024"
 
