@@ -285,7 +285,25 @@ fn main() -> Result<(), Box<dyn Error>> {
                     }
                 }
 
-                /// Returns the RGB values as a tuple (r, g, b)
+                /// Returns the color in a "correct" representation, initializing in the provided colorspace. Encoded as a [color](https://docs.rs/color/latest/color) type.
+                pub fn color<CS>(&self) -> color::OpaqueColor<CS> {
+                     let hex = hex.trim_start_matches('#');
+
+                    let r = u8::from_str_radix(&hex[0..2], 16).unwrap_or(0);
+                    let g = u8::from_str_radix(&hex[2..4], 16).unwrap_or(0);
+                    let b = u8::from_str_radix(&hex[4..6], 16).unwrap_or(0);
+
+                    color::OpaqueColor {
+                        components: [
+                            r as f32 / 255.0,
+                            g as f32 / 255.0,
+                            b as f32 / 255.0,
+                        ],
+                        cs: PhantomData,
+                    }
+                }
+
+                /// Returns the RGB values for the color. Encoded as an [RGB](https://docs.rs/rgb/latest/rgb/) type
                 pub fn rgb(&self) -> rgb::Rgb<u8> {
                     let hex = self.hex().trim_start_matches('#');
                     let r = u8::from_str_radix(&hex[0..2], 16).unwrap_or(0);
