@@ -1,9 +1,9 @@
 [package]
 name = "colorsnamed"
-description = "Names for a large set of widely understood color sets, like HTML or xkcd"
+description = "Names for a large set of widely understood color sets, like HTML/CSS or xkcd"
 license = "MIT"
 readme = "./README.md"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2024"
 
 [dependencies]
