@@ -75,6 +75,17 @@ fn main() -> Result<(), Box<dyn Error>> {
 		use color::{OpaqueColor, Srgb};
 		use std::marker::PhantomData;
 		pub type Rgba8 = rgb::RGBA<u8>;
+
+		#[derive(Debug, Clone, PartialEq, Eq)]
+		pub struct NameNotFound;
+
+		impl std::fmt::Display for NameNotFound {
+			fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+				f.write_str("no color found with that name")
+			}
+		}
+
+		impl std::error::Error for NameNotFound {}
 	};
 
 	for (set_key, colors) in &data.lists {
@@ -84,15 +95,21 @@ fn main() -> Result<(), Box<dyn Error>> {
 
 		let enum_ident = syn::Ident::new(&set_key.to_pascal_case(), Span::call_site());
 		let mut seen = HashSet::new();
-		let (mut variants, mut color_arms, mut rgba8_arms) = (vec![], vec![], vec![]);
+		let (mut variants, mut color_arms, mut rgba8_arms, mut from_str_arms) =
+			(vec![], vec![], vec![], vec![]);
 
 		for c in colors {
 			let ident = syn::Ident::new(&sanitize(&c.name).to_pascal_case(), Span::call_site());
+			let name = &c.name;
+
+			// Every original spelling maps to the (possibly shared) variant.
+			from_str_arms.push(quote! { #name => Ok(Self::#ident) });
+
 			if !seen.insert(ident.clone()) {
 				continue;
 			}
 
-			let (name, hex) = (&c.name, &c.hex);
+			let hex = &c.hex;
 			let [r, g, b] = parse_hex(hex);
 			let (rf, gf, bf) = (r as f32 / 255.0, g as f32 / 255.0, b as f32 / 255.0);
 			let a: u8 = 255;
@@ -120,6 +137,26 @@ fn main() -> Result<(), Box<dyn Error>> {
 				pub fn to_rgba8(self) -> Rgba8 {
 					match self { #(#rgba8_arms),* }
 				}
+			}
+
+			impl std::str::FromStr for #enum_ident {
+				type Err = NameNotFound;
+				fn from_str(s: &str) -> Result<Self, Self::Err> {
+					match s {
+						#(#from_str_arms),*,
+						_ => Err(NameNotFound),
+					}
+				}
+			}
+
+			impl TryFrom<&str> for #enum_ident {
+				type Error = NameNotFound;
+				fn try_from(s: &str) -> Result<Self, Self::Error> { s.parse() }
+			}
+
+			impl TryFrom<String> for #enum_ident {
+				type Error = NameNotFound;
+				fn try_from(s: String) -> Result<Self, Self::Error> { s.parse() }
 			}
 		});
 	}
