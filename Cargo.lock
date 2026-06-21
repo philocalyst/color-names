@@ -19,15 +19,297 @@ name = "colorsnamed"
 version = "0.2.1"
 dependencies = [
  "color",
+ "colorsnamed-basic",
+ "colorsnamed-best-of",
+ "colorsnamed-chinese-traditional",
+ "colorsnamed-complete",
+ "colorsnamed-french",
+ "colorsnamed-german",
+ "colorsnamed-hindi",
+ "colorsnamed-html",
+ "colorsnamed-japanese-traditional",
+ "colorsnamed-le-corbusier",
+ "colorsnamed-nbs-iscc",
+ "colorsnamed-ntc",
+ "colorsnamed-osxcrayons",
+ "colorsnamed-ral",
+ "colorsnamed-ridgway",
+ "colorsnamed-risograph",
+ "colorsnamed-sanzo-wada-i",
+ "colorsnamed-short",
+ "colorsnamed-spanish",
+ "colorsnamed-thesaurus",
+ "colorsnamed-werner",
+ "colorsnamed-wikipedia",
+ "colorsnamed-windows",
+ "colorsnamed-x11",
+ "colorsnamed-xkcd",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-basic"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-best-of"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-chinese-traditional"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-complete"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-core"
+version = "0.2.1"
+dependencies = [
  "csv",
  "heck",
  "num2words",
  "proc-macro2",
  "quote",
- "rgb",
  "serde",
  "serde_json",
  "syn",
+]
+
+[[package]]
+name = "colorsnamed-french"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-german"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-hindi"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-html"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-japanese-traditional"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-le-corbusier"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-nbs-iscc"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-ntc"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-osxcrayons"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-ral"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-ridgway"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-risograph"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-sanzo-wada-i"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-short"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-spanish"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-thesaurus"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-werner"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-wikipedia"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-windows"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-x11"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
+]
+
+[[package]]
+name = "colorsnamed-xkcd"
+version = "0.2.1"
+dependencies = [
+ "color",
+ "colorsnamed-core",
+ "rgb",
+ "serde",
 ]
 
 [[package]]

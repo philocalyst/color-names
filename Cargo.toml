@@ -1,78 +1,43 @@
-[package]
-name = "colorsnamed"
-description = "Names for a large set of widely understood color sets, like HTML/CSS or xkcd"
-license = "MIT"
-readme = "./README.md"
-version = "0.2.1"
-edition = "2024"
-
-[dependencies]
-rgb = "0.8.50"
-color = "0.3.2"
-serde = { version = "1.0.228", optional = true, features = ["derive"] }
-
-[features]
-default = ["basic"]
-all = [
-    "basic",
-    "html", 
-    "japanese-traditional",
-    "le-corbusier",
-    "nbs-iscc",
-    "ntc",
-    "osxcrayons",
-    "ral",
-    "ridgway",
-    "sanzo-wada-i",
-    "thesaurus",
-    "werner",
-    "windows",
-    "wikipedia",
-    "french",
-    "complete",
-    "short",
-    "best-of",
-    "spanish",
-    "german",
-    "x11",
-    "xkcd",
-    "risograph",
-    "chinese-traditional",
-    "hindi",
+[workspace]
+resolver = "2"
+members = [
+    "crates/colorsnamed",
+    "crates/colorsnamed-core",
+    "crates/colorsnamed-basic",
+    "crates/colorsnamed-html",
+    "crates/colorsnamed-xkcd",
+    "crates/colorsnamed-x11",
+    "crates/colorsnamed-ral",
+    "crates/colorsnamed-ridgway",
+    "crates/colorsnamed-werner",
+    "crates/colorsnamed-windows",
+    "crates/colorsnamed-wikipedia",
+    "crates/colorsnamed-french",
+    "crates/colorsnamed-spanish",
+    "crates/colorsnamed-german",
+    "crates/colorsnamed-hindi",
+    "crates/colorsnamed-risograph",
+    "crates/colorsnamed-chinese-traditional",
+    "crates/colorsnamed-japanese-traditional",
+    "crates/colorsnamed-le-corbusier",
+    "crates/colorsnamed-nbs-iscc",
+    "crates/colorsnamed-ntc",
+    "crates/colorsnamed-osxcrayons",
+    "crates/colorsnamed-sanzo-wada-i",
+    "crates/colorsnamed-thesaurus",
+    "crates/colorsnamed-complete",
+    "crates/colorsnamed-short",
+    "crates/colorsnamed-best-of",
 ]
-basic = []
-serde = ["dep:serde"]
-html = []
-complete = []
-short = []
-best-of = []
-japanese-traditional = []
-le-corbusier = []
-nbs-iscc = []
-ntc = []
-osxcrayons = []
-ral = []
-ridgway = []
-sanzo-wada-i = []
-thesaurus = []
-werner = []
-windows = []
-wikipedia = []
-french = []
-spanish = []
-german = []
-x11 = []
-xkcd = []
-risograph = []
-chinese-traditional = []
-hindi = []
 
-[build-dependencies]
-num2words = "1.2.0"
-csv = "1.3.1"
-heck = "0.5.0"
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-quote = "1.0"
-proc-macro2 = "1.0"
-syn = "2.0"
+[workspace.lints.rust]
+unused = "warn"
+unreachable_patterns = "warn"
+
+[workspace.lints.clippy]
+all = "warn"
+pedantic = { level = "warn", priority = -1 }
+nursery = { level = "warn", priority = -2 }
+cargo = "warn"
+manual_let_else = "warn"
+uninlined_format_args = "warn"

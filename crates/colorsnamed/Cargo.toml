@@ -1,0 +1,104 @@
+[package]
+name = "colorsnamed"
+description = "Names for a large set of widely understood color sets, like HTML/CSS or xkcd"
+license = "MIT"
+readme = "../../README.md"
+version = "0.2.1"
+edition = "2024"
+
+[dependencies]
+color = "0.3.2"
+rgb = "0.8.50"
+serde = { version = "1.0.228", optional = true, features = ["derive"] }
+
+colorsnamed-basic = { path = "../colorsnamed-basic", optional = true }
+colorsnamed-html = { path = "../colorsnamed-html", optional = true }
+colorsnamed-xkcd = { path = "../colorsnamed-xkcd", optional = true }
+colorsnamed-x11 = { path = "../colorsnamed-x11", optional = true }
+colorsnamed-ral = { path = "../colorsnamed-ral", optional = true }
+colorsnamed-ridgway = { path = "../colorsnamed-ridgway", optional = true }
+colorsnamed-werner = { path = "../colorsnamed-werner", optional = true }
+colorsnamed-windows = { path = "../colorsnamed-windows", optional = true }
+colorsnamed-wikipedia = { path = "../colorsnamed-wikipedia", optional = true }
+colorsnamed-french = { path = "../colorsnamed-french", optional = true }
+colorsnamed-spanish = { path = "../colorsnamed-spanish", optional = true }
+colorsnamed-german = { path = "../colorsnamed-german", optional = true }
+colorsnamed-hindi = { path = "../colorsnamed-hindi", optional = true }
+colorsnamed-risograph = { path = "../colorsnamed-risograph", optional = true }
+colorsnamed-chinese-traditional = { path = "../colorsnamed-chinese-traditional", optional = true }
+colorsnamed-japanese-traditional = { path = "../colorsnamed-japanese-traditional", optional = true }
+colorsnamed-le-corbusier = { path = "../colorsnamed-le-corbusier", optional = true }
+colorsnamed-nbs-iscc = { path = "../colorsnamed-nbs-iscc", optional = true }
+colorsnamed-ntc = { path = "../colorsnamed-ntc", optional = true }
+colorsnamed-osxcrayons = { path = "../colorsnamed-osxcrayons", optional = true }
+colorsnamed-sanzo-wada-i = { path = "../colorsnamed-sanzo-wada-i", optional = true }
+colorsnamed-thesaurus = { path = "../colorsnamed-thesaurus", optional = true }
+colorsnamed-complete = { path = "../colorsnamed-complete", optional = true }
+colorsnamed-short = { path = "../colorsnamed-short", optional = true }
+colorsnamed-best-of = { path = "../colorsnamed-best-of", optional = true }
+
+[features]
+default = ["basic"]
+all = [
+    "basic", "html", "xkcd", "x11", "ral", "ridgway", "werner",
+    "windows", "wikipedia", "french", "spanish", "german", "hindi",
+    "risograph", "chinese-traditional", "japanese-traditional",
+    "le-corbusier", "nbs-iscc", "ntc", "osxcrayons", "sanzo-wada-i",
+    "thesaurus", "complete", "short", "best-of",
+]
+basic = ["dep:colorsnamed-basic"]
+html = ["dep:colorsnamed-html"]
+xkcd = ["dep:colorsnamed-xkcd"]
+x11 = ["dep:colorsnamed-x11"]
+ral = ["dep:colorsnamed-ral"]
+ridgway = ["dep:colorsnamed-ridgway"]
+werner = ["dep:colorsnamed-werner"]
+windows = ["dep:colorsnamed-windows"]
+wikipedia = ["dep:colorsnamed-wikipedia"]
+french = ["dep:colorsnamed-french"]
+spanish = ["dep:colorsnamed-spanish"]
+german = ["dep:colorsnamed-german"]
+hindi = ["dep:colorsnamed-hindi"]
+risograph = ["dep:colorsnamed-risograph"]
+chinese-traditional = ["dep:colorsnamed-chinese-traditional"]
+japanese-traditional = ["dep:colorsnamed-japanese-traditional"]
+le-corbusier = ["dep:colorsnamed-le-corbusier"]
+nbs-iscc = ["dep:colorsnamed-nbs-iscc"]
+ntc = ["dep:colorsnamed-ntc"]
+osxcrayons = ["dep:colorsnamed-osxcrayons"]
+sanzo-wada-i = ["dep:colorsnamed-sanzo-wada-i"]
+thesaurus = ["dep:colorsnamed-thesaurus"]
+complete = ["dep:colorsnamed-complete"]
+short = ["dep:colorsnamed-short"]
+best-of = ["dep:colorsnamed-best-of"]
+serde = [
+    "dep:serde",
+    "colorsnamed-basic?/serde",
+    "colorsnamed-html?/serde",
+    "colorsnamed-xkcd?/serde",
+    "colorsnamed-x11?/serde",
+    "colorsnamed-ral?/serde",
+    "colorsnamed-ridgway?/serde",
+    "colorsnamed-werner?/serde",
+    "colorsnamed-windows?/serde",
+    "colorsnamed-wikipedia?/serde",
+    "colorsnamed-french?/serde",
+    "colorsnamed-spanish?/serde",
+    "colorsnamed-german?/serde",
+    "colorsnamed-hindi?/serde",
+    "colorsnamed-risograph?/serde",
+    "colorsnamed-chinese-traditional?/serde",
+    "colorsnamed-japanese-traditional?/serde",
+    "colorsnamed-le-corbusier?/serde",
+    "colorsnamed-nbs-iscc?/serde",
+    "colorsnamed-ntc?/serde",
+    "colorsnamed-osxcrayons?/serde",
+    "colorsnamed-sanzo-wada-i?/serde",
+    "colorsnamed-thesaurus?/serde",
+    "colorsnamed-complete?/serde",
+    "colorsnamed-short?/serde",
+    "colorsnamed-best-of?/serde",
+]
+
+[lints]
+workspace = true
