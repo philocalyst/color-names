@@ -16,7 +16,7 @@ checksum = "a18ef4657441fb193b65f34dc39b3781f0dfec23d3bd94d0eeb4e88cde421edb"
 
 [[package]]
 name = "colorsnamed"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-basic",
@@ -50,7 +50,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-basic"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -60,7 +60,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-best-of"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -70,7 +70,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-chinese-traditional"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -80,7 +80,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-complete"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -90,7 +90,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-core"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "csv",
  "heck",
@@ -104,7 +104,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-french"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -114,7 +114,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-german"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -124,7 +124,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-hindi"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -134,7 +134,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-html"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -144,7 +144,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-japanese-traditional"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -154,7 +154,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-le-corbusier"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -164,7 +164,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-nbs-iscc"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -174,7 +174,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-ntc"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -184,7 +184,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-osxcrayons"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -194,7 +194,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-ral"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -204,7 +204,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-ridgway"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -214,7 +214,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-risograph"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -224,7 +224,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-sanzo-wada-i"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -234,7 +234,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-short"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -244,7 +244,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-spanish"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -254,7 +254,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-thesaurus"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -264,7 +264,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-werner"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -274,7 +274,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-wikipedia"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -284,7 +284,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-windows"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -294,7 +294,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-x11"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
@@ -304,7 +304,7 @@ dependencies = [
 
 [[package]]
 name = "colorsnamed-xkcd"
-version = "0.2.1"
+version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",

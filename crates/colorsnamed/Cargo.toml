@@ -6,39 +6,39 @@ readme = "../../README.md"
 repository = "https://github.com/philocalyst/color-names"
 keywords = ["color", "name", "list"]
 categories = ["visualization", "multimedia"]
-version = "0.2.1"
+version = "0.2.3"
 edition = "2024"
 
 [dependencies]
-color = "0.3.2"
-rgb = "0.8.50"
-serde = { version = "1.0.228", optional = true, features = ["derive"] }
+color = { workspace = true }
+rgb = { workspace = true }
+serde = { workspace = true, optional = true }
 
-colorsnamed-basic = { path = "../colorsnamed-basic", optional = true }
-colorsnamed-html = { path = "../colorsnamed-html", optional = true }
-colorsnamed-xkcd = { path = "../colorsnamed-xkcd", optional = true }
-colorsnamed-x11 = { path = "../colorsnamed-x11", optional = true }
-colorsnamed-ral = { path = "../colorsnamed-ral", optional = true }
-colorsnamed-ridgway = { path = "../colorsnamed-ridgway", optional = true }
-colorsnamed-werner = { path = "../colorsnamed-werner", optional = true }
-colorsnamed-windows = { path = "../colorsnamed-windows", optional = true }
-colorsnamed-wikipedia = { path = "../colorsnamed-wikipedia", optional = true }
-colorsnamed-french = { path = "../colorsnamed-french", optional = true }
-colorsnamed-spanish = { path = "../colorsnamed-spanish", optional = true }
-colorsnamed-german = { path = "../colorsnamed-german", optional = true }
-colorsnamed-hindi = { path = "../colorsnamed-hindi", optional = true }
-colorsnamed-risograph = { path = "../colorsnamed-risograph", optional = true }
-colorsnamed-chinese-traditional = { path = "../colorsnamed-chinese-traditional", optional = true }
-colorsnamed-japanese-traditional = { path = "../colorsnamed-japanese-traditional", optional = true }
-colorsnamed-le-corbusier = { path = "../colorsnamed-le-corbusier", optional = true }
-colorsnamed-nbs-iscc = { path = "../colorsnamed-nbs-iscc", optional = true }
-colorsnamed-ntc = { path = "../colorsnamed-ntc", optional = true }
-colorsnamed-osxcrayons = { path = "../colorsnamed-osxcrayons", optional = true }
-colorsnamed-sanzo-wada-i = { path = "../colorsnamed-sanzo-wada-i", optional = true }
-colorsnamed-thesaurus = { path = "../colorsnamed-thesaurus", optional = true }
-colorsnamed-complete = { path = "../colorsnamed-complete", optional = true }
-colorsnamed-short = { path = "../colorsnamed-short", optional = true }
-colorsnamed-best-of = { path = "../colorsnamed-best-of", optional = true }
+colorsnamed-basic = { workspace = true, optional = true }
+colorsnamed-html = { workspace = true, optional = true }
+colorsnamed-xkcd = { workspace = true, optional = true }
+colorsnamed-x11 = { workspace = true, optional = true }
+colorsnamed-ral = { workspace = true, optional = true }
+colorsnamed-ridgway = { workspace = true, optional = true }
+colorsnamed-werner = { workspace = true, optional = true }
+colorsnamed-windows = { workspace = true, optional = true }
+colorsnamed-wikipedia = { workspace = true, optional = true }
+colorsnamed-french = { workspace = true, optional = true }
+colorsnamed-spanish = { workspace = true, optional = true }
+colorsnamed-german = { workspace = true, optional = true }
+colorsnamed-hindi = { workspace = true, optional = true }
+colorsnamed-risograph = { workspace = true, optional = true }
+colorsnamed-chinese-traditional = { workspace = true, optional = true }
+colorsnamed-japanese-traditional = { workspace = true, optional = true }
+colorsnamed-le-corbusier = { workspace = true, optional = true }
+colorsnamed-nbs-iscc = { workspace = true, optional = true }
+colorsnamed-ntc = { workspace = true, optional = true }
+colorsnamed-osxcrayons = { workspace = true, optional = true }
+colorsnamed-sanzo-wada-i = { workspace = true, optional = true }
+colorsnamed-thesaurus = { workspace = true, optional = true }
+colorsnamed-complete = { workspace = true, optional = true }
+colorsnamed-short = { workspace = true, optional = true }
+colorsnamed-best-of = { workspace = true, optional = true }
 
 [features]
 default = ["basic"]

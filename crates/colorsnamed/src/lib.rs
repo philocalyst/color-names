@@ -146,7 +146,7 @@ pub enum AnyColor {
 }
 
 impl AnyColor {
-    pub fn color(&self) -> color::OpaqueColor<color::Srgb> {
+    pub const fn color(&self) -> color::OpaqueColor<color::Srgb> {
         match self {
             #[cfg(feature = "basic")]
             Self::Basic(c) => c.color(),
@@ -201,7 +201,7 @@ impl AnyColor {
         }
     }
 
-    pub fn to_rgba8(&self) -> Rgba8 {
+    pub const fn to_rgba8(&self) -> Rgba8 {
         match self {
             #[cfg(feature = "basic")]
             Self::Basic(c) => c.to_rgba8(),

@@ -1,6 +1,6 @@
 [package]
 name = "colorsnamed-le-corbusier"
-version = "0.2.1"
+version = "0.2.3"
 edition = "2024"
 description = "Color list: Le Corbusier color names"
 license = "MIT"
@@ -10,15 +10,15 @@ keywords = ["color", "name", "list"]
 categories = ["visualization", "multimedia"]
 
 [dependencies]
-color = "0.3.2"
-rgb = "0.8.50"
-serde = { version = "1.0.228", optional = true, features = ["derive"] }
+color = { workspace = true }
+rgb = { workspace = true }
+serde = { workspace = true, optional = true }
 
 [features]
 serde = ["dep:serde"]
 
 [build-dependencies]
-colorsnamed-core = { path = "../colorsnamed-core" }
+colorsnamed-core = { workspace = true }
 
 [lints]
 workspace = true
