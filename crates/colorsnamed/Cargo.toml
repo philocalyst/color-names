@@ -3,6 +3,9 @@ name = "colorsnamed"
 description = "Names for a large set of widely understood color sets, like HTML/CSS or xkcd"
 license = "MIT"
 readme = "../../README.md"
+repository = "https://github.com/philocalyst/color-names"
+keywords = ["color", "name", "list"]
+categories = ["visualization", "multimedia"]
 version = "0.2.1"
 edition = "2024"
 

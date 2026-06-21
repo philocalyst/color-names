@@ -2,6 +2,12 @@
 name = "colorsnamed-ral"
 version = "0.2.1"
 edition = "2024"
+description = "Color list: RAL color names"
+license = "MIT"
+repository = "https://github.com/philocalyst/color-names"
+readme = "../../README.md"
+keywords = ["color", "name", "list"]
+categories = ["visualization", "multimedia"]
 
 [dependencies]
 color = "0.3.2"

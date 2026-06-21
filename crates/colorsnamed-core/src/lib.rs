@@ -31,6 +31,7 @@ struct CompleteRecord {
     good_name: Option<String>,
 }
 
+#[allow(clippy::missing_panics_doc)]
 pub fn generate(list_key: &str) {
     let workspace_root = Path::new(&std::env::var("CARGO_MANIFEST_DIR").unwrap())
         .parent().unwrap().parent().unwrap().to_path_buf();
@@ -86,7 +87,7 @@ fn generate_list_code(list_key: &str, colors: &[Color]) -> proc_macro2::TokenStr
 
         let hex = &c.hex;
         let [r, g, b] = parse_hex(hex);
-        let (rf, gf, bf) = (r as f32 / 255.0, g as f32 / 255.0, b as f32 / 255.0);
+        let (rf, gf, bf): (f32, f32, f32) = (f32::from(r) / 255.0, f32::from(g) / 255.0, f32::from(b) / 255.0);
         let a: u8 = 255;
 
         variants.push(quote! { #[doc = #name] #[doc = #hex] #ident });
@@ -112,17 +113,20 @@ fn generate_list_code(list_key: &str, colors: &[Color]) -> proc_macro2::TokenStr
 
         impl std::error::Error for NameNotFound {}
 
-        #[allow(dead_code)]
+        #[allow(dead_code, clippy::doc_markdown)]
         #[cfg_attr(feature = "serde", derive(serde::Serialize, serde::Deserialize))]
         #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
         pub enum #enum_ident { #(#variants),* }
 
+        #[allow(clippy::unreadable_literal)]
         impl #enum_ident {
-            pub fn color(self) -> OpaqueColor<Srgb> {
+            #[must_use]
+            pub const fn color(self) -> OpaqueColor<Srgb> {
                 match self { #(#color_arms),* }
             }
 
-            pub fn to_rgba8(self) -> Rgba8 {
+            #[must_use]
+            pub const fn to_rgba8(self) -> Rgba8 {
                 match self { #(#rgba8_arms),* }
             }
         }
@@ -177,10 +181,8 @@ fn sanitize(name: &str) -> String {
         }
     }
 
-    if num != 0 {
-        if let Ok(words) = Num2Words::new(num).to_words() {
-            result.insert_str(0, &words);
-        }
+    if num != 0 && let Ok(words) = Num2Words::new(num).to_words() {
+        result.insert_str(0, &words);
     }
 
     if result.ends_with('_') {
