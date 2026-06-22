@@ -1,5 +1,7 @@
-use std::collections::{HashMap, HashSet};
-use std::path::Path;
+use std::{
+    collections::{HashMap, HashSet},
+    path::Path,
+};
 
 use heck::{ToKebabCase, ToPascalCase};
 use proc_macro2::Span;
@@ -33,30 +35,40 @@ struct CompleteRecord {
 
 #[allow(clippy::missing_panics_doc)]
 pub fn generate(list_key: &str) {
-    let workspace_root = Path::new(&std::env::var("CARGO_MANIFEST_DIR").unwrap())
-        .parent().unwrap().parent().unwrap().to_path_buf();
-
-    let json_path = workspace_root.join("color-name-lists/dist/colorlists.json");
-    let csv_path = workspace_root.join("color-names/src/colornames.csv");
-
-    let data: ColorData =
-        serde_json::from_str(&std::fs::read_to_string(json_path).unwrap()).unwrap();
+    let data: ColorData = serde_json::from_str(include_str!("../data/colorlists.json")).unwrap();
 
     let (mut complete, mut short, mut best_of) = (vec![], vec![], vec![]);
-    for record in csv::Reader::from_path(csv_path).unwrap().deserialize() {
+    for record in
+        csv::Reader::from_reader(include_str!("../data/colornames.csv").as_bytes()).deserialize()
+    {
         let r: CompleteRecord = record.unwrap();
         let is_short = r.name.len() <= 12;
         let is_best = r.good_name.is_some();
-        let c = Color { name: r.name, hex: r.hex };
-        if is_short { short.push(c.clone()); }
-        if is_best { best_of.push(c.clone()); }
+        let c = Color {
+            name: r.name,
+            hex: r.hex,
+        };
+        if is_short {
+            short.push(c.clone());
+        }
+        if is_best {
+            best_of.push(c.clone());
+        }
         complete.push(c);
     }
 
     let mut lists: HashMap<String, Vec<Color>> = HashMap::new();
     for (key, colors) in &data.lists {
-        lists.insert(key.to_kebab_case(),
-            colors.iter().map(|c| Color { name: c.name.clone(), hex: c.hex.clone() }).collect());
+        lists.insert(
+            key.to_kebab_case(),
+            colors
+                .iter()
+                .map(|c| Color {
+                    name: c.name.clone(),
+                    hex: c.hex.clone(),
+                })
+                .collect(),
+        );
     }
     lists.insert("complete".into(), complete);
     lists.insert("short".into(), short);
@@ -70,7 +82,7 @@ pub fn generate(list_key: &str) {
 }
 
 fn generate_list_code(list_key: &str, colors: &[Color]) -> proc_macro2::TokenStream {
-    let enum_ident = syn::Ident::new(&list_key.to_pascal_case(), Span::call_site());
+    let enum_ident = syn::Ident::new(list_key.to_pascal_case().as_str(), Span::call_site());
     let mut seen = HashSet::new();
     let (mut variants, mut color_arms, mut rgba8_arms, mut from_str_arms) =
         (vec![], vec![], vec![], vec![]);
@@ -87,7 +99,11 @@ fn generate_list_code(list_key: &str, colors: &[Color]) -> proc_macro2::TokenStr
 
         let hex = &c.hex;
         let [r, g, b] = parse_hex(hex);
-        let (rf, gf, bf): (f32, f32, f32) = (f32::from(r) / 255.0, f32::from(g) / 255.0, f32::from(b) / 255.0);
+        let (rf, gf, bf): (f32, f32, f32) = (
+            f32::from(r) / 255.0,
+            f32::from(g) / 255.0,
+            f32::from(b) / 255.0,
+        );
         let a: u8 = 255;
 
         variants.push(quote! { #[doc = #name] #[doc = #hex] #ident });
@@ -181,7 +197,9 @@ fn sanitize(name: &str) -> String {
         }
     }
 
-    if num != 0 && let Ok(words) = Num2Words::new(num).to_words() {
+    if num != 0
+        && let Ok(words) = Num2Words::new(num).to_words()
+    {
         result.insert_str(0, &words);
     }
 
