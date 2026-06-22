@@ -41,32 +41,32 @@ heck = "0.5.0"
 quote = "1.0"
 proc-macro2 = "1.0"
 syn = "2.0"
-colorsnamed-core = { path = "crates/colorsnamed-core" }
-colorsnamed-basic = { path = "crates/colorsnamed-basic" }
-colorsnamed-html = { path = "crates/colorsnamed-html" }
-colorsnamed-xkcd = { path = "crates/colorsnamed-xkcd" }
-colorsnamed-x11 = { path = "crates/colorsnamed-x11" }
-colorsnamed-ral = { path = "crates/colorsnamed-ral" }
-colorsnamed-ridgway = { path = "crates/colorsnamed-ridgway" }
-colorsnamed-werner = { path = "crates/colorsnamed-werner" }
-colorsnamed-windows = { path = "crates/colorsnamed-windows" }
-colorsnamed-wikipedia = { path = "crates/colorsnamed-wikipedia" }
-colorsnamed-french = { path = "crates/colorsnamed-french" }
-colorsnamed-spanish = { path = "crates/colorsnamed-spanish" }
-colorsnamed-german = { path = "crates/colorsnamed-german" }
-colorsnamed-hindi = { path = "crates/colorsnamed-hindi" }
-colorsnamed-risograph = { path = "crates/colorsnamed-risograph" }
-colorsnamed-chinese-traditional = { path = "crates/colorsnamed-chinese-traditional" }
-colorsnamed-japanese-traditional = { path = "crates/colorsnamed-japanese-traditional" }
-colorsnamed-le-corbusier = { path = "crates/colorsnamed-le-corbusier" }
-colorsnamed-nbs-iscc = { path = "crates/colorsnamed-nbs-iscc" }
-colorsnamed-ntc = { path = "crates/colorsnamed-ntc" }
-colorsnamed-osxcrayons = { path = "crates/colorsnamed-osxcrayons" }
-colorsnamed-sanzo-wada-i = { path = "crates/colorsnamed-sanzo-wada-i" }
-colorsnamed-thesaurus = { path = "crates/colorsnamed-thesaurus" }
-colorsnamed-complete = { path = "crates/colorsnamed-complete" }
-colorsnamed-short = { path = "crates/colorsnamed-short" }
-colorsnamed-best-of = { path = "crates/colorsnamed-best-of" }
+colorsnamed-core = { version = "0.2.3", path = "crates/colorsnamed-core" }
+colorsnamed-basic = { version = "0.2.3", path = "crates/colorsnamed-basic" }
+colorsnamed-html = { version = "0.2.3", path = "crates/colorsnamed-html" }
+colorsnamed-xkcd = { version = "0.2.3", path = "crates/colorsnamed-xkcd" }
+colorsnamed-x11 = { version = "0.2.3", path = "crates/colorsnamed-x11" }
+colorsnamed-ral = { version = "0.2.3", path = "crates/colorsnamed-ral" }
+colorsnamed-ridgway = { version = "0.2.3", path = "crates/colorsnamed-ridgway" }
+colorsnamed-werner = { version = "0.2.3", path = "crates/colorsnamed-werner" }
+colorsnamed-windows = { version = "0.2.3", path = "crates/colorsnamed-windows" }
+colorsnamed-wikipedia = { version = "0.2.3", path = "crates/colorsnamed-wikipedia" }
+colorsnamed-french = { version = "0.2.3", path = "crates/colorsnamed-french" }
+colorsnamed-spanish = { version = "0.2.3", path = "crates/colorsnamed-spanish" }
+colorsnamed-german = { version = "0.2.3", path = "crates/colorsnamed-german" }
+colorsnamed-hindi = { version = "0.2.3", path = "crates/colorsnamed-hindi" }
+colorsnamed-risograph = { version = "0.2.3", path = "crates/colorsnamed-risograph" }
+colorsnamed-chinese-traditional = { version = "0.2.3", path = "crates/colorsnamed-chinese-traditional" }
+colorsnamed-japanese-traditional = { version = "0.2.3", path = "crates/colorsnamed-japanese-traditional" }
+colorsnamed-le-corbusier = { version = "0.2.3", path = "crates/colorsnamed-le-corbusier" }
+colorsnamed-nbs-iscc = { version = "0.2.3", path = "crates/colorsnamed-nbs-iscc" }
+colorsnamed-ntc = { version = "0.2.3", path = "crates/colorsnamed-ntc" }
+colorsnamed-osxcrayons = { version = "0.2.3", path = "crates/colorsnamed-osxcrayons" }
+colorsnamed-sanzo-wada-i = { version = "0.2.3", path = "crates/colorsnamed-sanzo-wada-i" }
+colorsnamed-thesaurus = { version = "0.2.3", path = "crates/colorsnamed-thesaurus" }
+colorsnamed-complete = { version = "0.2.3", path = "crates/colorsnamed-complete" }
+colorsnamed-short = { version = "0.2.3", path = "crates/colorsnamed-short" }
+colorsnamed-best-of = { version = "0.2.3", path = "crates/colorsnamed-best-of" }
 
 [workspace.lints.rust]
 unused = "warn"
