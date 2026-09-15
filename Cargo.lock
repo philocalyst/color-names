@@ -3,6 +3,27 @@
 version = 4
 
 [[package]]
+name = "approx"
+version = "0.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cab112f0a86d568ea0e627cc1d6be74a1e9cd55214684db5561995f6dad897c6"
+dependencies = [
+ "num-traits",
+]
+
+[[package]]
+name = "autocfg"
+version = "1.5.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f2032f911046de80f0a198e0901378627c33f59ea0ac00e363d481118bd70a53"
+
+[[package]]
+name = "by_address"
+version = "1.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "64fa3c856b712db6612c019f14756e64e4bcea13337a6b33b696333a9eaa2d06"
+
+[[package]]
 name = "bytemuck"
 version = "1.23.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -44,6 +65,7 @@ dependencies = [
  "colorsnamed-windows",
  "colorsnamed-x11",
  "colorsnamed-xkcd",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -54,6 +76,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -64,6 +87,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -74,6 +98,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -84,6 +109,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -99,7 +125,6 @@ dependencies = [
  "quote",
  "serde",
  "serde_json",
- "syn",
 ]
 
 [[package]]
@@ -108,6 +133,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -118,6 +144,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -128,6 +155,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -138,6 +166,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -148,6 +177,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -158,6 +188,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -168,6 +199,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -178,6 +210,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -188,6 +221,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -198,6 +232,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -208,6 +243,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -218,6 +254,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -228,6 +265,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -238,6 +276,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -248,6 +287,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -258,6 +298,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -268,6 +309,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -278,6 +320,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -288,6 +331,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -298,6 +342,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -308,6 +353,7 @@ version = "0.2.3"
 dependencies = [
  "color",
  "colorsnamed-core",
+ "palette",
  "rgb",
  "serde",
 ]
@@ -358,6 +404,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "793a9a2afbf2b4fc1b9a47de731031b06ed362a5ede3681fbfbaeb2ad4faaa13"
 
 [[package]]
+name = "num-traits"
+version = "0.2.19"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841"
+dependencies = [
+ "autocfg",
+]
+
+[[package]]
 name = "num2words"
 version = "1.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -365,6 +420,35 @@ checksum = "2ab78b987a0e1e6cf869a443f7f1c9dc696117d47780227e961e742d0b45d706"
 dependencies = [
  "num-bigfloat",
 ]
+
+[[package]]
+name = "palette"
+version = "0.7.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ddeed8580d347d2abf3dcf06a5f0b3dc020258338526b277847cd4248a70fc64"
+dependencies = [
+ "approx",
+ "palette_derive",
+ "palette_math",
+]
+
+[[package]]
+name = "palette_derive"
+version = "0.7.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "88537020289b719d81be994ccf1bbf4990f477e2f69ee52fe3e45f43a02e56be"
+dependencies = [
+ "by_address",
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "palette_math"
+version = "0.7.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6e6eb142958d64335fb0e345c5b9ead2ecd6fc438c307e9d7d3c4fd428dbaf12"
 
 [[package]]
 name = "proc-macro2"

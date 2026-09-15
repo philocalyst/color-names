@@ -32,6 +32,7 @@ members = [
 
 [workspace.dependencies]
 color = "0.3.2"
+palette = { version = "0.7.7", default-features = false, features = ["std"] }
 rgb = "0.8.50"
 serde = { version = "1.0.228", features = ["derive"] }
 serde_json = "1.0"
@@ -40,33 +41,32 @@ csv = "1.3.1"
 heck = "0.5.0"
 quote = "1.0"
 proc-macro2 = "1.0"
-syn = "2.0"
 colorsnamed-core = { version = "0.2.3", path = "crates/colorsnamed-core" }
-colorsnamed-basic = { version = "0.2.3", path = "crates/colorsnamed-basic" }
-colorsnamed-html = { version = "0.2.3", path = "crates/colorsnamed-html" }
-colorsnamed-xkcd = { version = "0.2.3", path = "crates/colorsnamed-xkcd" }
-colorsnamed-x11 = { version = "0.2.3", path = "crates/colorsnamed-x11" }
-colorsnamed-ral = { version = "0.2.3", path = "crates/colorsnamed-ral" }
-colorsnamed-ridgway = { version = "0.2.3", path = "crates/colorsnamed-ridgway" }
-colorsnamed-werner = { version = "0.2.3", path = "crates/colorsnamed-werner" }
-colorsnamed-windows = { version = "0.2.3", path = "crates/colorsnamed-windows" }
-colorsnamed-wikipedia = { version = "0.2.3", path = "crates/colorsnamed-wikipedia" }
-colorsnamed-french = { version = "0.2.3", path = "crates/colorsnamed-french" }
-colorsnamed-spanish = { version = "0.2.3", path = "crates/colorsnamed-spanish" }
-colorsnamed-german = { version = "0.2.3", path = "crates/colorsnamed-german" }
-colorsnamed-hindi = { version = "0.2.3", path = "crates/colorsnamed-hindi" }
-colorsnamed-risograph = { version = "0.2.3", path = "crates/colorsnamed-risograph" }
-colorsnamed-chinese-traditional = { version = "0.2.3", path = "crates/colorsnamed-chinese-traditional" }
-colorsnamed-japanese-traditional = { version = "0.2.3", path = "crates/colorsnamed-japanese-traditional" }
-colorsnamed-le-corbusier = { version = "0.2.3", path = "crates/colorsnamed-le-corbusier" }
-colorsnamed-nbs-iscc = { version = "0.2.3", path = "crates/colorsnamed-nbs-iscc" }
-colorsnamed-ntc = { version = "0.2.3", path = "crates/colorsnamed-ntc" }
-colorsnamed-osxcrayons = { version = "0.2.3", path = "crates/colorsnamed-osxcrayons" }
-colorsnamed-sanzo-wada-i = { version = "0.2.3", path = "crates/colorsnamed-sanzo-wada-i" }
-colorsnamed-thesaurus = { version = "0.2.3", path = "crates/colorsnamed-thesaurus" }
-colorsnamed-complete = { version = "0.2.3", path = "crates/colorsnamed-complete" }
-colorsnamed-short = { version = "0.2.3", path = "crates/colorsnamed-short" }
-colorsnamed-best-of = { version = "0.2.3", path = "crates/colorsnamed-best-of" }
+colorsnamed-basic = { version = "0.2.3", path = "crates/colorsnamed-basic", default-features = false }
+colorsnamed-html = { version = "0.2.3", path = "crates/colorsnamed-html", default-features = false }
+colorsnamed-xkcd = { version = "0.2.3", path = "crates/colorsnamed-xkcd", default-features = false }
+colorsnamed-x11 = { version = "0.2.3", path = "crates/colorsnamed-x11", default-features = false }
+colorsnamed-ral = { version = "0.2.3", path = "crates/colorsnamed-ral", default-features = false }
+colorsnamed-ridgway = { version = "0.2.3", path = "crates/colorsnamed-ridgway", default-features = false }
+colorsnamed-werner = { version = "0.2.3", path = "crates/colorsnamed-werner", default-features = false }
+colorsnamed-windows = { version = "0.2.3", path = "crates/colorsnamed-windows", default-features = false }
+colorsnamed-wikipedia = { version = "0.2.3", path = "crates/colorsnamed-wikipedia", default-features = false }
+colorsnamed-french = { version = "0.2.3", path = "crates/colorsnamed-french", default-features = false }
+colorsnamed-spanish = { version = "0.2.3", path = "crates/colorsnamed-spanish", default-features = false }
+colorsnamed-german = { version = "0.2.3", path = "crates/colorsnamed-german", default-features = false }
+colorsnamed-hindi = { version = "0.2.3", path = "crates/colorsnamed-hindi", default-features = false }
+colorsnamed-risograph = { version = "0.2.3", path = "crates/colorsnamed-risograph", default-features = false }
+colorsnamed-chinese-traditional = { version = "0.2.3", path = "crates/colorsnamed-chinese-traditional", default-features = false }
+colorsnamed-japanese-traditional = { version = "0.2.3", path = "crates/colorsnamed-japanese-traditional", default-features = false }
+colorsnamed-le-corbusier = { version = "0.2.3", path = "crates/colorsnamed-le-corbusier", default-features = false }
+colorsnamed-nbs-iscc = { version = "0.2.3", path = "crates/colorsnamed-nbs-iscc", default-features = false }
+colorsnamed-ntc = { version = "0.2.3", path = "crates/colorsnamed-ntc", default-features = false }
+colorsnamed-osxcrayons = { version = "0.2.3", path = "crates/colorsnamed-osxcrayons", default-features = false }
+colorsnamed-sanzo-wada-i = { version = "0.2.3", path = "crates/colorsnamed-sanzo-wada-i", default-features = false }
+colorsnamed-thesaurus = { version = "0.2.3", path = "crates/colorsnamed-thesaurus", default-features = false }
+colorsnamed-complete = { version = "0.2.3", path = "crates/colorsnamed-complete", default-features = false }
+colorsnamed-short = { version = "0.2.3", path = "crates/colorsnamed-short", default-features = false }
+colorsnamed-best-of = { version = "0.2.3", path = "crates/colorsnamed-best-of", default-features = false }
 
 [workspace.lints.rust]
 unused = "warn"

@@ -10,9 +10,10 @@ version = "0.2.3"
 edition = "2024"
 
 [dependencies]
-color = { workspace = true }
+color = { workspace = true, optional = true }
 rgb = { workspace = true }
 serde = { workspace = true, optional = true }
+palette = { workspace = true, optional = true }
 
 colorsnamed-basic = { workspace = true, optional = true }
 colorsnamed-html = { workspace = true, optional = true }
@@ -41,7 +42,7 @@ colorsnamed-short = { workspace = true, optional = true }
 colorsnamed-best-of = { workspace = true, optional = true }
 
 [features]
-default = ["basic"]
+default = ["basic", "color"]
 all = [
     "basic", "html", "xkcd", "x11", "ral", "ridgway", "werner",
     "windows", "wikipedia", "french", "spanish", "german", "hindi",
@@ -101,6 +102,64 @@ serde = [
     "colorsnamed-complete?/serde",
     "colorsnamed-short?/serde",
     "colorsnamed-best-of?/serde",
+]
+
+color = [
+    "dep:color",
+    "colorsnamed-basic?/color",
+    "colorsnamed-html?/color",
+    "colorsnamed-xkcd?/color",
+    "colorsnamed-x11?/color",
+    "colorsnamed-ral?/color",
+    "colorsnamed-ridgway?/color",
+    "colorsnamed-werner?/color",
+    "colorsnamed-windows?/color",
+    "colorsnamed-wikipedia?/color",
+    "colorsnamed-french?/color",
+    "colorsnamed-spanish?/color",
+    "colorsnamed-german?/color",
+    "colorsnamed-hindi?/color",
+    "colorsnamed-risograph?/color",
+    "colorsnamed-chinese-traditional?/color",
+    "colorsnamed-japanese-traditional?/color",
+    "colorsnamed-le-corbusier?/color",
+    "colorsnamed-nbs-iscc?/color",
+    "colorsnamed-ntc?/color",
+    "colorsnamed-osxcrayons?/color",
+    "colorsnamed-sanzo-wada-i?/color",
+    "colorsnamed-thesaurus?/color",
+    "colorsnamed-complete?/color",
+    "colorsnamed-short?/color",
+    "colorsnamed-best-of?/color",
+]
+
+palette = [
+    "dep:palette",
+    "colorsnamed-basic?/palette",
+    "colorsnamed-html?/palette",
+    "colorsnamed-xkcd?/palette",
+    "colorsnamed-x11?/palette",
+    "colorsnamed-ral?/palette",
+    "colorsnamed-ridgway?/palette",
+    "colorsnamed-werner?/palette",
+    "colorsnamed-windows?/palette",
+    "colorsnamed-wikipedia?/palette",
+    "colorsnamed-french?/palette",
+    "colorsnamed-spanish?/palette",
+    "colorsnamed-german?/palette",
+    "colorsnamed-hindi?/palette",
+    "colorsnamed-risograph?/palette",
+    "colorsnamed-chinese-traditional?/palette",
+    "colorsnamed-japanese-traditional?/palette",
+    "colorsnamed-le-corbusier?/palette",
+    "colorsnamed-nbs-iscc?/palette",
+    "colorsnamed-ntc?/palette",
+    "colorsnamed-osxcrayons?/palette",
+    "colorsnamed-sanzo-wada-i?/palette",
+    "colorsnamed-thesaurus?/palette",
+    "colorsnamed-complete?/palette",
+    "colorsnamed-short?/palette",
+    "colorsnamed-best-of?/palette",
 ]
 
 [lints]

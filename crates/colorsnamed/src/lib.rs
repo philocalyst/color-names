@@ -91,7 +91,7 @@ impl std::fmt::Display for NameNotFound {
 impl std::error::Error for NameNotFound {}
 
 /// A color from any of the enabled color lists.
-#[derive(Debug, Clone, PartialEq)]
+#[derive(Debug, Clone, PartialEq, Eq)]
 pub enum AnyColor {
     #[cfg(feature = "basic")]
     Basic(Basic),
@@ -146,6 +146,8 @@ pub enum AnyColor {
 }
 
 impl AnyColor {
+    #[cfg(feature = "color")]
+    #[must_use]
     pub const fn color(&self) -> color::OpaqueColor<color::Srgb> {
         match self {
             #[cfg(feature = "basic")]
@@ -201,6 +203,64 @@ impl AnyColor {
         }
     }
 
+    #[cfg(feature = "palette")]
+    #[must_use]
+    pub const fn palette(&self) -> palette::Srgb {
+        match self {
+            #[cfg(feature = "basic")]
+            Self::Basic(c) => c.palette(),
+            #[cfg(feature = "html")]
+            Self::Html(c) => c.palette(),
+            #[cfg(feature = "xkcd")]
+            Self::Xkcd(c) => c.palette(),
+            #[cfg(feature = "x11")]
+            Self::X11(c) => c.palette(),
+            #[cfg(feature = "ral")]
+            Self::Ral(c) => c.palette(),
+            #[cfg(feature = "ridgway")]
+            Self::Ridgway(c) => c.palette(),
+            #[cfg(feature = "werner")]
+            Self::Werner(c) => c.palette(),
+            #[cfg(feature = "windows")]
+            Self::Windows(c) => c.palette(),
+            #[cfg(feature = "wikipedia")]
+            Self::Wikipedia(c) => c.palette(),
+            #[cfg(feature = "french")]
+            Self::French(c) => c.palette(),
+            #[cfg(feature = "spanish")]
+            Self::Spanish(c) => c.palette(),
+            #[cfg(feature = "german")]
+            Self::German(c) => c.palette(),
+            #[cfg(feature = "hindi")]
+            Self::Hindi(c) => c.palette(),
+            #[cfg(feature = "risograph")]
+            Self::Risograph(c) => c.palette(),
+            #[cfg(feature = "chinese-traditional")]
+            Self::ChineseTraditional(c) => c.palette(),
+            #[cfg(feature = "japanese-traditional")]
+            Self::JapaneseTraditional(c) => c.palette(),
+            #[cfg(feature = "le-corbusier")]
+            Self::LeCorbusier(c) => c.palette(),
+            #[cfg(feature = "nbs-iscc")]
+            Self::NbsIscc(c) => c.palette(),
+            #[cfg(feature = "ntc")]
+            Self::Ntc(c) => c.palette(),
+            #[cfg(feature = "osxcrayons")]
+            Self::Osxcrayons(c) => c.palette(),
+            #[cfg(feature = "sanzo-wada-i")]
+            Self::SanzoWadaI(c) => c.palette(),
+            #[cfg(feature = "thesaurus")]
+            Self::Thesaurus(c) => c.palette(),
+            #[cfg(feature = "complete")]
+            Self::Complete(c) => c.palette(),
+            #[cfg(feature = "short")]
+            Self::Short(c) => c.palette(),
+            #[cfg(feature = "best-of")]
+            Self::BestOf(c) => c.palette(),
+        }
+    }
+
+    #[must_use]
     pub const fn to_rgba8(&self) -> Rgba8 {
         match self {
             #[cfg(feature = "basic")]
@@ -259,6 +319,8 @@ impl AnyColor {
 
 impl FromStr for AnyColor {
     type Err = NameNotFound;
+
+    #[allow(clippy::too_many_lines)]
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         #[cfg(feature = "basic")]
         if let Ok(c) = s.parse::<Basic>() {
@@ -366,10 +428,14 @@ impl FromStr for AnyColor {
 
 impl TryFrom<&str> for AnyColor {
     type Error = NameNotFound;
-    fn try_from(s: &str) -> Result<Self, Self::Error> { s.parse() }
+    fn try_from(s: &str) -> Result<Self, Self::Error> {
+        s.parse()
+    }
 }
 
 impl TryFrom<String> for AnyColor {
     type Error = NameNotFound;
-    fn try_from(s: String) -> Result<Self, Self::Error> { s.parse() }
+    fn try_from(s: String) -> Result<Self, Self::Error> {
+        s.parse()
+    }
 }

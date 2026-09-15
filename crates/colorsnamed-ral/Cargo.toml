@@ -10,12 +10,16 @@ keywords = ["color", "name", "list"]
 categories = ["visualization", "multimedia"]
 
 [dependencies]
-color = { workspace = true }
+color = { workspace = true, optional = true }
 rgb = { workspace = true }
 serde = { workspace = true, optional = true }
+palette = { workspace = true, optional = true }
 
 [features]
+default = ["color"]
 serde = ["dep:serde"]
+color = ["dep:color"]
+palette = ["dep:palette"]
 
 [build-dependencies]
 colorsnamed-core = { workspace = true }
